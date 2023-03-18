@@ -57,10 +57,8 @@ post:
     share_link:
       title: 링크 복사
       succeed: 링크가 복사되었습니다.
-  pin_prompt: 핀
+  pin_prompt: 고정
 
-# Date time format.
-# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
     strftime: '%Y/%m/%d'
