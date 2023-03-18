@@ -1,8 +1,12 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+반갑습니다, 이 블로그에선 주로 **프로그래밍/컴퓨터** 관련 글을 올립니다.
+
+그 외에 **음악이론/화성학**이나, **악기** 관련 등의 글도 다루고 있습니다.
+
+## 저자 소개
+
+TODO
