@@ -8,7 +8,7 @@ tags: ["Rust", "러스트"]
 _tistory: https://ky0422.tistory.com/13
 ---
 
-> Any 트레잇에 대한 글은 [이곳](https://ky0422.github.io/posts/12/)을 참고해봅시다.
+> Any 트레잇에 대한 글은 [이곳](../any-and-typeid)을 참고해봅시다.
 
 ```rust
 HashMap::from([(1, 2), (3, 4)]);

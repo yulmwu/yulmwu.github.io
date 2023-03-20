@@ -12,7 +12,7 @@ _tistory: https://ky0422.tistory.com/46
 
 가상 머신(Virtual Machine, VM)은 바이트 코드를 돌리기 위한 인터프리터라 생각하시면 편합니다.
 
-즉, [중간 표현(IR)](https://ky0422.github.io/posts/2023-02-26-compiler-phases)의 하위 개념이며, 바이트 코드 대신 상위 개념인 IR으로 사용하기도 합니다.
+즉, [중간 표현(IR)](../compiler-phases)의 하위 개념이며, 바이트 코드 대신 상위 개념인 IR으로 사용하기도 합니다.
 
 일반적으로 후술할 opcode(명령코드)가 0개 이상의 매개 변수를 가지고 있고, opcode가 1바이트 크기를 가지고 있다면 바이트 코드라 불립니다.
 
