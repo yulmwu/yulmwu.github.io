@@ -1,6 +1,6 @@
 ---
 title: "&'static T와 T: 'static의 차이점"
-description: "Difference between &'static T and T: 'static"
+description: "Difference between reference with static lifetime and trait bound with static lifetime."
 author: ky0422
 date: 2022-12-08 18:07:00 +0900
 categories: ["프로그래밍", "Rust"]

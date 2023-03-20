@@ -27,7 +27,35 @@ const CONSTANT: &str = "Hello, World!";
 또한 이들은 `for` 반복문 등을 허용하지 않습니다. (후술하겠지만, 사실 `for` 문 그 자체가 문제는 아닙니다.)  
 그런데 `while`이나 `loop` 반복문은 사용할 수 있습니다. 이는 `Iterator`의 `next` 함수 때문입니다.
 
-`for` 반복문은 `Iterator`의 `next`를 호출하여 순회합니다. 하지만 `const fn` 내부에선 `const fn`이 아닌 함수를 실행할 수 없습니다.  
+`for` 반복문은 `Iterator`의 `next`를 호출하여 순회합니다:
+
+```rust
+struct Range(/* start */ usize, /* end */ usize);
+
+impl Iterator for Range {
+    type Item = usize;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        println!("calling next()");
+
+        if self.0 < self.1 {
+            let result = self.0;
+            self.0 += 1;
+            Some(result)
+        } else {
+            None
+        }
+    }
+}
+
+fn main() {
+    for i in Range(0, 10) {
+        println!("{i}");
+    }
+}
+```
+
+하지만 `const fn` 내부에선 `const fn`이 아닌 함수를 실행할 수 없습니다. (`next`는 `const fn`이 아닙니다.)
 그렇기에 `for` 반복문을 사용할 수 없는 것이죠. 때문에 아래의 코드는 작동하지 않습니다:
 
 ```rust

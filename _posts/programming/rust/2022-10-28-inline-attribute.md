@@ -29,9 +29,9 @@ _tistory: https://ky0422.tistory.com/24
 
 크게 `#[inline]`, `#[inline(always)]` 그리고 `#[inline(never)]`가 존재하는데, 각각 하는 일은 다음과 같습니다:
 
-- `#[inline]`: inline 함수가 되어야 함을 명시합니다. 항상 `inline` 되는 것은 아닌데, 이 또한 컴파일러가 결정합니다.
-- `#[inline(always)]`: `#[inline]` 보다 더 강력하게 `inline` 함수가 되어야 함을 명시합니다. 물론 항상 inline 함수가 되진 않습니다.
-- `#[inline(never)]`: inline 함수가 되면 안된다는 것을 명시합니다.
+- `#[inline]`: `inline` 함수가 되어야 함을 명시합니다. 항상 `inline` 되는 것은 아닌데, 이 또한 컴파일러가 결정합니다.
+- `#[inline(always)]`: `#[inline]` 보다 더 강력하게 `inline` 함수가 되어야 함을 명시합니다. 물론 항상 `inline` 함수가 되진 않습니다.
+- `#[inline(never)]`: `inline` 함수가 되면 안된다는 것을 명시합니다.
 
 이러한 `#[inline]` 속성은 `new`와 같은 함수같은 단순한 함수(또는 Helper 함수)에 주로 사용됩니다:
 

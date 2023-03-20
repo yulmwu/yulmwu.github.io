@@ -39,7 +39,7 @@ _tistory: https://ky0422.tistory.com/10
 - `RwLock`은 `write()`와 `read()`를 통해 각각 `RwLockWriteGuard`와 `RwLockReadGuard`를 얻습니다.  
   이 둘도 위와 같이 스마트 포인터 이며, 이들도 역참조를 통해 값을 `R/W` 할 수 있습니다.
 
-> 물론 `lock()`, `write()`, `read()`를 호출하면 Result<T, E>를 반환합니다. 이해를 돕기 위해 이는 생략하였습니다.
+> 물론 `lock()`, `write()`, `read()`를 호출하면 `Result<T, E>`를 반환합니다. 이해를 돕기 위해 이는 생략하였습니다.
 
 아래의 예제를 보며, `Mutex`와 `RwLock`이 어떻게 작동하는지 확인해봅시다:
 

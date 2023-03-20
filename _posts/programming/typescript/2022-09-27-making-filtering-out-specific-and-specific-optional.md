@@ -1,6 +1,6 @@
 ---
 title: 객체 특정 타입만 걸러내기, 특정 요소 선택적 요소로 만들기
-description: Filtering out specific types from an object, making specific elements optional.
+description: Making filtering out specific types from an object, and specific elements optional.
 author: ky0422
 date: 2022-09-27 19:35:00 +0900
 categories: ["프로그래밍", "TypeScript"]
