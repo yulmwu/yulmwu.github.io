@@ -11,7 +11,7 @@ _tistory: https://ky0422.tistory.com/10
 한번쯤 들어본 `RwLock`은 `Mutex`(상호 배제)와 비슷해 보입니다. `RwLock`는 `Reader-Writer Lock`의 줄임말입니다.
 
 ![Rust Memory](/rust-mem.png)
-(출처: [rust-memory-container-cs](https://github.com/usagi/rust-memory-container-cs))
+_(출처: [rust-memory-container-cs](https://github.com/usagi/rust-memory-container-cs))_
 
 위 자료에서 볼 수 있듯이 `Mutex`는 `Reader` / `Writer`이며, `RwLock`은 **`Readers`** / `Writer` 입니다.  
 `Mutex`는 동기화이며, `RwLock`은 그렇지 않습니다. 여기서 `Lock`의 의미는 다음과 같습니다:
