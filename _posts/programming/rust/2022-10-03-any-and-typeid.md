@@ -4,7 +4,7 @@ description: Any trait and TypeId
 author: ky0422
 date: 2022-10-03 15:19:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "Any", "TypeId"]
 _tistory: https://ky0422.tistory.com/15
 ---
 

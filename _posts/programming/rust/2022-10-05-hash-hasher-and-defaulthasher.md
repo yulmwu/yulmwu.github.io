@@ -4,7 +4,7 @@ description: Hash trait, Hasher and DefaultHasher
 author: ky0422
 date: 2022-10-05 21:12:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "해싱", "Hash", "Hasher", "DefaultHasher"]
 _tistory: https://ky0422.tistory.com/17
 ---
 

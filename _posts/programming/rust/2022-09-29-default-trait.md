@@ -4,7 +4,7 @@ description: Default trait
 author: ky0422
 date: 2022-09-29 17:38:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "Default", "Default 트레잇"]
 _tistory: https://ky0422.tistory.com/9
 ---
 

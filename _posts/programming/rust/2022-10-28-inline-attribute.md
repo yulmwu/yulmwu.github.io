@@ -4,7 +4,7 @@ description: "#[inline] attribute"
 author: ky0422
 date: 2022-10-28 21:10:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "inline"]
 _tistory: https://ky0422.tistory.com/24
 ---
 

@@ -4,7 +4,7 @@ description: "Difference between reference with static lifetime and trait bound 
 author: ky0422
 date: 2022-12-08 18:07:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "static", "정적 수명"]
 _tistory: https://ky0422.tistory.com/25
 ---
 

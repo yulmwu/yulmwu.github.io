@@ -4,7 +4,7 @@ description: History of Operating System
 author: ky0422
 date: 2023-03-06 21:08:00 +0900
 categories: ["컴퓨터", "운영체제론"]
-tags: ["운영체제", "운영체제론"]
+tags: ["운영체제", "운영체제론", "OS", "리눅스", "맥", "윈도우"]
 _tistory: https://ky0422.tistory.com/50
 ---
 

@@ -4,7 +4,7 @@ description: Overview and structure of an operating system.
 author: ky0422
 date: 2022-10-06 16:54:00 +0900
 categories: ["컴퓨터", "운영체제론"]
-tags: ["운영체제", "운영체제론"]
+tags: ["운영체제", "운영체제론", "OS"]
 _tistory: https://ky0422.tistory.com/48
 ---
 

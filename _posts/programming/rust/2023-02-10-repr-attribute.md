@@ -4,7 +4,7 @@ description: "#[repr] attribute"
 author: ky0422
 date: 2023-02-10 17:44:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "repr", "메모리 정렬"]
 _tistory: https://ky0422.tistory.com/28
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: 간편한 함수 오버로딩 구현하기
-description: Implement function overloading using structs and traits.
+description: Implementing function overloading using structs and traits.
 author: ky0422
 date: 2022-09-26 20:38:00 +0900
 categories: ["프로그래밍", "Rust"]
-tags: ["Rust", "러스트"]
+tags: ["Rust", "러스트", "함수 오버로딩", "function overloading", "구현"]
 _tistory: https://ky0422.tistory.com/2
 ---
 
