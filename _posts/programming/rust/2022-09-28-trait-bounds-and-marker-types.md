@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "Trait", "트레잇", "marker types"]
 _tistory: https://ky0422.tistory.com/8
 ---
 
+## 개요
+
 `?` (물음표) 트레잇 바운드는 트레잇이 선택 사항임을 표시하는 문법입니다.
 
 ```rust

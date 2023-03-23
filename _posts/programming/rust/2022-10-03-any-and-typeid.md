@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "Any", "TypeId"]
 _tistory: https://ky0422.tistory.com/15
 ---
 
+## 개요
+
 `Any` 트레잇은 모든 `'static` 타입의 동적 타이핑을 가능케 하는 트레잇입니다.  
 `'static`은 수명 `'static`과 트레잇 바운드 `'static`이 존재합니다. 자세한 내용은 [이 글](https://ky0422.tistory.com/25)을 참고해봅시다.  
 여기서 서술하는 `'static`은 트레잇 바운드 `'static`을 의미합니다.

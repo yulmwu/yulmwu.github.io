@@ -8,6 +8,8 @@ tags: ["TypeScript", "타입스크립트"]
 _tistory: https://ky0422.tistory.com/6
 ---
 
+## 개요
+
 `Pick` 유틸리티 타입(`utility type`)이 타입스크립트에 내장되어있긴 합니다.
 
 하지만 이 유틸리티 [타입은 이름을 유니온 타입으로 전달하면, 그 요소만 포함된 객체 타입을 반환합니다.](https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys)

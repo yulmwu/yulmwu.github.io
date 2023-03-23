@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "repr", "메모리 정렬"]
 _tistory: https://ky0422.tistory.com/28
 ---
 
+## 개요
+
 ```rust
 struct Foo {
     x: i32,

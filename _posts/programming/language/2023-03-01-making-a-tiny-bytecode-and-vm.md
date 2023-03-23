@@ -8,6 +8,8 @@ tags: ["바이트코드", "VM", "Bytecode", "Virtual Machine", "프로그래밍 
 _tistory: https://ky0422.tistory.com/46
 ---
 
+## 개요
+
 들어가기 앞서 간단하게 이론을 설명하자면, 바이트 코드는 가상 머신에서 돌아가는 언어를 의미합니다.
 
 가상 머신(Virtual Machine, VM)은 바이트 코드를 돌리기 위한 인터프리터라 생각하시면 편합니다.

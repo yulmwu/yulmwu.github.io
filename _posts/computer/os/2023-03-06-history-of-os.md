@@ -8,6 +8,8 @@ tags: ["운영체제", "운영체제론", "OS", "리눅스", "맥", "윈도우"]
 _tistory: https://ky0422.tistory.com/50
 ---
 
+## 개요
+
 컴퓨터는 점점 발전했지만, 운영체제는 없었습니다.
 
 때문에 보편화를 위해, 1960년대에 AT&T, MIT 공대 등의 연구진에 의해 **멀틱스**(Multics, Multiplexed Information and Computing Service)라는 운영체제를 개발하기 시작했습니다.

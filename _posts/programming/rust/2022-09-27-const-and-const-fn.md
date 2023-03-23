@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "상수", "constant", "const fn", "miri"]
 _tistory: https://ky0422.tistory.com/5
 ---
 
+## 개요
+
 러스트엔 `const` 키워드가 있습니다. 이름 그대로 상수 선언 키워드며, 얼핏 보면 `static item` 키워드와 비슷해 보입니다.  
 주제는 `const`이기 때문에 `static`의 간단한 설명과 차이점만 보고 넘어갑시다:
 

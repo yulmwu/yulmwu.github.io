@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "모나드", "Monad", "bind", "구현"]
 _tistory: https://ky0422.tistory.com/4
 ---
 
+## 개요
+
 이 글에선 모나드의 강력한 기능중 하나인 `bind` (하스켈에선 `>>=` 연산자) 를 구현해보고자 합니다.
 
 ```rust

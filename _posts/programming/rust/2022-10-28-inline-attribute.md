@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "inline"]
 _tistory: https://ky0422.tistory.com/24
 ---
 
+## 개요
+
 일단 `inline` 함수가 무엇인지부터 알아봐야 합니다.
 
 이는 본래 C/C++에서 유래되었는데, C/C++의 `inline`과 상당히 비슷합니다.  

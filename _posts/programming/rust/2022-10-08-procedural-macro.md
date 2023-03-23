@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "절차적 매크로", "매크로"]
 _tistory: https://ky0422.tistory.com/20
 ---
 
+## 개요
+
 # 절차적 매크로, syn, quote, Attribute
 
 절차적 매크로는 함수(`procedure`)처럼 생겼다고 해서 절차적 매크로(`procedural macro`)입니다.

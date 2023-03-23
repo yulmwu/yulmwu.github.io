@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "Default", "Default 트레잇"]
 _tistory: https://ky0422.tistory.com/9
 ---
 
+## 개요
+
 `Default`로 구조체, 열거형 타입 등에서 기본 값을 가져올 수 있습니다:
 
 ```rust

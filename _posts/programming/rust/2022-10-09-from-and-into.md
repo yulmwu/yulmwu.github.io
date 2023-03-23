@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "From", "TryFrom"]
 _tistory: https://ky0422.tistory.com/21
 ---
 
+## 개요
+
 `From` 트레잇을 사용하면, 다른 타입을 대상 타입으로 변환할 수 있습니다.
 
 이미 많이 사용해왔던 기능인데, `String::from("foo")` 등으로 사용해왔던 트레잇입니다:

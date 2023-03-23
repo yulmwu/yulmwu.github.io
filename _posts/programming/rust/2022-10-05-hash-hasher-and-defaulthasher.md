@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "해싱", "Hash", "Hasher", "DefaultHasher"]
 _tistory: https://ky0422.tistory.com/17
 ---
 
+## 개요
+
 러스트 표준 라이브러리엔 해싱을 지원하는 모듈이 존재합니다. (`std::hash`)
 
 말 그대로 해싱을 지원하며, 구조체에 `Hash` 트레잇을 사용할 수 있습니다:

@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "클로저", "closure"]
 _tistory: https://ky0422.tistory.com/3
 ---
 
+## 개요
+
 클로저를 다루다 보면 이런 식의 에러 메시지가 발생할 때가 있습니다:
 
 ```rust

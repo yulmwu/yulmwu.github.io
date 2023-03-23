@@ -8,6 +8,8 @@ tags: ["Rust", "러스트", "RwLock", "Mutex"]
 _tistory: https://ky0422.tistory.com/10
 ---
 
+## 개요
+
 한번쯤 들어본 `RwLock`은 `Mutex`(상호 배제)와 비슷해 보입니다. `RwLock`는 `Reader-Writer Lock`의 줄임말입니다.
 
 ![Rust Memory](/rust-mem.png)

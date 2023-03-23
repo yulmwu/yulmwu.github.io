@@ -8,6 +8,8 @@ tags: ["컴파일러", "컴파일러 구조", "Compiler", "Compiler Phases", "�
 _tistory: https://ky0422.tistory.com/44
 ---
 
+## 개요
+
 ![Compiler Phases](/compiler-phases.png)
 
 ## Source Code (소스 코드)
