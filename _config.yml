@@ -8,15 +8,14 @@ timezone: Asia/Seoul
 title: Ky0422's Blog
 tagline: by Kim Jun Young
 description: 이것저것
-url: ''
+url: 'https://ky0422.github.io'
 
 github:
   username: ky0422
 social:
   name: Kim Jun Young
   email: rlawnsdud0422@gmail.com
-  links:
-    - https://github.com/ky0422
+  links: https://github.com/ky0422
 
 google_site_verification: otnoYOWmF6YJlfiE0zUQDkTNzhpm-zabAYyezdssSGM
 
