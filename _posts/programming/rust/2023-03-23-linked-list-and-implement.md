@@ -127,7 +127,7 @@ impl<T> Node<T> {
 `2 -> 3 -> NULL`라는 연결 리스트가 있다고 가정하고, `append(1)`을 호출하면, `1 -> 2 -> 3 -> NULL`이 됩니다.
 
 > 앞으로 나올 3개의 함수는 `impl ...`을 생략합니다. 전체 코드는 아래에서 확인할 수 있습니다.
-> {: .prompt-info }
+{: .prompt-info }
 
 ### append_last
 
