@@ -48,9 +48,7 @@ IT 관련 뉴스를 보다 보면, Rust(러스트) 언어가 자주 언급되는
 
 또한 러스트는 C++의 거의 모든 (언어 레벨, 표준 라이브러리) 기능을 가지고 있습니다.
 
-예를 들어, C++의 `shared_ptr`은 러스트의 `Rc<T>` (가변일 경우 `Rc<RefCell<T>>`,
-
-`thread-safe`에서 사용할 경우 `Arc<Mutex<T>>` 또는 `Arc<RwLock<T>>`) 등이 있습니다.
+예를 들어, C++의 `shared_ptr`은 러스트의 `Rc<T>` (가변일 경우 `Rc<RefCell<T>>`, `thread-safe`에서 사용할 경우 `Arc<Mutex<T>>` 또는 `Arc<RwLock<T>>`) 등이 있습니다.
 
 이를 바탕으로 C++와 러스트를 비교해봅시다:
 
