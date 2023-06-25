@@ -2,10 +2,12 @@
 title: 4bit 가감산기와 7세그먼트 디스플레이로 간단한 덧셈/뺄셈 계산기 만들기
 description: 4bit adder/subtractor and 7-segment display calculator
 author: ky0422
-date: 2023-06-25 13:30:00 +0900
+date: 2099-06-25 13:30:00 +0900
 categories: ["컴퓨터", "논리회로"]
 tags: ["컴퓨터", "논리회로", "가산기", "가감산기", "7세그먼트 디스플레이"]
 ---
+
+TODO: 수정 중
 
 ## 개요
 
