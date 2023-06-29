@@ -235,7 +235,7 @@ println!("{program}");
 program.vm(&mut stack);
 ```
 
-![ByteCode](/bytecode-program.png)
+![ByteCode](/imgs/2023-03-01-making-a-tiny-bytecode-and-vm/bytecode-program.png)
 
 ## 그냥 기계어로 빌드하면 될걸, 왜 굳이 바이트 코드(가상 머신)를 사용하는가
 

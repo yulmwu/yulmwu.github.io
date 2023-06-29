@@ -10,7 +10,7 @@ _tistory: https://ky0422.tistory.com/44
 
 ## 개요
 
-![Compiler Phases](/compiler-phases.png)
+![Compiler Phases](/imgs/2023-02-26-compiler-phases/compiler-phases.png)
 
 ## Source Code (소스 코드)
 
