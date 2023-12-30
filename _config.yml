@@ -30,7 +30,7 @@ theme_mode:
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://avatars.githubusercontent.com/u/59119316'
+avatar: '/assets/img/profile.jpg'
 
 toc: true
 
