@@ -1,7 +1,12 @@
 import './App.css'
+import Title from './components/Title'
 
 const App = () => {
-    return <div className='text-center'>asd</div>
+    return (
+        <div>
+            <Title />
+        </div>
+    )
 }
 
 export default App

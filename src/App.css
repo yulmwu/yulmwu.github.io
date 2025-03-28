@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'JSDongkang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff')
+        format('woff');
+}
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff')
+        format('woff');
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.myungjo {
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.zheng {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'JSDongkang-Regular';
+    background-color: rgb(232, 232, 232);
+    font-size: 150%;
+    margin: 0;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+}
+
+::-moz-selection,
+::selection {
+    background: #909090;
+    color: rgb(50, 50, 50);
+}
+
+.stroked {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
