@@ -1,3 +1,5 @@
+import { FaGithub } from "react-icons/fa"
+
 const FixedMenu = () => (
     <div className='fixed bottom-4 left-4 z-50 flex gap-3'>
         <button
@@ -12,7 +14,7 @@ const FixedMenu = () => (
             className='bg-gray-200 dark:bg-gray-800 p-2 rounded-full shadow-md hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer'
             onClick={() => window.open('https://github.com/yulmwu/yulmwu.github.io', '_blank')}
         >
-            <img src='/techs/github.svg' alt='/' className='w-6 h-6' />
+            <FaGithub className='w-6 h-6 dark:text-white' />
         </button>
         <button
             className='bg-gray-200 dark:bg-gray-800 p-2 rounded-full shadow-md hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer'

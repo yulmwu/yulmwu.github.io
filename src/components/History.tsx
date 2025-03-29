@@ -23,9 +23,15 @@ const History = ({ className }: HistoryProps) => {
             transition={{ duration: 1 }}
         >
             <Title title='약력 & 기타 사항' iconSrc='/emojis/history.svg' />
-            <HistoryFields date={new Date('2008-04-22')} title={'Hello, World!'} />
+            <HistoryFields date={new Date('2008-04-22')} title='Welcome, World!' />
             <HistoryFields date={new Date('2023-09-20')} title='정보처리기능사 취득' />
-            <HistoryFields date={new Date('2024-01-05')} title='영원중학교 졸업' />
+            <HistoryFields date={new Date('2024-01-05')} title='영원중학교 졸업'>
+                <ul className='mt-4 text-gray-600 dark:text-gray-300 list-disc pl-6 text-[15px] sm:text-[17px] md:text-[20px]'>
+                    <li>
+                        <span className='text-purple-500 dark:text-purple-300 mr-2'>중학교 1~3학년</span> 3년 개근
+                    </li>
+                </ul>
+            </HistoryFields>
             <HistoryFields date={new Date('2024-03-01')} title='세명컴퓨터고등학교 입학'>
                 <ul className='mt-4 text-gray-600 dark:text-gray-300 list-disc pl-6 text-[15px] sm:text-[17px] md:text-[20px]'>
                     <li>
@@ -44,6 +50,9 @@ const History = ({ className }: HistoryProps) => {
                     </li>
                     <li>
                         <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 선행상
+                    </li>
+                    <li>
+                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 개근
                     </li>
                     <li>
                         <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span> 1학기 학급 회장
