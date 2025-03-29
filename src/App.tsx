@@ -1,5 +1,5 @@
 import './App.css'
-import Main from './components/Title'
+import Main from './components/Main'
 import History from './components/History'
 import Skills from './components/Skills'
 import Projects from './components/Projects'

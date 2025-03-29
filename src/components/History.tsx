@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import HistoryFields from './HistoryField'
 import { useInView } from 'react-intersection-observer'
+import Title from './components/Title'
 
 interface HistoryProps {
     className?: string
@@ -21,12 +22,12 @@ const History = ({ className }: HistoryProps) => {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1 }}
         >
-            <h1 className='text-4xl font-bold text-center text-black mb-14'>약력 & 기타 사항</h1>
+            <Title title='약력 & 기타 사항' iconSrc='/emojis/history.svg' />
             <HistoryFields date={new Date('2008-04-22')} title={'Hello, World!'} />
             <HistoryFields date={new Date('2023-09-20')} title='정보처리기능사 취득' />
             <HistoryFields date={new Date('2024-01-05')} title='영원중학교 졸업' />
             <HistoryFields date={new Date('2024-03-01')} title='세명컴퓨터고등학교 입학'>
-                <ul className='mt-4 text-gray-600 list-disc pl-6 md:text-lg text-sm'>
+                <ul className='mt-4 text-gray-600 list-disc pl-6 text-[15px] sm:text-[17px] md:text-[20px]'>
                     <li>
                         <span className='text-red-400 mr-2'>고등학교 1학년</span> 1학기 회장
                     </li>
@@ -35,11 +36,11 @@ const History = ({ className }: HistoryProps) => {
                     </li>
                     <li>
                         <span className='text-red-400 mr-2'>고등학교 1학년</span> 교과우수상
-                        <span className='text-[10px] md:text-sm'>(음악, 프로그래밍, 컴퓨터 보안, 정보 처리와 관리)</span>
+                        <span className='text-[10px] sm:text-[12px] md:text-[15px]'>(음악, 프로그래밍, 컴퓨터 보안, 정보 처리와 관리)</span>
                     </li>
                     <li>
                         <span className='text-red-400 mr-2'>고등학교 1학년</span> 학과 코딩 챌린지
-                        <span className='text-[10px] md:text-sm'>(1, 2학기 은상)</span>
+                        <span className='text-[10px] sm:text-[12px] md:text-[15px]'>(1, 2학기 은상)</span>
                     </li>
                     <li>
                         <span className='text-red-400 mr-2'>고등학교 1학년</span> 선행상
