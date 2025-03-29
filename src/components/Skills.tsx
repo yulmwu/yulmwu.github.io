@@ -34,7 +34,7 @@ const Skills = ({ className }: SkillsProps) => {
                 <SkillsField imageName='node' alt='Node.js' name='Node.js' />
                 <SkillsField imageName='react' alt='React' name='React' learning />
             </div>
-            <p className='text-center text-gray-500 mt-10'>
+            <p className='text-center text-gray-500 dark:text-gray-300 mt-10'>
                 <img src='/emojis/book.svg' alt='/' className='w-5 h-5 inline-block mr-2' />
                 <span className='text-[20px]'>= 학습 중</span>
             </p>

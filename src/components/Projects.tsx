@@ -2,6 +2,7 @@ import { useInView } from 'react-intersection-observer'
 import ProjectField from './ProjectField'
 import { motion } from 'framer-motion'
 import Title from './components/Title'
+import { FaGithub } from 'react-icons/fa'
 
 interface ProjectsProps {
     className?: string
@@ -52,10 +53,13 @@ const Projects = ({ className }: ProjectsProps) => {
             </div>
             <div className='flex justify-center text-center mt-10'>
                 <button
-                    className='bg-[#dadada] text-gray-700 text-xl mt-4 min-w-[80px] p-2 rounded-lg hover:bg-[#c7c7c7] pl-5 pr-5 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out'
+                    className='bg-[#e8e8e8] dark:bg-[#2a2a2a] text-gray-700 dark:text-[#dadada] text-xl mt-4 min-w-[80px] p-2 rounded-lg hover:bg-[#e3e3e3] dark:hover:bg-[#202020] pl-5 pr-5 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-md'
                     onClick={() => window.open('https://gitub.com/yulmwu', '_blank')}
                 >
-                    Github에서 더 확인하기
+                    <div className='flex items-center justify-center gap-2'>
+                        <FaGithub className='w-5 h-5 dark:text-white' />
+                        에서 더 확인하기
+                    </div>
                 </button>
             </div>
         </motion.div>
