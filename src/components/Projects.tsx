@@ -1,12 +1,26 @@
+import { useInView } from 'react-intersection-observer'
 import ProjectItems from './ProjectField'
+import { motion } from 'framer-motion'
 
 interface ProjectsProps {
     className?: string
 }
 
 const Projects = ({ className }: ProjectsProps) => {
+    const { ref, inView } = useInView({
+        threshold: 0.2,
+        triggerOnce: false,
+    })
+
     return (
-        <div id='projects' className={`md:pl-20 md:pr-20 p-4 py-14 ${className}`}>
+        <motion.div
+            id='projects'
+            className={`md:pl-20 md:pr-20 p-4 py-14 ${className}`}
+            ref={ref}
+            initial={{ opacity: 0, y: 50 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1 }}
+        >
             <h1 className='text-4xl font-bold text-center text-black mb-10'>개인 프로젝트</h1>
             <div className='grid sm:grid-cols-2 gap-12'>
                 <ProjectItems
@@ -43,7 +57,7 @@ const Projects = ({ className }: ProjectsProps) => {
                     Github에서 더 확인하기
                 </button>
             </div>
-        </div>
+        </motion.div>
     )
 }
 export default Projects

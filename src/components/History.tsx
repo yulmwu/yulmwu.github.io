@@ -1,12 +1,26 @@
+import { motion } from 'framer-motion'
 import HistoryFields from './HistoryField'
+import { useInView } from 'react-intersection-observer'
 
 interface HistoryProps {
     className?: string
 }
 
 const History = ({ className }: HistoryProps) => {
+    const { ref, inView } = useInView({
+        threshold: 0.2,
+        triggerOnce: false,
+    })
+
     return (
-        <div id='work' className={`md:pl-20 md:pr-20 p-4 py-14 ${className}`}>
+        <motion.div
+            id='work'
+            className={`md:pl-20 md:pr-20 p-4 py-14 ${className}`}
+            ref={ref}
+            initial={{ opacity: 0, y: 50 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1 }}
+        >
             <h1 className='text-4xl font-bold text-center text-black mb-14'>약력 & 기타 사항</h1>
             <HistoryFields date={new Date('2008-04-22')} title={'Hello, World!'} />
             <HistoryFields date={new Date('2023-09-20')} title='정보처리기능사 취득' />
@@ -34,12 +48,12 @@ const History = ({ className }: HistoryProps) => {
                         <span className='text-green-500 mr-2'>고등학교 2학년</span> 1학기 회장
                     </li>
                     <li>
-                        <span className='text-green-500 mr-2'>고등학교 2학년</span> 전공 동아리 <span className='text-purple-400'>널포유(Null4U)</span>{' '}
-                        가입
+                        <span className='text-green-500 mr-2'>고등학교 2학년</span> 전공 동아리{' '}
+                        <span className='text-purple-400'>널포유(Null4U)</span> 가입
                     </li>
                 </ul>
             </HistoryFields>
-        </div>
+        </motion.div>
     )
 }
 export default History
