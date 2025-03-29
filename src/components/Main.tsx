@@ -14,7 +14,7 @@ const Main = () => {
                 <div className='m-auto h-full w-full flex flex-col justify-center lg:items-center items-center gap-2'>
                     <p className='text-4xl sm:text-5xl md:text-6xl font-bold text-gray-950 dark:text-white w-full text-center'>Kim Jun Young</p>
                     <p className='flex text-lg text-gray-950'>
-                        <span className='text-2xl sm:text-3xl md:text-4xl text-[#212121] dark:text-gray-300 pt-[6px] pr-3'>반갑습니다</span>
+                        <span className='text-2xl sm:text-3xl md:text-4xl text-[#4c4c4c] dark:text-gray-300 pt-[6px] pr-3'>반갑습니다</span>
                         <img src='/emojis/wave.svg' alt='/' className='wave w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14' />
                     </p>
                     <div className='flex gap-4 pt-4'>

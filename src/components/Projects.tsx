@@ -54,7 +54,7 @@ const Projects = ({ className }: ProjectsProps) => {
             <div className='flex justify-center text-center mt-10'>
                 <button
                     className='bg-[#e8e8e8] dark:bg-[#2a2a2a] text-gray-700 dark:text-[#dadada] text-xl mt-4 min-w-[80px] p-2 rounded-lg hover:bg-[#e3e3e3] dark:hover:bg-[#202020] pl-5 pr-5 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out shadow-md'
-                    onClick={() => window.open('https://gitub.com/yulmwu', '_blank')}
+                    onClick={() => window.open('https://github.com/yulmwu', '_blank')}
                 >
                     <div className='flex items-center justify-center gap-2'>
                         <FaGithub className='w-5 h-5 dark:text-white' />
