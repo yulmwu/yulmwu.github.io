@@ -1,38 +1,13 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
-    font-family: 'JSDongkang-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff')
-        format('woff');
-}
-
-@font-face {
-    font-family: 'TmonMonsori';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff')
-        format('woff');
-}
-
-@font-face {
-    font-family: 'Chosunilbo_myungjo';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.myungjo {
-    font-family: 'Chosunilbo_myungjo';
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
-
-.zheng {
-    font-family: 'Ma Shan Zheng', cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
 body {
-    font-family: 'JSDongkang-Regular';
+    font-family: 'Pretendard-Regular', sans-serif;
     background-color: rgb(232, 232, 232);
     font-size: 150%;
     margin: 0;
@@ -41,7 +16,10 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 ::-moz-selection,
@@ -53,4 +31,39 @@ body {
 .stroked {
     color: transparent;
     -webkit-text-stroke: 1px black;
+}
+
+.wave {
+    animation: wave 2s ease-in-out infinite;
+    transform-origin: 70% 70%;
+}
+@keyframes wave {
+    0%,
+    15% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    35% {
+        transform: rotate(-10deg);
+    }
+    45% {
+        transform: rotate(15deg);
+    }
+    55% {
+        transform: rotate(-5deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    65% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
