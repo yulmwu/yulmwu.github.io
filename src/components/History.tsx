@@ -60,7 +60,7 @@ const History = ({ className }: HistoryProps) => {
                         <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 선행상 & 개근
                     </li>
                     <li>
-                        <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span>2반 1학기 학급 회장
+                        <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span> 2반 1학기 학급 회장
                     </li>
                     <li>
                         <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span> 전공 동아리{' '}
