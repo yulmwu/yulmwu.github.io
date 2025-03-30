@@ -2,14 +2,25 @@ import { FaDiscord, FaGithub } from 'react-icons/fa'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 
-const Main = () => {
+interface MainProps {
+    className?: string
+}
+
+const Main = ({ className }: MainProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.2,
+        threshold: 0.5,
         triggerOnce: false,
     })
 
     return (
-        <motion.div id='main' ref={ref} initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.3 }}>
+        <motion.div
+            id='main'
+            ref={ref}
+            initial={{ opacity: 0 }}
+            animate={inView ? { opacity: 1 } : {}}
+            transition={{ duration: 1, delay: 0.3 }}
+            className={className}
+        >
             <div className='w-full h-screen top-0 left-0'>
                 <div className='m-auto h-full w-full flex flex-col justify-center items-center gap-2'>
                     <p className='text-4xl sm:text-5xl md:text-6xl font-bold text-gray-950 dark:text-white w-full text-center'>Kim Jun Young</p>

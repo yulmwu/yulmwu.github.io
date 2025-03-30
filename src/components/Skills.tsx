@@ -9,7 +9,7 @@ interface SkillsProps {
 
 const Skills = ({ className }: SkillsProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.2,
+        threshold: 0.5,
         triggerOnce: false,
     })
 
@@ -33,6 +33,8 @@ const Skills = ({ className }: SkillsProps) => {
                 <SkillsField imageName='java' alt='Java' name='Java' learning />
                 <SkillsField imageName='node' alt='Node.js' name='Node.js' />
                 <SkillsField imageName='react' alt='React' name='React' learning />
+                <SkillsField imageName='book_stack' alt='Network' name='Network' learning />
+                <SkillsField imageName='book_stack' alt='CS' name='CS' />
             </div>
             <p className='text-center text-gray-500 dark:text-gray-300 mt-10'>
                 <img src='/emojis/book.svg' alt='/' className='w-5 h-5 inline-block mr-2' />

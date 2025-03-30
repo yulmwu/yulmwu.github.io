@@ -10,7 +10,7 @@ interface ProjectsProps {
 
 const Projects = ({ className }: ProjectsProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.2,
+        threshold: 0.5,
         triggerOnce: false,
     })
 
@@ -48,6 +48,13 @@ const Projects = ({ className }: ProjectsProps) => {
                     img='/projects/jp-preview.png'
                     title='히라가나 게임'
                     techs={['/techs/react-icon.svg', '/techs/ts.svg']}
+                    blackText
+                />
+                <ProjectField
+                    link='https://github.com/yulmwu/yulmwu.github.io'
+                    img='/projects/pf-preview.png'
+                    title='자기소개 페이지'
+                    techs={['/techs/react-icon.svg', '/techs/ts.svg', '/techs/github-white.svg']}
                     blackText
                 />
             </div>

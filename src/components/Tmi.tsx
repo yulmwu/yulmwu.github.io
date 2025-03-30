@@ -10,7 +10,7 @@ interface TmiProps {
 
 const Tmi = ({ className }: TmiProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.2,
+        threshold: 0.5,
         triggerOnce: false,
     })
 
@@ -129,18 +129,23 @@ const Tmi = ({ className }: TmiProps) => {
                     <TmiCard number='22' title='나랑 친해지는 방법'>
                         그냥 편하게 말 걸거나 연락하면 됨
                     </TmiCard>
-                    <TmiCard number='23' title='가족관계'>
+                    <TmiCard number='23' title='가족 관계'>
                         외동
+                    </TmiCard>
+                    <TmiCard number='24' title='해주고 싶은 말'>
+                        고생했다..
                     </TmiCard>
                     <TmiCard number='마지막..' title='이 페이지는' small>
                         <span className='text-blue-700 dark:text-blue-200'>React</span>,{' '}
                         <span className='text-blue-500 dark:text-blue-400'>TypeScript</span>,{' '}
-                        <span className='text-orange-500 dark:text-orange-400'>TailwindCSS</span>, Framer Motion, React Slick으로 제작되었으며, <br />
+                        <span className='text-orange-500 dark:text-orange-400'>TailwindCSS</span>,
+                        <br />
+                        Framer Motion, React Slick으로 제작되었으며, <br />
                         <a href='https://github.com/yulmwu/yulmwu.github.io' className='text-blue-500 dark:text-blue-400'>
                             오픈소스
                         </a>
                         입니다.
-                        <p className='text-gray-400 dark:text-gray-500 mt-4'>제작: 김준영(@yulmwu)</p>
+                        <p className='text-gray-400 dark:text-gray-500 mt-3'>제작: 김준영(@yulmwu)</p>
                     </TmiCard>
                 </Slider>
                 <div className='flex justify-center text-center mt-10'>
