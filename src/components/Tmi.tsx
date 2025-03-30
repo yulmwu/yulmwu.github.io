@@ -10,12 +10,11 @@ interface TmiProps {
 
 const Tmi = ({ className }: TmiProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.5,
+        threshold: 0.2,
         triggerOnce: false,
     })
 
     const settings: Settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,

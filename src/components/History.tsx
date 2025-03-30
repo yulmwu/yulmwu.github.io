@@ -9,7 +9,7 @@ interface HistoryProps {
 
 const History = ({ className }: HistoryProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.5,
+        threshold: 0.2,
         triggerOnce: false,
     })
 

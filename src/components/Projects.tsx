@@ -10,7 +10,7 @@ interface ProjectsProps {
 
 const Projects = ({ className }: ProjectsProps) => {
     const { ref, inView } = useInView({
-        threshold: 0.5,
+        threshold: 0.2,
         triggerOnce: false,
     })
 
