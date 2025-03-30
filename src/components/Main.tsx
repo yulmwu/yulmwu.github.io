@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <motion.div id='main' ref={ref} initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.3 }}>
             <div className='w-full h-screen top-0 left-0'>
-                <div className='m-auto h-full w-full flex flex-col justify-center lg:items-center items-center gap-2'>
+                <div className='m-auto h-full w-full flex flex-col justify-center items-center gap-2'>
                     <p className='text-4xl sm:text-5xl md:text-6xl font-bold text-gray-950 dark:text-white w-full text-center'>Kim Jun Young</p>
                     <p className='flex text-lg text-gray-950'>
                         <span className='text-2xl sm:text-3xl md:text-4xl text-[#4c4c4c] dark:text-gray-300 pt-[6px] pr-3'>반갑습니다</span>

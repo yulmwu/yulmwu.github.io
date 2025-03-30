@@ -8,10 +8,10 @@ interface ProjectFieldProps {
 
 const ProjectField = ({ img, title, techs, link, blackText }: ProjectFieldProps) => (
     <div
-        className='relative flex items-centem justify-center h-autow-full rounded-xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer shadow-md'
+        className='relative flex items-centem justify-center h-autow-full rounded-xl hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer shadow-md shadow-gray-400 dark:shadow-gray-700'
         onClick={() => window.open(link, '_blank')}
     >
-        {img && <img src={img} alt='/' className='rounded-xl object-cover w-[400px] h-[225px] blur-[2px]' loading='lazy' />}
+        {img && <img src={img} alt='/' className='rounded-xl object-cover blur-[2px]' loading='lazy' />}
         <div className='absolute flex flex-col items-center justify-center w-full h-full'>
             <p className={`text-xl font-bold tracking-wider text-center ${blackText ? 'text-black' : 'text-white'}`}>{title}</p>
             <span className='flex justify-center '>

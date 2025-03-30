@@ -15,8 +15,8 @@ const History = ({ className }: HistoryProps) => {
 
     return (
         <motion.div
-            id='work'
-            className={`md:pl-20 md:pr-20 p-4 py-14 ${className}`}
+            id='history'
+            className={`md:pl-20 md:pr-20 lg:pl-40 lg:pr-40 p-4 py-14 ${className}`}
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -30,12 +30,15 @@ const History = ({ className }: HistoryProps) => {
                     <li>
                         <span className='text-purple-500 dark:text-purple-300 mr-2'>중학교 1~3학년</span> 3년 개근
                     </li>
+                    <li>
+                        <img src='/profiles/middle.jpg' alt='middle' className='inline-block w-30 h-auto m-3 hover:scale-105 transition-transform duration-300 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700' />
+                    </li>
                 </ul>
             </HistoryFields>
             <HistoryFields date={new Date('2024-03-01')} title='세명컴퓨터고등학교 입학'>
                 <ul className='mt-4 text-gray-600 dark:text-gray-300 list-disc pl-6 text-[15px] sm:text-[17px] md:text-[20px]'>
                     <li>
-                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 1학기 학급 회장
+                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 2반 1학기 학급 회장
                     </li>
                     <li>
                         <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 방송부 엔지니어
@@ -49,13 +52,10 @@ const History = ({ className }: HistoryProps) => {
                         <span className='text-[10px] sm:text-[12px] md:text-[15px]'>(1, 2학기 은상)</span>
                     </li>
                     <li>
-                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 선행상
+                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 선행상 & 개근
                     </li>
                     <li>
-                        <span className='text-red-400 dark:text-red-300 mr-2'>고등학교 1학년</span> 개근
-                    </li>
-                    <li>
-                        <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span> 1학기 학급 회장
+                        <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span>2반 1학기 학급 회장
                     </li>
                     <li>
                         <span className='text-green-500 dark:text-green-300 mr-2'>고등학교 2학년</span> 전공 동아리{' '}
