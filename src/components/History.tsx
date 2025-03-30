@@ -35,7 +35,10 @@ const History = ({ className }: HistoryProps) => {
                         <img
                             src='/profiles/middle.jpg'
                             alt='middle'
-                            className='w-30 h-auto m-3 hover:scale-105 transition-transform duration-300 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700'
+                            className='w-30 h-auto m-3 hover:scale-105 transition-transform duration-300 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700 cursor-pointer'
+                            onClick={() => {
+                                window.open('/profiles/middle.jpg', '_blank')
+                            }}
                         />
                     </li>
                 </ul>

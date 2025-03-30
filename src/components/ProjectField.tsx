@@ -14,7 +14,7 @@ const ProjectField = ({ img, title, techs, link, blackText }: ProjectFieldProps)
         {img && <img src={img} alt='/' className='rounded-xl object-cover blur-[2px]' loading='lazy' />}
         <div className='absolute flex flex-col items-center justify-center w-full h-full'>
             <p className={`text-xl font-bold tracking-wider text-center ${blackText ? 'text-black' : 'text-white'}`}>{title}</p>
-            <span className='flex justify-center '>
+            <span className='flex justify-center'>
                 {techs && techs.map((tech, index) => <img key={index} src={tech} alt='' className='pb-4 pt-2 h-12 w-12' />)}
             </span>
         </div>

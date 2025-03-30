@@ -94,10 +94,12 @@ const Tmi = ({ className }: TmiProps) => {
                                 className='w-full h-auto m-1 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700'
                             />
                         </div>
-                        <p className='text-sm'>직접 제작한 퍼즈 이펙터 일부 (PCB까지 직접 설계하고 애칭)</p>
+                        <p className='text-sm mt-2'>직접 제작한 퍼즈 이펙터 일부 (PCB까지 직접 설계하고 애칭)</p>
                     </TmiCard>
                     <TmiCard number='06' title='음악 취향' small>
-                        블루스, 재즈, 팝, R&B 등등 메탈같은 정신없는 거 빼고 다 좋아함
+                        블루스, 재즈, 팝, R&B 등등
+                        <br />
+                        메탈같은 정신없는 거 빼고 다 좋아함
                     </TmiCard>
                     <TmiCard number='07' title='좋아하는 아티스트' small>
                         {/* Stevie Ray Vaughan, John Mayer, Boyz II Men, Frank Sinatra, 김광석 등등 */}
