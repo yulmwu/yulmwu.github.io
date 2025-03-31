@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Title from './components/Title'
+import Image from './components/Image'
 import Slider, { Settings } from 'react-slick'
 import TmiCard from './TmiCard'
 
@@ -88,7 +89,7 @@ const Tmi = ({ className }: TmiProps) => {
                     </TmiCard>
                     <TmiCard number='05-A' small>
                         <div className='flex flex-col items-center justify-center'>
-                            <img
+                            <Image
                                 src='/other/pcb.jpg'
                                 alt='pcb'
                                 className='w-full h-auto m-1 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700'

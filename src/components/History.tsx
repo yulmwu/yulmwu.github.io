@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import HistoryFields from './HistoryField'
 import { useInView } from 'react-intersection-observer'
 import Title from './components/Title'
+import Image from './components/Image'
 
 interface HistoryProps {
     className?: string
@@ -32,7 +33,7 @@ const History = ({ className }: HistoryProps) => {
                     </li>
                     <li>
                         지금은 삭았지만... 중학교 졸업사진 (전성기)
-                        <img
+                        <Image
                             src='/profiles/middle.jpg'
                             alt='middle'
                             className='w-30 h-auto m-3 hover:scale-105 transition-transform duration-300 rounded-md shadow-md shadow-gray-400 dark:shadow-gray-700 cursor-pointer'
