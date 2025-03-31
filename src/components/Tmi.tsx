@@ -22,21 +22,21 @@ const Tmi = ({ className }: TmiProps) => {
         slidesToScroll: 4,
         responsive: [
             {
-                breakpoint: 1024, // lg (min 1024px)
+                breakpoint: 1280, // lg (min 1280px)
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                 },
             },
             {
-                breakpoint: 640, // md (min 640px)
+                breakpoint: 1020, // md (min 1020px)
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                 },
             },
             {
-                breakpoint: 480, // sm (min 480px)
+                breakpoint: 640, // sm (min 640px)
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -150,7 +150,13 @@ const Tmi = ({ className }: TmiProps) => {
                         전공 과목, 음악
                     </TmiCard>
                     <TmiCard number='13' title='좋아하는 게임'>
-                        게임 자체를 안함
+                        게임을 잘 안함..
+                        <p className='text-sm text-gray-400 dark:text-gray-500 mt-3'>
+                            그나마 예전엔 원신을 했었으나 60레벨 + 탐사도 올100% + 업적 다 깨고 할게 없어서 접음..
+                        </p>
+                        <p className='text-sm text-gray-400 dark:text-gray-500 mt-3'>
+                            GTA5도 했었으나 페리코 습격 나왔을 때 쯤 접었고, 가끔 친구들이랑 마크는 함
+                        </p>
                     </TmiCard>
                     <TmiCard number='14' title='강아지 vs 고양이'>
                         야옹이

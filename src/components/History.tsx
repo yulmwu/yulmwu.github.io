@@ -32,7 +32,7 @@ const History = ({ className }: HistoryProps) => {
                         <span className='text-purple-500 dark:text-purple-300 mr-2'>중학교 1~3학년</span> 3년 개근
                     </li>
                     <li>
-                        지금은 삭았지만... 중학교 졸업사진 (전성기)
+                        지금은 삭았지만... 중학교 졸업사진
                         <Image
                             src='/profiles/middle.jpg'
                             alt='middle'
