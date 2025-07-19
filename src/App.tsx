@@ -1,26 +1,16 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import FixedMenu from './components/FixedMenu'
-import Main from './components/Main'
-import History from './components/History'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Tmi from './components/Tmi'
+import { Home } from './pages/Home'
+import { NotFound } from './pages/NotFound'
 
-const App = () => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.classList.add('dark')
-
-    return (
-        <div>
-            <FixedMenu />
-            <Main />
-            <History />
-            <Skills />
-            <Projects />
-            <Tmi />
-            <Contact />
-        </div>
-    )
-}
+const App = () => (
+    <div>
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/articles' element={<div>Articles Page</div>} />
+            <Route path='*' element={<NotFound />} />
+        </Routes>
+    </div>
+)
 
 export default App

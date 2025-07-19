@@ -11,3 +11,5 @@ Simple is best.
 # for production on github pages
 > npm run deploy
 ```
+
+Reference: [Truethari - Reactfolio](https://github.com/truethari/reactfolio)
