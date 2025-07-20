@@ -54,6 +54,15 @@ html {
 	background-color: rgb(0, 0, 0);
 }
 
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .page-content {
 	background-color: white;
 	position: relative;

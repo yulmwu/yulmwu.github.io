@@ -6,10 +6,7 @@ export interface CardContainerContent {
     logoColor?: string
     title: string
     description?: string
-    period: {
-        start?: string
-        end?: string
-    }
+    period: string
 }
 
 interface CardContainerProps {
@@ -41,25 +38,21 @@ export const CardContainer = (props: CardContainerProps) => (
                                     />
                                 ) : (
                                     <div
-                                        className='h-8 w-8 rounded-full'
+                                        className='h-8 w-8 rounded-full flex-shrink-0'
                                         style={{ backgroundColor: content.logoColor ?? '#EDEDED' }}
                                     />
                                 )}
                                 <div className='pl-4'>
+                                    <p className='block sm:hidden text-xs text-gray-400 mb-1'>{content.period}</p>
                                     <div className='text-sm font-bold text-gray-600'>{content.title}</div>
                                     {content.description && (
-                                        <div className='text-xs text-gray-500 mt-1.5'>{content.description}</div>
+                                        <p className='text-xs text-gray-500 mt-1.5 break-keep'>{content.description}</p>
                                     )}
                                 </div>
                             </div>
-                            <div className='absolute top-0 right-0 text-xs text-gray-400'>
-                                {(content.period.start || content.period.end) && (
-                                    <span>
-                                        {content.period.start ? `${content.period.start}` : ''}
-                                        {content.period.end ? ` ~ ${content.period.end}` : ''}
-                                    </span>
-                                )}
-                            </div>
+                            <p className='hidden sm:block absolute top-0 right-0 text-xs text-gray-400'>
+                                {content.period}
+                            </p>
                         </div>
                     ))}
                 </div>

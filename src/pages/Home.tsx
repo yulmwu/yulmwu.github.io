@@ -8,11 +8,10 @@ import { NavBar } from '../components/NavBar'
 import { Stacks } from '../components/home/Stacks'
 import { CardContainer } from '../components/home/CardContainer'
 import { Projects } from '../components/home/Projects'
+import { Title } from '../components/home/Title'
 
 import { historiesData } from '../data/histories'
 import { certificationsData } from '../data/certifications'
-
-import { TypeAnimation } from 'react-type-animation'
 
 export const Home = () => (
     <>
@@ -25,24 +24,9 @@ export const Home = () => (
                         <div className='flex flex-col items-start pl-3 sm:pl-10 lg:pl-0 mr-0 lg:mr-6 w-full mb-10 lg:mb-0'>
                             <h1 className='text-4xl font-bold max-w-[85%] mt-4'>Kim Jun Young</h1>
                             <h2 className='text-2xl font-semibold mt-4 text-gray-600'>안녕하세요, 저는</h2>
-                            <p className='mt-4 text-lg text-gray-400'>
-                                <TypeAnimation
-                                    sequence={[
-                                        '세명컴퓨터고등학교 학생입니다.',
-                                        1200,
-                                        '타입스크립트를 좋아하며...',
-                                        1200,
-                                        'NestJS를 사용하여 백엔드 공부를, 그리고 AWS 공부를 하고 있습니다.',
-                                        1500,
-                                        '열정적이고 책임감있는, 그리고 도움을 주는 것을 좋아하는 INFJ 입니다.',
-                                        2500,
-                                    ]}
-                                    wrapper='span'
-                                    cursor={true}
-                                    repeat={Infinity}
-                                    deletionSpeed={50}
-                                />
-                            </p>
+                            <div className='mt-4 text-lg text-gray-400'>
+                                <Title />
+                            </div>
                         </div>
 
                         <div className='mt-6 lg:mt-0'>

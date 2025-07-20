@@ -19,7 +19,7 @@ export const Project = (props: ProjectProps) => (
                 </div>
                 <div className='pt-4 text-base font-bold text-gray-900 mb-1'>{props.title}</div>
                 <div className='text-sm text-blue-500 mb-2'>{props.period}</div>
-                <div className='text-sm text-gray-600 leading-relaxed'>{props.description}</div>
+                <p className='text-sm text-gray-600 leading-relaxed'>{props.description}</p>
                 <div className='flex items-center text-xs text-gray-500 pt-5 group'>
                     <span className='font-bold group-hover:text-teal-500 transition-colors duration-300'>
                         <Link to={props.link} className='inline-flex items-center'>
