@@ -14,7 +14,7 @@ interface ProjectProps {
 export const Project = (props: ProjectProps) => (
     <div className='rounded-2xl outline outline-gray-100 bg-white shadow-lg hover:bg-[#fbfbfb] hover:opacity-100 transition-colors duration-300'>
         <div className='p-6'>
-            <Link to={props.link} className='no-underline'>
+            <Link to={props.link} target='_blank' rel='noopener noreferrer' className='no-underline'>
                 {props.logo && (
                     <div className='w-8 h-8'>
                         <img src={props.logo} alt='logo' className='w-full h-full' />
@@ -27,7 +27,12 @@ export const Project = (props: ProjectProps) => (
             {props.github && (
                 <div className='flex items-center text-xs text-gray-500 group mt-4'>
                     <span className='font-bold group-hover:text-teal-500 transition-colors duration-300'>
-                        <Link to={props.github} className='inline-flex items-center'>
+                        <Link
+                            to={props.github}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='inline-flex items-center'
+                        >
                             <FontAwesomeIcon icon={faLink} />
                         </Link>
                     </span>

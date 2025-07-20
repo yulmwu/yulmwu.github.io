@@ -2,12 +2,15 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Home } from './pages/Home'
 import { NotFound } from './pages/NotFound'
+import { ArticlesPage as Articles } from './pages/Articles'
+import { ProjectsPage as Projects } from './pages/Projects'
 
 const App = () => (
     <div>
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/articles' element={<div>Articles Page</div>} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/articles' element={<Articles />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
     </div>
