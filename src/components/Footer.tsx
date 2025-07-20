@@ -10,6 +10,11 @@ export const Footer = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link to='/projects' className='hover:text-blue-500 font-semibold'>
+                        Projects
+                    </Link>
+                </li>
+                <li>
                     <Link to='/articles' className='hover:text-blue-500 font-semibold'>
                         Articles
                     </Link>
