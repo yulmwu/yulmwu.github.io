@@ -1,63 +1,8 @@
 import { useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faYoutube, faDiscord, faBloggerB, IconDefinition } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons'
-
 import { Footer } from '../components/Footer'
 import { NavBar } from '../components/NavBar'
-
-interface Social {
-    type: 'social' | 'blog' | 'mail'
-    name: string
-    url: string
-    display: string
-    icon: IconDefinition
-}
-
-const socials: Social[] = [
-    {
-        type: 'social',
-        name: 'GitHub',
-        url: 'https://github.com/yulmwu',
-        display: '@yulmwu',
-        icon: faGithub,
-    },
-    {
-        type: 'social',
-        name: 'Youtube',
-        url: 'https://www.youtube.com/@rlawnsdud',
-        display: '@rlawnsdud',
-        icon: faYoutube,
-    },
-    {
-        type: 'social',
-        name: 'Discord',
-        url: 'https://discord.com/users/615383266412724246',
-        display: '@rlawnsdud',
-        icon: faDiscord,
-    },
-    {
-        type: 'mail',
-        name: 'Email',
-        url: 'mailto:normal8781@gmail.com',
-        display: 'normal8781@gmail.com',
-        icon: faEnvelope,
-    },
-    {
-        type: 'blog',
-        name: 'Velog',
-        url: 'https://velog.io/@yulmwu',
-        display: '@yulmwu',
-        icon: faLink,
-    },
-    {
-        type: 'blog',
-        name: 'Original Kim (Outdated)',
-        url: 'https://originalkim.github.io/',
-        display: 'originalKim',
-        icon: faLink,
-    },
-]
+import { socials } from '../data/socials'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const SocialsPage = () => {
     useEffect(() => {
