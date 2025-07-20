@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 interface NavBarProps {
-    active?: 'home' | 'projects' | 'articles'
+    active?: 'home' | 'projects' | 'articles' | 'socials'
 }
 
 const navBarItems = [

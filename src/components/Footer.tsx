@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 export const Footer = () => (
-    <footer className='flex flex-col sm:flex-row items-center justify-between pt-6 pb-6 mt-12 border-t border-gray-200 text-sm text-gray-500'>
+    <footer className='page-footer flex flex-col sm:flex-row items-center justify-between pt-6 pb-6 mt-12 border-t border-gray-200 text-sm text-gray-500'>
         <div className='mb-4 sm:mb-0'>
             <ul className='flex space-x-6'>
                 <li>
