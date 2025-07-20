@@ -1,6 +1,6 @@
 import { CardContainerContent } from '../components/home/CardContainer'
 
-export const certificationsData: CardContainerContent[] = [
+export const certifications: CardContainerContent[] = [
     {
         logoColor: '#91c5ff',
         title: '정보처리기사',

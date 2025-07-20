@@ -11,8 +11,8 @@ import { Projects } from '../components/home/Projects'
 import { Articles } from '../components/home/Articles'
 import { Title } from '../components/home/Title'
 
-import { historiesData } from '../data/histories'
-import { certificationsData } from '../data/certifications'
+import { histories } from '../data/histories'
+import { certifications } from '../data/certifications'
 
 export const Home = () => (
     <>
@@ -49,29 +49,25 @@ export const Home = () => (
                         </div>
                     </div>
 
-                    <div className='pt-10'>
-                        <Projects />
+                    <div className='pt-15'>
+                        <Projects maxProjects={6} />
                     </div>
 
-                    <div className='flex flex-col lg:flex-row gap-8 pt-15'>
+                    <div className='flex flex-col lg:flex-row gap-8 pt-30'>
                         <div className='flex-1'>
                             <Stacks />
                         </div>
                         <div className='flex-1'>
-                            <CardContainer title='Histories' icon={faSchoolFlag} contents={historiesData} />
-                            <CardContainer
-                                title='Certifications'
-                                icon={faDriversLicense}
-                                contents={certificationsData}
-                            />
+                            <CardContainer title='Histories' icon={faSchoolFlag} contents={histories} />
+                            <CardContainer title='Certifications' icon={faDriversLicense} contents={certifications} />
                         </div>
                     </div>
 
-                    <div className='pt-10'>
+                    <div className='pt-20'>
                         <Articles responsive maxArticles={4} />
                     </div>
 
-                    <div className='pt-12'>
+                    <div className='pt-20'>
                         <Footer />
                     </div>
                 </div>

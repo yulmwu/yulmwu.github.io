@@ -1,6 +1,6 @@
 import { CardContainerContent } from '../components/home/CardContainer'
 
-export const historiesData: CardContainerContent[] = [
+export const histories: CardContainerContent[] = [
     {
         logoColor: '#9CDCFF',
         title: 'Null4U',
