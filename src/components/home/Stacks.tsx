@@ -2,7 +2,7 @@ import { techStacks } from '../../data/techs'
 
 export const Stacks = () => (
     <div>
-        <h2 className='text-2xl font-bold mb-6'>Tech Stacks</h2>
+        <h1 className='text-3xl font-bold mb-7'>Tech Stacks</h1>
         {Object.entries(techStacks).map(([category, techs]) => (
             <div key={category} className='mt-6'>
                 <h3 className='text-md text-gray-400 font-bold mb-3 border-l-3 border-gray-300 pl-4'>
