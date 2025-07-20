@@ -8,6 +8,7 @@ import { NavBar } from '../components/NavBar'
 import { Stacks } from '../components/home/Stacks'
 import { CardContainer } from '../components/home/CardContainer'
 import { Projects } from '../components/home/Projects'
+import { Articles } from '../components/home/Articles'
 import { Title } from '../components/home/Title'
 
 import { historiesData } from '../data/histories'
@@ -64,6 +65,10 @@ export const Home = () => (
                                 contents={certificationsData}
                             />
                         </div>
+                    </div>
+
+                    <div className='pt-10'>
+                        <Articles responsive />
                     </div>
 
                     <div className='pt-12'>
