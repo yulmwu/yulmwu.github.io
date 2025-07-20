@@ -23,7 +23,7 @@ export const Articles = (props: ArticlesProps) => (
         </div>
         {props.maxArticles && articles.length > props.maxArticles ? (
             <div className='text-center mt-8 text-lg'>
-                <a href='/articles' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
+                <a href='/#/articles' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
                     게시글 더보기 (+{articles.length - props.maxArticles})
                 </a>
             </div>

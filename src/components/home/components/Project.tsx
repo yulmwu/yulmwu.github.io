@@ -9,12 +9,13 @@ interface ProjectProps {
     period: string
     link: string
     github?: string
+    tags?: string[]
 }
 
 export const Project = (props: ProjectProps) => (
     <div className='rounded-2xl outline outline-gray-100 bg-white shadow-lg hover:bg-[#fbfbfb] hover:opacity-100 transition-colors duration-300'>
         <div className='p-6'>
-            <Link to={props.link} target='_blank' rel='noopener noreferrer' className='no-underline'>
+            <Link to={props.link} className='no-underline'>
                 {props.logo && (
                     <div className='w-8 h-8'>
                         <img src={props.logo} alt='logo' className='w-full h-full' />
@@ -23,6 +24,18 @@ export const Project = (props: ProjectProps) => (
                 <div className='pt-4 text-base font-bold text-gray-900 mb-1'>{props.title}</div>
                 <div className='text-sm text-blue-500 mb-2'>{props.period}</div>
                 <p className='text-sm text-gray-600 leading-relaxed break-keep'>{props.description}</p>
+                {props.tags && (
+                    <div className='mt-4 flex flex-wrap gap-2'>
+                        {props.tags.map((tag, index) => (
+                            <span
+                                key={index}
+                                className='text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full'
+                            >
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+                )}
             </Link>
             {props.github && (
                 <div className='flex items-center text-xs text-gray-500 group mt-4'>

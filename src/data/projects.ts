@@ -6,6 +6,8 @@ export interface Project {
     link: string
     github?: string
     homePin?: boolean
+    tags?: string[]
+    markdown: string
 }
 
 export const projectsRaw: Project[] = [
@@ -17,6 +19,10 @@ export const projectsRaw: Project[] = [
         link: '/projects/chosun',
         github: 'https://github.com/yulmwu/smc-project-25-07',
         homePin: true,
+        tags: ['TypeScript', 'NestJS', 'React', 'AWS'],
+        markdown: `# 조선인사이드
+테스트
+`,
     },
     {
         logo: 'https://cdn.iconscout.com/icon/free/png-256/free-jekyll-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-12-pack-icons-283293.png',
@@ -25,6 +31,10 @@ export const projectsRaw: Project[] = [
         period: '~ 25.05.08',
         link: '/projects/originalkim',
         github: 'https://github.com/originalkim/originalkim.github.io',
+        tags: ['Jekyll', 'GitHub Pages'],
+        markdown: `# OriginalKim Blog
+테스트
+`,
     },
     {
         logo: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.png',
@@ -33,7 +43,11 @@ export const projectsRaw: Project[] = [
         period: '25.07.05',
         link: '/projects/velog-backup',
         github: 'https://github.com/yulmwu/velog-backup',
-                homePin: true,
+        homePin: true,
+        tags: ['AWS', 'Velog'],
+        markdown: `# Velog Backup
+테스트
+`,
     },
     {
         logo: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
@@ -42,7 +56,11 @@ export const projectsRaw: Project[] = [
         period: '25.03.17 ~ 25.03.28',
         link: '/projects/jp-study',
         github: 'https://github.com/yulmwu/jp-study',
-                homePin: true,
+        homePin: true,
+        tags: ['React'],
+        markdown: `# Japanese Study Website
+테스트
+`,
     },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
@@ -51,7 +69,11 @@ export const projectsRaw: Project[] = [
         period: '23.10.08 ~ 24.04.19',
         link: '/projects/swua',
         github: 'https://github.com/yulmwu/swua',
-                homePin: true,
+        homePin: true,
+        tags: ['Rust', 'LLVM'],
+        markdown: `# Swua Programming Language
+테스트
+`,
     },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
@@ -60,7 +82,11 @@ export const projectsRaw: Project[] = [
         period: '23.07.2 ~ 23.11.20',
         link: '/projects/6502',
         github: 'https://github.com/yulmwu/6502',
-                homePin: true,
+        homePin: true,
+        tags: ['Rust'],
+        markdown: `# 6502 Emulator
+테스트
+`,
     },
     {
         logo: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png',
@@ -69,7 +95,11 @@ export const projectsRaw: Project[] = [
         period: '24.08.15 ~ 25.01.02',
         link: '/projects/swua-cpp',
         github: 'https://github.com/yulmwu/uswua-cpp',
-                homePin: true,
+        homePin: true,
+        tags: ['C++'],
+        markdown: `# USwua C++
+테스트
+`,
     },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
@@ -78,6 +108,22 @@ export const projectsRaw: Project[] = [
         period: '22.03.26 ~ 22.09.10',
         link: '/projects/type',
         github: 'https://github.com/yulmwu/type',
+        tags: ['TypeScript'],
+        markdown: `# Type
+테스트
+`,
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
+        title: 'Portfolio Website',
+        description: 'Personal Portfolio Website',
+        period: '22.03.26 ~ 22.09.10',
+        link: '/projects/portfolio',
+        github: 'https://github.com/yulmwu/yulmwu.github.io',
+        tags: ['React'],
+        markdown: `# Portfolio Website
+테스트
+`,
     },
 ]
 

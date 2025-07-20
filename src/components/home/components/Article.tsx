@@ -23,7 +23,7 @@ export const Article = (props: ArticleProps) => (
                                 {props.tags.map((tag, index) => (
                                     <span
                                         key={index}
-                                        className='text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded-full'
+                                        className='text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full'
                                     >
                                         {tag}
                                     </span>

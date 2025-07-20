@@ -1,9 +1,14 @@
+import { useEffect } from 'react'
 import { Footer } from '../components/Footer'
 import { Projects } from '../components/home/Projects'
 import { NavBar } from '../components/NavBar'
 
-export const ProjectsPage = () => (
-    <>
+export const ProjectsPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
+    return (
         <div className='page-content'>
             <NavBar active='projects' />
 
@@ -19,5 +24,5 @@ export const ProjectsPage = () => (
                 </div>
             </div>
         </div>
-    </>
-)
+    )
+}
