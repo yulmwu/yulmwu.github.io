@@ -1,5 +1,6 @@
 import { Project } from './components/Project'
 import { projects } from '../../data/projects'
+import { Link } from 'react-router-dom'
 
 interface ProjectsProps {
     maxProjects?: number
@@ -23,9 +24,9 @@ export const Projects = ({ maxProjects }: ProjectsProps) => (
         </div>
         <div className='text-center text-lg'>
             {maxProjects && projects.length > maxProjects ? (
-                <a href='/#/projects' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
+                <Link to='/projects' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
                     프로젝트 더보기 (+{projects.length - maxProjects})
-                </a>
+                </Link>
             ) : (
                 <a
                     href='https://github.com/yulmwu'

@@ -8,6 +8,7 @@ const navBarItems = [
     { name: 'Home', link: '/', active: 'home' },
     { name: 'Projects', link: '/projects', active: 'projects' },
     { name: 'Articles', link: '/articles', active: 'articles' },
+    { name: 'Socials', link: '/socials', active: 'socials' }
 ]
 
 export const NavBar = ({ active }: NavBarProps) => (
