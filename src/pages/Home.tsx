@@ -64,7 +64,7 @@ export const Home = () => (
                     </div>
 
                     <div className='pt-20'>
-                        <Articles responsive maxArticles={4} />
+                        <Articles responsive maxArticles={6} />
                     </div>
 
                     <div className='pt-20'>
