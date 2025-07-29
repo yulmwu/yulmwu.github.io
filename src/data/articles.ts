@@ -43,7 +43,6 @@ export const articlesRaw: Article[] = [
         date: '2025-07-18',
         url: 'https://velog.io/@yulmwu/ec2-bastion-host',
         tags: ['AWS'],
-        homePin: true,
     },
     {
         thumbnail: 'https://velog.velcdn.com/images/yulmwu/post/86034b29-11ca-4bd7-b0d1-e68db3472270/image.png',
@@ -78,6 +77,23 @@ export const articlesRaw: Article[] = [
         date: '2025-07-19',
         url: 'https://velog.io/@yulmwu/how-to-use-draw-io',
         tags: ['AWS', 'Tools'],
+    },
+    {
+        thumbnail: 'https://velog.velcdn.com/images/yulmwu/post/1e17c7f3-549c-4523-be5a-c4375bf0144d/image.png',
+        title: '[NestJS] class-transformer @Exclude(), @Expose Decorators and NestJS Interceptor',
+        description: 'How can I exclude only specific values when responding to the client?',
+        date: '2025-07-28',
+        url: 'https://velog.io/@yulmwu/nestjs-class-transformer-exclude-expose',
+        tags: ['NestJS', 'class-transformer'],
+        homePin: true,
+    },
+    {
+        thumbnail: 'https://velog.velcdn.com/images/yulmwu/post/1e17c7f3-549c-4523-be5a-c4375bf0144d/image.png',
+        title: '[NestJS] IntersectionType: @nestjs/mapped-types vs @nestjs/swagger',
+        description: 'DTO inheritance: IntersectionType, @nestjs/mapped-types vs @nestjs/swagger',
+        date: '2025-07-28',
+        url: 'https://velog.io/@yulmwu/nestjs-intersectiontype',
+        tags: ['NestJS'],
     },
 ]
 

@@ -12,6 +12,19 @@ export interface Project {
 
 export const projectsRaw: Project[] = [
     {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        title: '0725',
+        description: '커뮤니티(포럼) 프로젝트',
+        period: '25.07.25 ~',
+        link: '/projects/0725',
+        github: 'https://github.com/yulmwu/0725',
+        homePin: true,
+        tags: ['TypeScript', 'NestJS', 'Next.js', 'AWS'],
+        markdown: `# 0725
+테스트
+`,
+    },
+    {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
         title: '조선인사이드',
         description: '세명컴퓨터고등학교 유연화주간 융합 수업 프로젝트',
@@ -56,7 +69,6 @@ export const projectsRaw: Project[] = [
         period: '25.03.17 ~ 25.03.28',
         link: '/projects/jp-study',
         github: 'https://github.com/yulmwu/jp-study',
-        homePin: true,
         tags: ['React'],
         markdown: `# Japanese Study Website
 테스트
