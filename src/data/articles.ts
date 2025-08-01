@@ -95,6 +95,14 @@ export const articlesRaw: Article[] = [
         url: 'https://velog.io/@yulmwu/nestjs-intersectiontype',
         tags: ['NestJS'],
     },
+    {
+        thumbnail: 'https://velog.velcdn.com/images/yulmwu/post/52d8a60e-ddb3-4b83-a7d1-b3b5ac8545d0/image.png',
+        title: '[AWS] ECS, S3 Deployment with CodePipeline',
+        description: 'ECS, S3(Static Web Hosting) Deployment with AWS CodePipeline CI/CD',
+        date: '2025-08-01',
+        url: 'https://velog.io/@yulmwu/aws-codepipeline',
+        tags: ['AWS'],
+    },
 ]
 
 export const articles: Article[] = articlesRaw
