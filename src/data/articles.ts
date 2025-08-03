@@ -103,6 +103,14 @@ export const articlesRaw: Article[] = [
         url: 'https://velog.io/@yulmwu/aws-codepipeline',
         tags: ['AWS'],
     },
+    {
+        thumbnail: 'https://velog.velcdn.com/images/yulmwu/post/0a091c94-25ab-4c83-b34f-950f25561bde/image.png',
+        title: '[NestJS] Using AWS S3 Presigned URL',
+        description: 'What is AWS S3 Presigned URL and How to use it in NestJS',
+        date: '2025-08-03',
+        url: 'https://velog.io/@yulmwu/nestjs-s3-presigned-url',
+        tags: ['NestJS', 'AWS'],
+    },
 ]
 
 export const articles: Article[] = articlesRaw
