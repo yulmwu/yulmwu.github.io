@@ -25,7 +25,12 @@ export const ProjectDetail = () => {
 
             <div className='content-wrapper'>
                 <div className='pt-25'>
-                    <Project {...project} />
+                    <Project
+                        {...project}
+                        link={project.github ?? project.link}
+                        openLinkWithNewTab={project.github ? true : false}
+                        isDetailPage
+                    />
                     <Markdown content={project.markdown} />
 
                     <div className='pt-12'>

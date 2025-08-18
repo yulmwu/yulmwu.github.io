@@ -19,6 +19,7 @@ export const Projects = ({ maxProjects }: ProjectsProps) => (
                     link={project.link}
                     github={project.github}
                     tags={project.tags}
+                    detailTags={project.detailTags}
                 />
             ))}
         </div>

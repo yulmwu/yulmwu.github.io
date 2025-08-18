@@ -7,10 +7,53 @@ export interface Project {
     github?: string
     homePin?: boolean
     tags?: string[]
+    detailTags?: string[]
     markdown: string
 }
 
 export const projectsRaw: Project[] = [
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        title: 'Backend of 0725',
+        description: '커뮤니티(포럼) 프로젝트 백엔드',
+        period: '25.07.25 ~',
+        link: '/projects/0725-backend',
+        github: 'https://github.com/0725-project/backend',
+        homePin: true,
+        tags: ['TypeScript', 'NestJS', 'TypeORM'],
+        detailTags: ['Backend', 'TypeScript', 'NestJS', 'TypeORM', 'PostgreSQL', 'Redis', 'RabbitMQ', 'ElasticSearch'],
+        markdown: `
+# Test
+        `,
+    },
+    {
+        logo: 'https://icon.icepanel.io/Technology/svg/RabbitMQ.svg',
+        title: 'RabbitMQ Consumer Backend of 0725',
+        description: '커뮤니티(포럼) 프로젝트 RabbitMQ 컨슈머 백엔드',
+        period: '25.07.25 ~',
+        link: '/projects/0725-rabbitmq-consumer',
+        github: 'https://github.com/0725-project/rabbitmq-consumer',
+        homePin: true,
+        tags: ['TypeScript', 'NestJS', 'RabbitMQ'],
+        detailTags: ['Backend', 'TypeScript', 'NestJS', 'RabbitMQ'],
+        markdown: `
+# Test
+        `,
+    },
+    {
+        logo: 'https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png',
+        title: 'Frontend of 0725',
+        description: '커뮤니티(포럼) 프로젝트 프론트엔드',
+        period: '25.07.25 ~',
+        link: '/projects/0725-frontend',
+        github: 'https://github.com/0725-project/frontend',
+        homePin: true,
+        tags: ['TypeScript', 'NextJS', 'React'],
+        detailTags: ['Frontend', 'TypeScript', 'NextJS', 'React', 'TailwindCSS', 'React-Query'],
+        markdown: `
+# Test
+        `,
+    },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
         title: '0725',
@@ -18,11 +61,11 @@ export const projectsRaw: Project[] = [
         period: '25.07.25 ~',
         link: '/projects/0725',
         github: 'https://github.com/yulmwu/0725',
-        homePin: true,
         tags: ['TypeScript', 'NestJS', 'Next.js', 'AWS'],
-        markdown: `# 0725
-테스트
-`,
+        markdown: `
+# Test
+
+        `,
     },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
@@ -56,7 +99,6 @@ export const projectsRaw: Project[] = [
         period: '25.07.05',
         link: '/projects/velog-backup',
         github: 'https://github.com/yulmwu/velog-backup',
-        homePin: true,
         tags: ['AWS', 'Velog'],
         markdown: `# Velog Backup
 테스트
@@ -107,7 +149,6 @@ export const projectsRaw: Project[] = [
         period: '24.08.15 ~ 25.01.02',
         link: '/projects/swua-cpp',
         github: 'https://github.com/yulmwu/uswua-cpp',
-        homePin: true,
         tags: ['C++'],
         markdown: `# USwua C++
 테스트
