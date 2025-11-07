@@ -34,9 +34,9 @@ export const Home = () => (
                         </div>
 
                         <div className='mt-6 lg:mt-0'>
-                            <div className='w-[250px] h-[250px] overflow-hidden rounded-[10%] shadow-lg cursor-pointer hover:rotate-1 transition-transform duration-300'>
+                            <div className='w-[250px] h-[250px] overflow-hidden rounded-[10%] shadow-lg cursor-pointer'>
                                 <img
-                                    src='https://avatars.githubusercontent.com/u/59119316'
+                                    src='/public/profile.jpg'
                                     alt='about'
                                     className='w-full h-full object-cover'
                                 />
