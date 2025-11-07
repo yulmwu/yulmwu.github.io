@@ -40,7 +40,7 @@ export const NavBar = ({ active }: NavBarProps) => {
     }, [lastScrollY])
 
     return (
-        <div className='flex justify-center items-center m-0'>
+        <div className='hidden md:flex justify-center items-center m-0'>
             <nav
                 className={`fixed top-4 z-50 flex justify-center items-center w-full transition-transform duration-300 ease-in-out ${
                     isVisible ? 'translate-y-0' : '-translate-y-20'

@@ -15,11 +15,11 @@ export const Awards = () => (
                 {awards.map((award, index) => (
                     <div
                         key={index}
-                        className='flex items-center justify-between p-4 hover:bg-gray-50 transition-colors duration-200 rounded-lg cursor-default border-l-3 border-transparent hover:border-primary'
+                        className='flex flex-col md:flex-row md:items-center md:justify-between p-4 hover:bg-gray-50 transition-colors duration-200 rounded-lg cursor-default border-l-3 border-transparent hover:border-primary'
                     >
-                        <div className='flex items-center gap-4 flex-1'>
+                        <div className='flex items-start gap-4 flex-1'>
                             <div className='flex-1'>
-                                <div className='flex items-center gap-1 flex-wrap'>
+                                <div className='flex items-center gap-1 flex-wrap mb-1'>
                                     <h3 className='text-base font-bold text-gray-700 whitespace-pre-line xl:truncate'>
                                         {award.title}
                                     </h3>
@@ -30,9 +30,12 @@ export const Awards = () => (
                                     )}
                                 </div>
                                 <p className='text-sm text-gray-500 mt-1'>{award.organization}</p>
+                                <div className='text-sm text-gray-400 font-medium mt-2 md:hidden'>{award.date}</div>
                             </div>
                         </div>
-                        <div className='text-sm text-gray-400 font-medium whitespace-nowrap ml-4'>{award.date}</div>
+                        <div className='hidden md:block text-sm text-gray-400 font-medium whitespace-nowrap ml-4'>
+                            {award.date}
+                        </div>
                     </div>
                 ))}
             </div>
