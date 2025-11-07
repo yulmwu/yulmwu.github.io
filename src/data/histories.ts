@@ -8,7 +8,7 @@ export const histories: CardContainerContent[] = [
         period: '2025.03 ~',
     },
     {
-        logoColor: '#bdecb6랙',
+        logoColor: '#bdecb6',
         title: '세명컴퓨터고등학교',
         description: '스마트보안솔루션과 11기',
         period: '2024.03 ~',
