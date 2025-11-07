@@ -12,6 +12,7 @@ import { Articles } from '../components/home/Articles'
 import { Title } from '../components/home/Title'
 import { WorkExperience } from '../components/home/WorkExperience'
 import { Awards } from '../components/home/Awards'
+import { Presentations } from '../components/home/Presentations'
 
 import { histories } from '../data/histories'
 import { certifications } from '../data/certifications'
@@ -61,20 +62,24 @@ export const Home = () => (
                         </div>
                     </div>
 
-                    <div className='pt-15'>
+                    <div className='pt-20'>
                         <Stacks />
                     </div>
 
-                    <div className='pt-15'>
+                    <div className='pt-10'>
                         <Awards />
                     </div>
 
-                    <div className='pt-15'>
+                    <div className='pt-20'>
                         <Articles responsive maxArticles={6} />
                     </div>
 
-                    <div className='pt-15'>
+                    <div className='pt-20'>
                         <Projects maxProjects={6} />
+                    </div>
+
+                    <div className='pt-20'>
+                        <Presentations maxPresentations={4} />
                     </div>
 
                     <div className='pt-20'>

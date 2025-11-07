@@ -14,12 +14,15 @@ export const ArticlesPage = () => {
             <NavBar active='articles' />
 
             <div className='content-wrapper'>
-                <div className='pt-15'>
-                    <div className='pt-10'>
-                        <Articles />
-                    </div>
+                <div className='pt-30'>
+                    <h1 className='text-4xl font-bold text-gray-800 mb-4'>게시글</h1>
+                    <p className='text-lg text-gray-600 mb-12'>
+                        작성했던 다양한 게시글들을 소개합니다.
+                    </p>
 
-                    <div className='pt-12'>
+                    <Articles />
+
+                    <div className='pt-20'>
                         <Footer />
                     </div>
                 </div>

@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 interface ArticleProps {
     thumbnail?: string
@@ -10,39 +12,37 @@ interface ArticleProps {
 }
 
 export const Article = (props: ArticleProps) => (
-    <div className='rounded-2xl opacity-80 h-full outline outline-gray-100 shadow-lg hover:bg-[#fbfbfb] hover:opacity-100 transition-colors duration-300'>
-        <div className='p-6'>
-            <div className='flex flex-col md:flex-row gap-4'>
-                <div className='flex-1'>
-                    <Link to={props.url} target='_blank' rel='noopener noreferrer' className='no-underline'>
-                        <div className='pt-3 text-base font-bold text-gray-900 mb-1'>{props.title}</div>
-                        <div className='text-sm text-blue-500 mb-2'>{props.date}</div>
-                        <p className='text-sm text-gray-600 leading-relaxed break-keep'>{props.description}</p>
-                        {props.tags && (
-                            <div className='mt-4 flex flex-wrap gap-2'>
-                                {props.tags.map((tag, index) => (
-                                    <span
-                                        key={index}
-                                        className='text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full'
-                                    >
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
-                        )}
-                    </Link>
-                </div>
-                {props.thumbnail && (
-                    <Link to={props.url} target='_blank' rel='noopener noreferrer' className='no-underline'>
-                        <div className='w-full md:w-36 min-w-[6rem] aspect-square overflow-hidden rounded-xl'>
-                            <img
-                                src={props.thumbnail}
-                                alt={props.title}
-                                className='w-full h-full object-cover object-center rounded-xl'
-                            />
-                        </div>
-                    </Link>
+    <div className='rounded-2xl outline outline-gray-100 bg-white shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full overflow-hidden'>
+        {props.thumbnail && (
+            <div className='w-full h-48 overflow-hidden bg-gray-100'>
+                <img src={props.thumbnail} alt={props.title} className='w-full h-full object-cover' />
+            </div>
+        )}
+        <div className='p-6 flex flex-col flex-1'>
+            <div className='flex-1'>
+                <div className='text-lg font-bold text-gray-800 mb-2'>{props.title}</div>
+                <div className='text-sm text-gray-400 font-medium mb-3'>{props.date}</div>
+                <p className='text-sm text-gray-600 leading-relaxed break-keep mb-4'>{props.description}</p>
+                {props.tags && props.tags.length > 0 && (
+                    <div className='flex flex-wrap gap-2 mb-4'>
+                        {props.tags.map((tag, index) => (
+                            <span key={index} className='text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-lg font-medium'>
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
                 )}
+            </div>
+            <div className='mt-auto pt-4 border-t border-gray-100'>
+                <Link
+                    to={props.url}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='inline-flex items-center gap-2 text-sm text-gray-600 hover:text-primary transition-colors duration-200 font-medium'
+                >
+                    <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-xs' />
+                    <span>게시글 보기</span>
+                </Link>
             </div>
         </div>
     </div>

@@ -6,6 +6,7 @@ import { ArticlesPage as Articles } from './pages/Articles'
 import { ProjectsPage as Projects } from './pages/Projects'
 import { ProjectDetail } from './pages/ProjectDetail'
 import { SocialsPage as Socials } from './pages/Socials'
+import { PresentationsPage as Presentations } from './pages/Presentations'
 
 const App = () => (
     <div>
@@ -14,6 +15,7 @@ const App = () => (
             <Route path='/projects' element={<Projects />} />
             <Route path='/projects/:id' element={<ProjectDetail />} />
             <Route path='/articles' element={<Articles />} />
+            <Route path='/presentations' element={<Presentations />} />
             <Route path='/socials' element={<Socials />} />
             <Route path='*' element={<NotFound />} />
         </Routes>

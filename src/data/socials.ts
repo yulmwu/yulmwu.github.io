@@ -52,4 +52,11 @@ export const socials: Social[] = [
         display: 'originalKim',
         icon: faLink,
     },
+    {
+        type: 'social',
+        name: 'Phone',
+        url: 'tel:+821029801336',
+        display: '+82 10-2980-1336',
+        icon: faLink,
+    }
 ]
