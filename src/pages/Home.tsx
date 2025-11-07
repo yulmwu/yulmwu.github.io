@@ -49,10 +49,6 @@ export const Home = () => (
                         </div>
                     </div>
 
-                    <div className='pt-15'>
-                        <Projects maxProjects={6} />
-                    </div>
-
                     <div className='flex flex-col lg:flex-row gap-8 pt-30'>
                         <div className='flex-1'>
                             <Stacks />
@@ -65,6 +61,10 @@ export const Home = () => (
 
                     <div className='pt-20'>
                         <Articles responsive maxArticles={6} />
+                    </div>
+
+                    <div className='pt-15'>
+                        <Projects maxProjects={6} />
                     </div>
 
                     <div className='pt-20'>

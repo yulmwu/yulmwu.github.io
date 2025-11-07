@@ -14,10 +14,10 @@ const navBarItems = [
 export const NavBar = ({ active }: NavBarProps) => (
     <div className='flex justify-center items-center m-0'>
         <nav className='fixed top-4 z-50 flex justify-center items-center w-full'>
-            <div className='h-10 px-6 bg-white/30 backdrop-blur-lg border border-white/20 shadow-md rounded-full hover:scale-[103%] transition-transform duration-300'>
+            <div className='h-10 px-6 bg-white/30 backdrop-blur-lg border border-white/20 shadow-md rounded-full'>
                 <ul className='flex gap-7 items-center h-full list-none text-sm'>
                     {navBarItems.map((item) => (
-                        <li key={item.name} className='hover:scale-105 transition-transform duration-300'>
+                        <li key={item.name}>
                             <Link
                                 to={item.link}
                                 className={`font-bold ${
