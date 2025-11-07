@@ -13,9 +13,9 @@ export interface Project {
 
 export const projectsRaw: Project[] = [
     {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
         title: 'Backend of 0725',
-        description: '커뮤니티(포럼) 프로젝트 백엔드',
+        description: 'Backend of 0725 Community(Forum) Project',
         period: '25.07.25 ~',
         link: '/projects/0725-backend',
         github: 'https://github.com/0725-project/backend',
@@ -27,13 +27,13 @@ export const projectsRaw: Project[] = [
         `,
     },
     {
-        logo: 'https://icon.icepanel.io/Technology/svg/RabbitMQ.svg',
+        // logo: 'https://icon.icepanel.io/Technology/svg/RabbitMQ.svg',
         title: 'RabbitMQ Consumer Backend of 0725',
-        description: '커뮤니티(포럼) 프로젝트 RabbitMQ 컨슈머 백엔드',
+        description: 'RabbitMQ Consumer Microservice for 0725 Community(Forum) Project',
         period: '25.07.25 ~',
         link: '/projects/0725-rabbitmq-consumer',
         github: 'https://github.com/0725-project/rabbitmq-consumer',
-        homePin: true,
+        homePin: false,
         tags: ['TypeScript', 'NestJS', 'RabbitMQ'],
         detailTags: ['Backend', 'TypeScript', 'NestJS', 'RabbitMQ'],
         markdown: `
@@ -41,9 +41,9 @@ export const projectsRaw: Project[] = [
         `,
     },
     {
-        logo: 'https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png',
+        // logo: 'https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png',
         title: 'Frontend of 0725',
-        description: '커뮤니티(포럼) 프로젝트 프론트엔드',
+        description: 'Frontend of 0725 Community(Forum) Project',
         period: '25.07.25 ~',
         link: '/projects/0725-frontend',
         github: 'https://github.com/0725-project/frontend',
@@ -55,33 +55,20 @@ export const projectsRaw: Project[] = [
         `,
     },
     {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
-        title: '0725',
-        description: '커뮤니티(포럼) 프로젝트',
-        period: '25.07.25 ~',
-        link: '/projects/0725',
-        github: 'https://github.com/yulmwu/0725',
-        tags: ['TypeScript', 'NestJS', 'Next.js', 'AWS'],
-        markdown: `
-# Test
-
-        `,
-    },
-    {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
         title: '조선인사이드',
         description: '세명컴퓨터고등학교 유연화주간 융합 수업 프로젝트',
         period: '25.07.10 ~ 25.07.14',
         link: '/projects/chosun',
         github: 'https://github.com/yulmwu/smc-project-25-07',
-        homePin: true,
+        homePin: false,
         tags: ['TypeScript', 'NestJS', 'React', 'AWS'],
         markdown: `# 조선인사이드
 테스트
 `,
     },
     {
-        logo: 'https://cdn.iconscout.com/icon/free/png-256/free-jekyll-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-12-pack-icons-283293.png',
+        // logo: 'https://cdn.iconscout.com/icon/free/png-256/free-jekyll-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-12-pack-icons-283293.png',
         title: 'OriginalKim Blog',
         description: '#1 Personal Tech Blog (Legacy)',
         period: '~ 25.05.08',
@@ -93,31 +80,7 @@ export const projectsRaw: Project[] = [
 `,
     },
     {
-        logo: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/aws-icon.png',
-        title: 'Velog Backup',
-        description: 'Velog Backup with AWS Lambda + EventBridge Scheduler',
-        period: '25.07.05',
-        link: '/projects/velog-backup',
-        github: 'https://github.com/yulmwu/velog-backup',
-        tags: ['AWS', 'Velog'],
-        markdown: `# Velog Backup
-테스트
-`,
-    },
-    {
-        logo: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-        title: 'Japanese Study Website',
-        description: 'Japanese Hiragana Study Website',
-        period: '25.03.17 ~ 25.03.28',
-        link: '/projects/jp-study',
-        github: 'https://github.com/yulmwu/jp-study',
-        tags: ['React'],
-        markdown: `# Japanese Study Website
-테스트
-`,
-    },
-    {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
         title: 'Swua Programming Language',
         description: 'Toy programming language using LLVM',
         period: '23.10.08 ~ 24.04.19',
@@ -130,7 +93,7 @@ export const projectsRaw: Project[] = [
 `,
     },
     {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png',
         title: '6502 Emulator',
         description: 'MOS Technology 6502 Emulator & Assembler (WIP)',
         period: '23.07.2 ~ 23.11.20',
@@ -143,7 +106,7 @@ export const projectsRaw: Project[] = [
 `,
     },
     {
-        logo: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png',
+        // logo: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png',
         title: 'USwua C++',
         description: 'USwua bytecode C++ porting',
         period: '24.08.15 ~ 25.01.02',
@@ -155,7 +118,7 @@ export const projectsRaw: Project[] = [
 `,
     },
     {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
         title: 'Type',
         description: 'Type Level programming with TypeScript',
         period: '22.03.26 ~ 22.09.10',
@@ -167,14 +130,27 @@ export const projectsRaw: Project[] = [
 `,
     },
     {
-        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
         title: 'Portfolio Website',
         description: 'Personal Portfolio Website',
         period: '22.03.26 ~ 22.09.10',
         link: '/projects/portfolio',
         github: 'https://github.com/yulmwu/yulmwu.github.io',
-        tags: ['React'],
+        tags: ['React', 'TypeScript'],
+        homePin: true,
         markdown: `# Portfolio Website
+테스트
+`,
+    },
+    {
+        title: 'Blog Example Demos',
+        description: 'Velog @yulmwu Blog Example Demos',
+        period: '25.01.01 ~',
+        link: '/projects/blog-example-demo',
+        github: 'https://github.com/yulmwu/blog-example-demo',
+        tags: ['Blog'],
+        homePin: true,
+        markdown: `# Blog Example Demos
 테스트
 `,
     },

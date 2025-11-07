@@ -10,6 +10,8 @@ import { CardContainer } from '../components/home/CardContainer'
 import { Projects } from '../components/home/Projects'
 import { Articles } from '../components/home/Articles'
 import { Title } from '../components/home/Title'
+import { WorkExperience } from '../components/home/WorkExperience'
+import { Awards } from '../components/home/Awards'
 
 import { histories } from '../data/histories'
 import { certifications } from '../data/certifications'
@@ -51,7 +53,7 @@ export const Home = () => (
 
                     <div className='flex flex-col lg:flex-row gap-8 pt-30'>
                         <div className='flex-1'>
-                            <Stacks />
+                            <WorkExperience />
                         </div>
                         <div className='flex-1'>
                             <CardContainer title='Histories' icon={faSchoolFlag} contents={histories} />
@@ -59,7 +61,15 @@ export const Home = () => (
                         </div>
                     </div>
 
-                    <div className='pt-20'>
+                    <div className='pt-15'>
+                        <Stacks />
+                    </div>
+
+                    <div className='pt-15'>
+                        <Awards />
+                    </div>
+
+                    <div className='pt-15'>
                         <Articles responsive maxArticles={6} />
                     </div>
 

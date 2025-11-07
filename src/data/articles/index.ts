@@ -14,7 +14,7 @@ export const articles: Article[] = posts.map((post) => ({
     thumbnail: post.thumbnail,
     title: post.title,
     description: post.short_description,
-    date: post.released_at,
+    date: new Date(post.released_at).toISOString().split('T')[0],
     url: `https://velog.io/@${post.user.username}/${post.url_slug}`,
     tags: post.tags,
     // homePin: post.homePin,

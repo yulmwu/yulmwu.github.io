@@ -1,10 +1,10 @@
 export type TechStacks = {
-    [category: string]: string[];
-};
+    [category: string]: string[]
+}
 
 export const techStacks: TechStacks = {
-    Languages: ['JavaScript', 'TypeScript', 'Python', 'C/C++'],
-    Backend: ['Node.js', 'Express', 'NestJS'],
-    Frontend: ['React', 'Next.js', 'TailwindCSS'],
-    Devops: ['AWS', 'Docker', 'Github Actions'],
+    'Languages / Runtime': ['TypeScript', 'JavaScript', 'Python', 'C/C++', 'Go', 'Node.js'],
+    'Backend / Database / ...': ['Express', 'NestJS', 'TypeORM', 'PostgreSQL', 'Redis'],
+    'DevOps / Cloud / CI·CD': ['AWS', 'Kubernetes', 'ArgoCD', 'Prometheus', 'Istio', 'Docker', 'Github Actions'],
+    'Other / Tools': ['Kafka', 'RabbitMQ', 'ElasticSearch', 'Git', 'Linux/MacOS'],
 }

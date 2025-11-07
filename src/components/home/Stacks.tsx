@@ -1,25 +1,37 @@
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { techStacks } from '../../data/techs'
 
 export const Stacks = () => (
-    <div>
-        <h1 className='text-3xl font-bold mb-7'>Tech Stacks</h1>
-        {Object.entries(techStacks).map(([category, techs]) => (
-            <div key={category} className='mt-6'>
-                <h3 className='text-md text-gray-400 font-bold mb-3 border-l-3 border-gray-300 pl-4'>
-                    {category}
-                    <span className='text-gray-500'> ({techs.length})</span>
-                </h3>
-                <div className='flex gap-2 overflow-x-auto scrollbar-hide p-1'>
-                    {techs.map((tech) => (
-                        <span
-                            key={tech}
-                            className='inline-block bg-white outline outline-gray-100 shadow-sm px-3 py-2 rounded-2xl text-sm text-gray-600 hover:bg-gray-50 hover:shadow-sm transition-colors duration-200 cursor-pointer whitespace-nowrap'
-                        >
-                            {tech}
-                        </span>
-                    ))}
+    <div className='rounded-2xl outline outline-gray-100 bg-white shadow-sm'>
+        <div className='p-7'>
+            <div className='flex items-center mb-7'>
+                <div className='text-sm text-gray-400'>
+                    <FontAwesomeIcon icon={faCode} />
                 </div>
+                <div className='text-sm text-gray-600 font-semibold pl-3'>Tech Stacks</div>
             </div>
-        ))}
+            <div className='space-y-6'>
+                {Object.entries(techStacks).map(([category, techs]) => (
+                    <div key={category}>
+                        <h3 className='text-base text-gray-700 font-bold mb-3 flex items-center gap-2'>
+                            <span className='w-1 h-4 bg-primary rounded-full'></span>
+                            {category}
+                            <span className='text-sm text-gray-400 font-medium'>({techs.length})</span>
+                        </h3>
+                        <div className='flex gap-2 flex-wrap'>
+                            {techs.map((tech) => (
+                                <span
+                                    key={tech}
+                                    className='inline-block bg-gray-50 hover:bg-gray-100 px-3 py-1.5 rounded-lg text-sm text-gray-700 transition-colors duration-200 cursor-default border border-gray-100 hover:border-gray-200'
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
     </div>
 )
