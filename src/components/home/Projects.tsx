@@ -8,7 +8,7 @@ interface ProjectsProps {
 
 export const Projects = ({ maxProjects }: ProjectsProps) => (
     <div>
-        <h2 className='text-2xl font-bold text-gray-800 mb-6'>프로젝트</h2>
+        <h2 className='text-2xl font-bold text-gray-800 mb-6'>Projects</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {projects.slice(0, maxProjects).map((project, index) => (
                 <Project
@@ -27,7 +27,7 @@ export const Projects = ({ maxProjects }: ProjectsProps) => (
         <div className='text-center mt-8 text-lg'>
             {maxProjects && projects.length > maxProjects ? (
                 <Link to='/projects' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
-                    프로젝트 더보기 (+{projects.length - maxProjects})
+                    More Projects (+{projects.length - maxProjects})
                 </Link>
             ) : (
                 <a
@@ -36,7 +36,7 @@ export const Projects = ({ maxProjects }: ProjectsProps) => (
                     target='_blank'
                     rel='noopener noreferrer'
                 >
-                    Github에서 더 많은 프로젝트 확인하기
+                    More Projects on Github
                 </a>
             )}
         </div>

@@ -5,11 +5,11 @@ import { awards } from '../../data/histories'
 export const Awards = () => (
     <div className='rounded-2xl outline outline-gray-100 bg-white shadow-sm'>
         <div className='p-7'>
-            <div className='flex items-center mb-7'>
+            <div className='flex items-center mb-2'>
                 <div className='text-sm text-gray-400'>
                     <FontAwesomeIcon icon={faTrophy} />
                 </div>
-                <div className='text-sm text-gray-600 font-semibold pl-3'>수상 경력</div>
+                <div className='text-sm text-gray-600 font-semibold pl-3'>Awards</div>
             </div>
             <div className='space-y-2'>
                 {awards.map((award, index) => (

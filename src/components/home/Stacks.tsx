@@ -5,7 +5,7 @@ import { techStacks } from '../../data/techs'
 export const Stacks = () => (
     <div className='rounded-2xl outline outline-gray-100 bg-white shadow-sm'>
         <div className='p-7'>
-            <div className='flex items-center mb-7'>
+            <div className='flex items-center mb-6'>
                 <div className='text-sm text-gray-400'>
                     <FontAwesomeIcon icon={faCode} />
                 </div>
@@ -23,7 +23,7 @@ export const Stacks = () => (
                             {techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className='inline-block bg-gray-50 hover:bg-gray-100 px-3 py-1.5 rounded-lg text-sm text-gray-700 transition-colors duration-200 cursor-default border border-gray-100 hover:border-gray-200'
+                                    className='inline-block bg-gray-50 hover:bg-gray-100 ml-2 px-3 py-1.5 rounded-lg text-sm text-gray-700 transition-colors duration-200 cursor-pointer border border-gray-100 hover:border-gray-200'
                                 >
                                     {tech}
                                 </span>

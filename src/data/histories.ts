@@ -2,13 +2,13 @@ import { CardContainerContent } from '../components/home/CardContainer'
 
 export const histories: CardContainerContent[] = [
     {
-        logoColor: '#9CDCFF',
+        // logoColor: '#9CDCFF',
         title: 'Null4U',
         description: '세명컴퓨터고등학교 보안과 클라우드 전공동아리',
         period: '2025.03 ~',
     },
     {
-        logoColor: '#bdecb6',
+        // logoColor: '#bdecb6',
         title: '세명컴퓨터고등학교',
         description: '스마트보안솔루션과 11기',
         period: '2024.03 ~',
@@ -39,7 +39,7 @@ export interface WorkExperienceContent {
 
 export const workExperience: WorkExperienceContent[] = [
     {
-        logoColor: '#4285F4',
+        // logoColor: '#4285F4',
         organization: '보안과 전공 동아리 Null4U',
         position: '동아리 부장',
         description: '클라우드 컴퓨팅/DevOps 동아리 운영 및 관리',
@@ -47,13 +47,13 @@ export const workExperience: WorkExperienceContent[] = [
         skills: ['AWS', 'Kubernetes'],
     },
     {
-        logoColor: '#C13584',
+        // logoColor: '#C13584',
         organization: '학급 임원 (대의원회)',
         position: '1학년 1학기 회장, 2학년 1학기 회장',
         period: '2024, 2025',
     },
     {
-        logoColor: '#E1306C',
+        // logoColor: '#E1306C',
         organization: '세명컴퓨터고등학교 방송부 SBC',
         position: '메인 엔지니어',
         period: '2024.03 ~ 2025.01',
@@ -119,7 +119,7 @@ export const awards: AwardContent[] = [
         title: '(1학년 1학기) 2024 세명컴퓨터고등학교 미래인재 코딩, 정보보안 챌린지',
         organization: '세명컴퓨터고등학교',
         date: '2024.07',
-        rank: '2위 (은상)',
+        rank: '3위 (은상)',
     },
     {
         title: '(2학년 1학기) 교과우수상\n(데이터베이스, 응용 프로그래밍 개발/화면 구현)',

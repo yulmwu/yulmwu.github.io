@@ -28,24 +28,29 @@ export const CardContainer = (props: CardContainerProps) => (
             <div className='space-y-3 mb-2'>
                 <div className='space-y-3'>
                     {props.contents.map((content, index) => (
-                        <div key={index} className='flex flex-col relative pb-6 cursor-pointer hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 -ml-3'>
+                        <div
+                            key={index}
+                            className='flex flex-col relative pb-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 -ml-3'
+                        >
                             <div className='flex items-start'>
                                 {content.logo ? (
                                     <img
                                         src={content.logo}
                                         alt={content.title}
-                                        className='h-10 w-10 rounded-full outline outline-white shadow-md flex-shrink-0'
+                                        className='h-10 w-10 rounded-full outline outline-white shadow-md flex-shrink-0 mr-2'
                                     />
-                                ) : (
+                                ) : content.logoColor ? (
                                     <div
-                                        className='h-10 w-10 rounded-full flex-shrink-0 flex items-center justify-center'
+                                        className='h-10 w-10 rounded-full flex-shrink-0 flex items-center justify-center mr-2'
                                         style={{ backgroundColor: content.logoColor ?? '#EDEDED' }}
                                     >
                                         <FontAwesomeIcon icon={props.icon} className='text-white text-sm' />
                                     </div>
-                                )}
-                                <div className='pl-4 flex-1'>
-                                    <p className='block sm:hidden text-sm text-gray-400 mb-1 font-medium'>{content.period}</p>
+                                ) : null}
+                                <div className='pl-2 flex-1'>
+                                    <p className='block sm:hidden text-sm text-gray-400 mb-1 font-medium'>
+                                        {content.period}
+                                    </p>
                                     <div className='text-base font-bold text-gray-700'>{content.title}</div>
                                     {content.description && (
                                         <p className='text-sm text-gray-500 mt-1 break-keep'>{content.description}</p>
