@@ -3,7 +3,7 @@ import { CardContainerContent } from '../components/home/CardContainer'
 export const histories: CardContainerContent[] = [
     {
         // logoColor: '#9CDCFF',
-        title: 'Null4U',
+        title: '전공 동아리 Null4U',
         description: '세명컴퓨터고등학교 보안과 클라우드 전공동아리',
         period: '2025.03 ~',
     },
