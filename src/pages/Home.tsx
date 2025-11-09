@@ -36,7 +36,7 @@ export const Home = () => (
                         <div className='mt-6 lg:mt-0'>
                             <div className='w-[250px] h-[250px] overflow-hidden rounded-[10%] shadow-lg cursor-pointer'>
                                 <img
-                                    src='https://github.com/yulmwu/yulmwu.github.io/blob/main/_public/profiles/profile.jpg?raw=true'
+                                    src='https://avatars.githubusercontent.com/u/59119316'
                                     alt='about'
                                     className='w-full h-full object-cover'
                                 />
