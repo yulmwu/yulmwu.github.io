@@ -15,7 +15,7 @@ export const WorkExperience = () => (
                 {workExperience.map((item: WorkExperienceContent, index: number) => (
                     <div
                         key={index}
-                        className='flex flex-col relative pb-4 cursor-pointer hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 -ml-3'
+                        className='flex flex-col relative pb-4 cursor-default hover:bg-gray-50 transition-colors duration-200 rounded-lg p-3 -ml-3'
                     >
                         <div className='flex items-start'>
                             {item.logo ? (

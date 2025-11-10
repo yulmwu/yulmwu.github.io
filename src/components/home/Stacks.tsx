@@ -23,7 +23,7 @@ export const Stacks = () => (
                             {techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className='inline-block bg-gray-50 hover:bg-gray-100 ml-2 px-3 py-1.5 rounded-lg text-sm text-gray-700 transition-colors duration-200 cursor-pointer border border-gray-100 hover:border-gray-200'
+                                    className='inline-block bg-gray-50 hover:bg-gray-100 ml-2 px-3 py-1.5 rounded-lg text-sm text-gray-700 transition-colors duration-200 cursor-default border border-gray-100 hover:border-gray-200'
                                 >
                                     {tech}
                                 </span>
