@@ -1,5 +1,32 @@
 [
   {
+    "id": "b192b37c-12d2-4f80-a345-1ff202aa46e9",
+    "title": "[DB/SQL] Recursive CTE(Common Table Expression)을 통한 N+1 문제 개선해보기",
+    "short_description": "Recursive CTE를 통해 Directory Breadcrumb를 구현하면서 Depth 만큼의 N+1 문제 해결해보기",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/dc93bb26-69fd-4f59-8892-b1aaf04099e3/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "url_slug": "db-recursive-cte-feat-breadcrumb",
+    "released_at": "2025-11-15T11:08:28.310Z",
+    "updated_at": "2025-11-17T00:24:50.395Z",
+    "comments_count": 0,
+    "tags": [
+      "PostgreSQL",
+      "db",
+      "sql",
+      "typeOrm"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
     "id": "980b2283-a062-4a55-bc1a-2bf69ffcc281",
     "title": "[Kubernetes Advanced] Observability with Prometheus + Grafana ",
     "short_description": "Prometheus와 Grafana를 통한 쿠버네티스 Observability 확보하기",
@@ -15,7 +42,7 @@
     },
     "url_slug": "kubernetes-prometheus-grafana",
     "released_at": "2025-11-06T12:42:55.584Z",
-    "updated_at": "2025-11-10T11:15:36.262Z",
+    "updated_at": "2025-11-15T21:34:55.978Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -39,7 +66,7 @@
     },
     "url_slug": "smch-2025-it-conference-null4u",
     "released_at": "2025-11-03T00:30:55.633Z",
-    "updated_at": "2025-11-09T13:33:05.250Z",
+    "updated_at": "2025-11-12T05:20:19.487Z",
     "comments_count": 0,
     "tags": [
       "세명컴퓨터고등학교"
@@ -63,7 +90,7 @@
     },
     "url_slug": "kubernetes-eks-max-pods",
     "released_at": "2025-10-20T00:35:31.233Z",
-    "updated_at": "2025-10-25T19:46:00.404Z",
+    "updated_at": "2025-11-16T17:38:55.107Z",
     "comments_count": 0,
     "tags": [
       "TROUBLESHOOTING",
@@ -114,7 +141,7 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2025-11-10T10:31:46.995Z",
+    "updated_at": "2025-11-10T13:53:14.054Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -139,7 +166,7 @@
     },
     "url_slug": "kubernetes-sealed-secrets",
     "released_at": "2025-10-02T02:48:42.263Z",
-    "updated_at": "2025-11-10T10:31:50.200Z",
+    "updated_at": "2025-11-10T13:53:12.666Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -261,7 +288,7 @@
     },
     "url_slug": "aws-vpc-peering-transit-privatelink",
     "released_at": "2025-09-09T23:35:30.426Z",
-    "updated_at": "2025-10-24T01:22:58.636Z",
+    "updated_at": "2025-11-13T08:01:16.980Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -286,7 +313,7 @@
     },
     "url_slug": "kubernetes-gateway",
     "released_at": "2025-09-09T02:34:00.236Z",
-    "updated_at": "2025-11-07T15:25:44.071Z",
+    "updated_at": "2025-11-14T00:51:40.416Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -414,7 +441,7 @@
     },
     "url_slug": "aws-global-accelerator",
     "released_at": "2025-08-24T05:15:47.274Z",
-    "updated_at": "2025-11-09T01:56:22.363Z",
+    "updated_at": "2025-11-14T18:03:23.638Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -439,7 +466,7 @@
     },
     "url_slug": "aws-cloudfront-lambda-image-resizing",
     "released_at": "2025-08-22T01:58:08.671Z",
-    "updated_at": "2025-10-20T00:55:22.206Z",
+    "updated_at": "2025-11-12T05:13:45.788Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -464,7 +491,7 @@
     },
     "url_slug": "aws-secrets-manager-key-rotation-lambda",
     "released_at": "2025-08-12T13:35:35.857Z",
-    "updated_at": "2025-11-03T04:27:10.936Z",
+    "updated_at": "2025-11-11T13:03:35.544Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -489,7 +516,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url-post",
     "released_at": "2025-08-08T11:43:35.057Z",
-    "updated_at": "2025-10-11T16:12:52.346Z",
+    "updated_at": "2025-11-15T03:13:38.267Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -514,7 +541,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url",
     "released_at": "2025-08-03T05:36:07.088Z",
-    "updated_at": "2025-10-22T05:16:34.380Z",
+    "updated_at": "2025-11-15T03:14:22.027Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -587,7 +614,7 @@
     },
     "url_slug": "aws-codedeploy-asg",
     "released_at": "2025-07-25T02:30:31.679Z",
-    "updated_at": "2025-10-13T20:13:17.831Z",
+    "updated_at": "2025-11-12T04:36:38.659Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -612,7 +639,7 @@
     },
     "url_slug": "aws-codedeploy-single-ec2",
     "released_at": "2025-07-23T05:21:34.383Z",
-    "updated_at": "2025-11-09T08:53:11.649Z",
+    "updated_at": "2025-11-14T21:54:11.043Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -637,7 +664,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2025-11-03T22:38:21.633Z",
+    "updated_at": "2025-11-15T06:40:34.771Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -711,7 +738,7 @@
     },
     "url_slug": "velog-backup-with-eventbridge",
     "released_at": "2025-07-05T04:23:58.191Z",
-    "updated_at": "2025-11-05T21:11:52.629Z",
+    "updated_at": "2025-11-15T10:48:49.392Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -736,7 +763,7 @@
     },
     "url_slug": "aws-codepipeline",
     "released_at": "2025-07-04T12:53:29.547Z",
-    "updated_at": "2025-10-29T03:40:46.446Z",
+    "updated_at": "2025-11-12T04:36:38.646Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -811,7 +838,7 @@
     },
     "url_slug": "aws-serverless",
     "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2025-11-10T10:34:30.647Z",
+    "updated_at": "2025-11-11T06:45:30.156Z",
     "comments_count": 0,
     "tags": [
       "aws",

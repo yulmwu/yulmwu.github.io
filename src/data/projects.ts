@@ -14,6 +14,20 @@ export interface Project {
 export const projectsRaw: Project[] = [
     {
         // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        title: 'ALS3',
+        description: 'A Lightweight STaaS Storage Service with AWS S3 storage.',
+        period: '25.11.15 ~',
+        link: '/projects/als3',
+        github: 'https://github.com/yulmwu/als3',
+        homePin: true,
+        tags: ['AWS S3', 'TypeScript', 'NestJS', 'TypeORM'],
+        detailTags: ['Backend', 'TypeScript', 'NestJS', 'TypeORM', 'PostgreSQL', 'Redis', 'AWS S3', 'NextJS', 'React'],
+        markdown: `
+# Test
+        `,
+    },
+    {
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
         title: 'Backend of 0725',
         description: 'Backend of 0725 Community(Forum) Project',
         period: '25.07.25 ~',
@@ -47,7 +61,7 @@ export const projectsRaw: Project[] = [
         period: '25.07.25 ~',
         link: '/projects/0725-frontend',
         github: 'https://github.com/0725-project/frontend',
-        homePin: true,
+        // homePin: true,
         tags: ['TypeScript', 'NextJS', 'React'],
         detailTags: ['Frontend', 'TypeScript', 'NextJS', 'React', 'TailwindCSS', 'React-Query'],
         markdown: `
