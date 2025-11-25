@@ -7,7 +7,7 @@ interface PresentationsProps {
 
 export const Presentations = ({ maxPresentations }: PresentationsProps) => (
     <div>
-        <h2 className='text-2xl font-bold text-gray-800 mb-6'>발표 & 세미나</h2>
+        <h2 className='text-2xl font-bold text-gray-800 mb-6'>Presentations & Seminars</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             {presentations.slice(0, maxPresentations).map((presentation, index) => (
                 <Presentation
