@@ -4,7 +4,7 @@ export interface Project {
     description: string
     period: string
     link: string
-    github?: string
+    github: string
     homePin?: boolean
     tags?: string[]
     detailTags?: string[]

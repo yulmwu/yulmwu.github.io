@@ -10,6 +10,7 @@ export const Stacks = () => (
                     <FontAwesomeIcon icon={faCode} />
                 </div>
                 <div className='text-sm text-gray-600 font-semibold pl-3'>Tech Stacks</div>
+                <div className='text-sm text-gray-400 font-medium pl-2'>(Some of them)</div>
             </div>
             <div className='space-y-6'>
                 {Object.entries(techStacks).map(([category, techs]) => (
