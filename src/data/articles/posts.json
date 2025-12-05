@@ -1,5 +1,29 @@
 [
   {
+    "id": "90eeaab4-42e0-4a0f-a8e5-a1ff5d5d9609",
+    "title": "[Kubernetes] CSA(Client Side Apply, last-applied-configuration) and SSA(Server Side Apply) (Feat. Helm 4)",
+    "short_description": "쿠버네티스의 CSA(Client Side Apply)와 SSA(Server Side Apply), 필드 소유권에 대하여 (Feat. Helm 4.0 릴리즈)",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/fc74f596-0d1d-4ea1-9994-34ce96016890/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "url_slug": "kubernetes-csa-ssa",
+    "released_at": "2025-12-04T07:28:55.187Z",
+    "updated_at": "2025-12-05T09:07:54.165Z",
+    "comments_count": 0,
+    "tags": [
+      "kubernetes"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
     "id": "8fbae133-ee81-4e3b-9a7f-f3ce16a9a5c6",
     "title": "[Kafka Producer] About Producer's Message Delivery Time ",
     "short_description": "Kafka 프로듀서의 send(ProducerRecord) 호출 부터 브로커의 응답까지의 전송 시간에 대하여",
@@ -15,7 +39,7 @@
     },
     "url_slug": "kafka-producer-message-delivery-time",
     "released_at": "2025-12-01T01:34:12.283Z",
-    "updated_at": "2025-12-02T08:09:20.729Z",
+    "updated_at": "2025-12-03T23:20:29.823Z",
     "comments_count": 0,
     "tags": [
       "kafka"
@@ -39,7 +63,7 @@
     },
     "url_slug": "kubernetes-serviceaccount",
     "released_at": "2025-11-30T11:18:59.974Z",
-    "updated_at": "2025-12-02T07:31:56.231Z",
+    "updated_at": "2025-12-03T01:37:43.904Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -64,7 +88,7 @@
     },
     "url_slug": "cloudflare-tunnel",
     "released_at": "2025-11-25T12:54:10.291Z",
-    "updated_at": "2025-12-01T12:46:10.027Z",
+    "updated_at": "2025-12-05T01:17:25.511Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare"
@@ -137,7 +161,7 @@
     },
     "url_slug": "aws-deploying-3-tier-architecture",
     "released_at": "2025-11-21T12:27:07.839Z",
-    "updated_at": "2025-12-01T23:35:30.017Z",
+    "updated_at": "2025-12-03T09:13:55.242Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -161,7 +185,7 @@
     },
     "url_slug": "db-recursive-cte-feat-breadcrumb",
     "released_at": "2025-11-15T11:08:28.310Z",
-    "updated_at": "2025-11-28T02:18:02.209Z",
+    "updated_at": "2025-12-02T14:31:26.245Z",
     "comments_count": 0,
     "tags": [
       "PostgreSQL",
@@ -174,7 +198,7 @@
   },
   {
     "id": "980b2283-a062-4a55-bc1a-2bf69ffcc281",
-    "title": "[Kubernetes Advanced] Observability with Prometheus + Grafana ",
+    "title": "[Kubernetes] Observability with Prometheus + Grafana ",
     "short_description": "Prometheus와 Grafana를 통한 쿠버네티스 Observability 확보하기",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/0ed850fd-7c6d-41cb-8e00-1491ae71a038/image.png",
     "user": {
@@ -188,7 +212,7 @@
     },
     "url_slug": "kubernetes-prometheus-grafana",
     "released_at": "2025-11-06T12:42:55.584Z",
-    "updated_at": "2025-11-26T03:02:25.802Z",
+    "updated_at": "2025-12-04T01:49:51.649Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -238,7 +262,7 @@
     },
     "url_slug": "kubernetes-istio-envoy",
     "released_at": "2025-10-13T00:01:35.748Z",
-    "updated_at": "2025-12-02T06:43:36.564Z",
+    "updated_at": "2025-12-04T01:50:21.532Z",
     "comments_count": 0,
     "tags": [
       "kubernetes",
@@ -263,7 +287,7 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2025-12-01T15:30:46.320Z",
+    "updated_at": "2025-12-04T06:57:02.716Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -410,7 +434,7 @@
     },
     "url_slug": "aws-vpc-peering-transit-privatelink",
     "released_at": "2025-09-09T23:35:30.426Z",
-    "updated_at": "2025-11-17T08:20:58.027Z",
+    "updated_at": "2025-12-03T10:40:28.375Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -487,7 +511,7 @@
     },
     "url_slug": "kubernetes-service-ingress",
     "released_at": "2025-08-31T04:04:42.869Z",
-    "updated_at": "2025-11-20T15:50:01.062Z",
+    "updated_at": "2025-12-02T16:51:36.951Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -613,7 +637,7 @@
     },
     "url_slug": "aws-secrets-manager-key-rotation-lambda",
     "released_at": "2025-08-12T13:35:35.857Z",
-    "updated_at": "2025-11-25T06:59:38.866Z",
+    "updated_at": "2025-12-03T06:42:34.306Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -712,7 +736,7 @@
     },
     "url_slug": "nestjs-class-transformer-exclude-expose",
     "released_at": "2025-07-28T05:31:07.318Z",
-    "updated_at": "2025-11-24T22:41:17.890Z",
+    "updated_at": "2025-12-02T14:36:45.057Z",
     "comments_count": 0,
     "tags": [
       "NestJS"
@@ -786,7 +810,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2025-11-30T02:34:34.704Z",
+    "updated_at": "2025-12-05T07:23:13.260Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -910,7 +934,7 @@
     },
     "url_slug": "aws-deployment-with-ec2-ecs-and-documentdb-elasticache",
     "released_at": "2025-07-04T12:53:19.543Z",
-    "updated_at": "2025-12-02T02:02:37.761Z",
+    "updated_at": "2025-12-02T14:37:54.126Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -960,7 +984,7 @@
     },
     "url_slug": "aws-serverless",
     "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2025-11-26T10:24:53.650Z",
+    "updated_at": "2025-12-02T14:32:17.015Z",
     "comments_count": 0,
     "tags": [
       "aws",

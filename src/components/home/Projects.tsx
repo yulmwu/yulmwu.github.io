@@ -24,21 +24,22 @@ export const Projects = ({ maxProjects }: ProjectsProps) => (
                 />
             ))}
         </div>
-        <div className='text-center mt-8 text-lg'>
-            {maxProjects && projects.length > maxProjects ? (
-                <Link to='/projects' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
-                    More Projects (+{projects.length - maxProjects})
-                </Link>
-            ) : (
-                <a
-                    href='https://github.com/yulmwu'
-                    className='text-gray-500 hover:text-gray-600 transition-colors duration-300'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    More Projects on Github
-                </a>
-            )}
-        </div>
+        {maxProjects && projects.length > maxProjects ? (
+            <Link
+                to='/projects'
+                className='w-full mt-8 py-3 px-4 text-center rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2 text-sm font-semibold text-gray-600 hover:text-gray-700'
+            >
+                <span>더 보기 (+{projects.length - maxProjects}개)</span>
+            </Link>
+        ) : (
+            <a
+                href='https://github.com/yulmwu'
+                className='w-full mt-8 py-3 px-4 text-center rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2 text-sm font-semibold text-gray-600 hover:text-gray-700'
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <span>Github에서 더 보기</span>
+            </a>
+        )}
     </div>
 )

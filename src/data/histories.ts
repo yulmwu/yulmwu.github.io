@@ -73,6 +73,7 @@ export interface AwardContent {
     organization: string
     date: string
     rank?: string
+    important?: boolean
 }
 
 export const awards: AwardContent[] = [
@@ -81,24 +82,28 @@ export const awards: AwardContent[] = [
         organization: '국가정보원 · 국가보안기술연구소',
         date: '2025. 09',
         rank: '본선 진출',
+        important: true,
     },
     {
         title: '(2025) WHITEHAT 2025',
         organization: '국방부 · 사이버작전사령부',
         date: '2025. 11',
         rank: '본선 진출',
+        important: true,
     },
     {
         title: '(2025) 중부대학교(JBU) CTF 2025',
         organization: '중부대학교',
         date: '2025. 10',
         rank: '중고등부 우수상',
+        important: true,
     },
     {
         title: '(2025) 사이버가디언즈 경진대회 2025',
         organization: '한국정보기술연구원',
         date: '2025. 10',
         rank: '6위 (장려상)',
+        important: true,
     },
     {
         title: '(1학년 1학기) 세명컴퓨터고등학교 선행상',

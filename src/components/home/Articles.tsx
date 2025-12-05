@@ -24,22 +24,21 @@ export const Articles = (props: ArticlesProps) => (
             ))}
         </div>
         {props.maxArticles && articles.length > props.maxArticles ? (
-            <div className='text-center mt-8 text-lg'>
-                <Link to='/articles' className='text-gray-500 hover:text-gray-600 transition-colors duration-300'>
-                    More Articles (+{articles.length - props.maxArticles})
-                </Link>
-            </div>
+            <Link
+                to='/articles'
+                className='w-full mt-8 py-3 px-4 text-center rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2 text-sm font-semibold text-gray-600 hover:text-gray-700'
+            >
+                <span>더 보기 (+{articles.length - props.maxArticles}개)</span>
+            </Link>
         ) : (
-            <div className='text-center mt-8 text-lg'>
-                <a
-                    href='https://velog.io/@yulmwu'
-                    className='text-gray-500 hover:text-gray-600 transition-colors duration-300'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                >
-                    More Articles on Velog
-                </a>
-            </div>
+            <a
+                href='https://velog.io/@yulmwu'
+                className='w-full mt-8 py-3 px-4 text-center rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2 text-sm font-semibold text-gray-600 hover:text-gray-700'
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <span>Velog에서 더 보기</span>
+            </a>
         )}
     </div>
 )
