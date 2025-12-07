@@ -5,7 +5,7 @@ import { NavBar } from '../components/NavBar'
 import { Articles } from '../components/home/Articles'
 
 export const ArticlesPage = () => {
-    const [viewMode, setViewMode] = useState<'default' | 'compact'>('default')
+    const [viewMode, setViewMode] = useState<'default' | 'many'>('default')
 
     useEffect(() => {
         window.scrollTo(0, 0)
