@@ -1,7 +1,33 @@
 [
   {
+    "id": "73c3098e-1a39-44eb-85fb-c465dcdd6db6",
+    "title": "[Kubernetes CI/CD] ArgoCD + CI with Github Actions and Kind",
+    "short_description": "Github Actions 및 Kind를 통한 쿠버네티스 ArgoCD CI(Continuous integration) 구성하기",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/fac03422-b7b3-4816-9815-f230d9eaec94/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "url_slug": "kubernetes-argocd-ci",
+    "released_at": "2025-12-06T09:52:15.245Z",
+    "updated_at": "2025-12-06T19:17:47.836Z",
+    "comments_count": 0,
+    "tags": [
+      "CI/CD",
+      "argocd",
+      "kubernetes"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
     "id": "90eeaab4-42e0-4a0f-a8e5-a1ff5d5d9609",
-    "title": "[Kubernetes] CSA(Client Side Apply, last-applied-configuration) and SSA(Server Side Apply) (Feat. Helm 4)",
+    "title": "[Kubernetes] CSA(Client Side Apply, last-applied) and SSA(Server Side Apply) (Feat. Helm 4)",
     "short_description": "쿠버네티스의 CSA(Client Side Apply)와 SSA(Server Side Apply), 필드 소유권에 대하여 (Feat. Helm 4.0 릴리즈)",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/fc74f596-0d1d-4ea1-9994-34ce96016890/image.png",
     "user": {
@@ -15,9 +41,10 @@
     },
     "url_slug": "kubernetes-csa-ssa",
     "released_at": "2025-12-04T07:28:55.187Z",
-    "updated_at": "2025-12-05T09:07:54.165Z",
+    "updated_at": "2025-12-06T09:58:11.347Z",
     "comments_count": 0,
     "tags": [
+      "helm",
       "kubernetes"
     ],
     "is_private": false,
@@ -39,7 +66,7 @@
     },
     "url_slug": "kafka-producer-message-delivery-time",
     "released_at": "2025-12-01T01:34:12.283Z",
-    "updated_at": "2025-12-03T23:20:29.823Z",
+    "updated_at": "2025-12-05T22:12:39.209Z",
     "comments_count": 0,
     "tags": [
       "kafka"
@@ -63,7 +90,7 @@
     },
     "url_slug": "kubernetes-serviceaccount",
     "released_at": "2025-11-30T11:18:59.974Z",
-    "updated_at": "2025-12-03T01:37:43.904Z",
+    "updated_at": "2025-12-06T07:49:01.846Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -88,7 +115,7 @@
     },
     "url_slug": "cloudflare-tunnel",
     "released_at": "2025-11-25T12:54:10.291Z",
-    "updated_at": "2025-12-05T01:17:25.511Z",
+    "updated_at": "2025-12-06T08:24:48.403Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare"
@@ -122,7 +149,7 @@
   },
   {
     "id": "57cbd6a4-871a-476c-a158-0bd1215e0713",
-    "title": "[Kubernetes] [EKS] Cluster Autoscaling with CA",
+    "title": "[Kubernetes w/ EKS] Cluster Autoscaling with CA",
     "short_description": "CA를 통한 쿠버네티스(EKS) Cluster Autoscaling 구성하기",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/1cd1c045-c587-4676-9a73-9998e40653a4/image.png",
     "user": {
@@ -136,7 +163,7 @@
     },
     "url_slug": "k8s-ca",
     "released_at": "2025-11-23T23:30:46.163Z",
-    "updated_at": "2025-12-02T06:02:20.751Z",
+    "updated_at": "2025-12-06T09:57:06.284Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -161,7 +188,7 @@
     },
     "url_slug": "aws-deploying-3-tier-architecture",
     "released_at": "2025-11-21T12:27:07.839Z",
-    "updated_at": "2025-12-03T09:13:55.242Z",
+    "updated_at": "2025-12-05T23:47:21.600Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -212,7 +239,7 @@
     },
     "url_slug": "kubernetes-prometheus-grafana",
     "released_at": "2025-11-06T12:42:55.584Z",
-    "updated_at": "2025-12-04T01:49:51.649Z",
+    "updated_at": "2025-12-06T07:48:22.974Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -222,7 +249,7 @@
   },
   {
     "id": "1dd50a59-9422-4c2e-bee3-b7beda041a50",
-    "title": "[Kubernetes] [EKS] Troubleshooting: Too many pods.",
+    "title": "[Kubernetes w/ EKS] Troubleshooting: Too many pods.",
     "short_description": "FailedScheduling: Too many pods ??",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/9f85b6e8-7e43-44d9-95e5-72fb71827c10/image.png",
     "user": {
@@ -236,7 +263,7 @@
     },
     "url_slug": "kubernetes-eks-max-pods",
     "released_at": "2025-10-20T00:35:31.233Z",
-    "updated_at": "2025-11-26T03:02:38.269Z",
+    "updated_at": "2025-12-06T09:57:23.244Z",
     "comments_count": 0,
     "tags": [
       "TROUBLESHOOTING",
@@ -273,7 +300,7 @@
   },
   {
     "id": "984ad92e-de82-49f3-9fad-7ebf92eeb72c",
-    "title": "[Kubernetes] GitOps with ArgoCD (Kustomize Demo) ",
+    "title": "[Kubernetes CI/CD] GitOps with ArgoCD (Kustomize Demo) ",
     "short_description": "ArgoCD를 통한 쿠버네티스 GitOps 구성 및 Kustomize 배포",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/362701aa-e57e-44af-bcc6-6835b972ffe1/image.png",
     "user": {
@@ -287,10 +314,11 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2025-12-04T06:57:02.716Z",
+    "updated_at": "2025-12-06T09:53:42.544Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
+      "argocd",
       "kubernetes"
     ],
     "is_private": false,
@@ -394,7 +422,7 @@
   },
   {
     "id": "339a1ca6-49de-40ad-97fe-632863992c56",
-    "title": "[Kubernetes] [EKS] EKS Fargate Cluster",
+    "title": "[Kubernetes w/ EKS] EKS Fargate Cluster",
     "short_description": "AWS EC2 노드 프로비저닝 없이 EKS 클러스터 구성하기 (AWS Fargate)",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/6f32010e-b81a-4d21-8e47-addeaa27e67b/image.png",
     "user": {
@@ -408,7 +436,7 @@
     },
     "url_slug": "kubernetes-eks-fargate",
     "released_at": "2025-09-23T03:09:18.966Z",
-    "updated_at": "2025-11-30T22:24:49.378Z",
+    "updated_at": "2025-12-07T05:23:03.169Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -445,7 +473,7 @@
   },
   {
     "id": "5be2dd76-80dc-48e4-8f66-806dd5607144",
-    "title": "[Kubernetes] [EKS] Gateway API (Feat. AWS VPC Lattice)",
+    "title": "[Kubernetes w/ EKS] Gateway API (Feat. AWS VPC Lattice)",
     "short_description": "Ingress의 차세대, Gateway API 실습 및 AWS Lattice 개념",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/8a056078-c706-40fe-a616-471ab411dc4a/image.png",
     "user": {
@@ -459,7 +487,7 @@
     },
     "url_slug": "kubernetes-gateway",
     "released_at": "2025-09-09T02:34:00.236Z",
-    "updated_at": "2025-12-02T07:31:39.016Z",
+    "updated_at": "2025-12-06T09:56:49.534Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -472,7 +500,7 @@
   },
   {
     "id": "c2f13834-3ba5-4c9f-9397-0fd0dbadd29f",
-    "title": "[Kubernetes] [EKS] Pod AutoScaling with HPA ",
+    "title": "[Kubernetes w/ EKS] Pod AutoScaling with HPA ",
     "short_description": "쿠버네티스 파드 수평적 오토스케일링(HPA) 실습",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/7be1b64e-2cab-4882-9d95-801e31aba283/image.png",
     "user": {
@@ -486,7 +514,7 @@
     },
     "url_slug": "kubernetes-hpa",
     "released_at": "2025-09-06T01:59:45.085Z",
-    "updated_at": "2025-12-01T00:29:18.082Z",
+    "updated_at": "2025-12-06T09:56:58.207Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -497,7 +525,7 @@
   },
   {
     "id": "2856c708-6bf5-49bb-83fb-0016ba2946d9",
-    "title": "[Kubernetes] [EKS] Service(ClusterIP, NodePort, LoadBalancer) and Ingress(Nginx, AWS ALB)",
+    "title": "[Kubernetes w/ EKS] Service(ClusterIP, NodePort, LoadBalancer) and Ingress(Nginx, AWS ALB)",
     "short_description": "쿠버네티스 Service(ClusterIP, NodePort, LoadBalancer) 및 Ingress(Nginx, AWS ALB) + AWS EKS 실습",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/14812c8e-be14-4f71-944d-c2618b88aa1c/image.png",
     "user": {
@@ -511,7 +539,7 @@
     },
     "url_slug": "kubernetes-service-ingress",
     "released_at": "2025-08-31T04:04:42.869Z",
-    "updated_at": "2025-12-02T16:51:36.951Z",
+    "updated_at": "2025-12-06T09:56:37.583Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -575,7 +603,7 @@
     "id": "184ace5d-cbd0-47e1-93b2-b217f8cd114d",
     "title": "[AWS Networking] AWS Global Accelerator (AGA)",
     "short_description": "AWS Global Accelerator를 통한 글로벌 서비스의 네트워크 퍼포먼스 올리기",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/a0cb8a7a-0138-44e8-8c95-7ddaf8d3288e/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/21762d10-0991-45df-b83c-ae28ebf19de3/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -587,7 +615,7 @@
     },
     "url_slug": "aws-global-accelerator",
     "released_at": "2025-08-24T05:15:47.274Z",
-    "updated_at": "2025-11-14T18:03:23.638Z",
+    "updated_at": "2025-12-07T12:45:05.944Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -600,7 +628,7 @@
     "id": "1fa35f9b-3c98-435a-8861-7246c9aa0e1e",
     "title": "[AWS Misc] Image Resizing with AWS CloudFront + Lambda@Edge",
     "short_description": "AWS S3 + CloudFront + Lambda@Edge을 통한 이미지 리사이징 및 LCP 최적화",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/e24d4134-b988-4ba2-8e42-a30ca8df391a/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/9e5ceb56-4d9c-49ee-bc51-bc62fa88f8a0/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -612,7 +640,7 @@
     },
     "url_slug": "aws-cloudfront-lambda-image-resizing",
     "released_at": "2025-08-22T01:58:08.671Z",
-    "updated_at": "2025-11-19T01:24:24.746Z",
+    "updated_at": "2025-12-07T12:41:35.404Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -625,7 +653,7 @@
     "id": "fafd934f-a0a8-4ca9-b1ba-091dc65c34b4",
     "title": "[AWS Misc] Secrets Manager Key Rotation Lambda",
     "short_description": "AWS Lambda를 사용한 Secrets Manager 키 로테이션 ",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/9d8d9ad4-a392-4db2-8bdc-3eba8ec0ca9e/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/926cb0ac-b027-4968-857e-ecea1efdb2b4/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -637,7 +665,7 @@
     },
     "url_slug": "aws-secrets-manager-key-rotation-lambda",
     "released_at": "2025-08-12T13:35:35.857Z",
-    "updated_at": "2025-12-03T06:42:34.306Z",
+    "updated_at": "2025-12-07T12:41:47.949Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -650,7 +678,7 @@
     "id": "9ada322c-426d-48d6-a305-8394e7d4b406",
     "title": "[NestJS] Using AWS S3 Presigned URL (POST)",
     "short_description": "NestJS에서 AWS S3 Presigned URL 사용하기 (POST 방식)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/0b69c16b-7fe1-4204-89db-d44eebd6339b/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/85daed76-3439-42e9-844d-4983a0cd540f/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -662,7 +690,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url-post",
     "released_at": "2025-08-08T11:43:35.057Z",
-    "updated_at": "2025-11-17T13:10:43.522Z",
+    "updated_at": "2025-12-07T12:42:19.253Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -675,7 +703,7 @@
     "id": "289c9193-4aa6-4aff-9625-f99191cd1285",
     "title": "[NestJS] Using AWS S3 Presigned URL",
     "short_description": "NestJS에서 AWS S3 Presigned URL 사용하기",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/0a091c94-25ab-4c83-b34f-950f25561bde/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/644162d3-f973-4718-9ab6-699de6e18bf5/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -687,7 +715,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url",
     "released_at": "2025-08-03T05:36:07.088Z",
-    "updated_at": "2025-11-18T09:51:46.689Z",
+    "updated_at": "2025-12-07T12:42:30.390Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -699,8 +727,8 @@
   {
     "id": "1c6f5ccf-44b1-4ff1-9b42-9d16a65bbeda",
     "title": "[NestJS] IntersectionType: @nestjs/mapped-types vs @nestjs/swagger",
-    "short_description": "DTO 상속(IntersectionType)에서 @nestjs/mapped-types vs @nestjs/swagger 라이브러리 차이",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/b2f2efc5-f773-4e0d-a923-7dc9372f08fb/image.png",
+    "short_description": "NestJS DTO 상속(IntersectionType)에서 @nestjs/mapped-types vs @nestjs/swagger 라이브러리 차이",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/1d69e27a-ecf5-492e-9239-0dc2f3ee596b/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -712,7 +740,7 @@
     },
     "url_slug": "nestjs-intersectiontype",
     "released_at": "2025-07-29T04:31:52.248Z",
-    "updated_at": "2025-11-17T13:09:24.279Z",
+    "updated_at": "2025-12-07T12:42:48.680Z",
     "comments_count": 0,
     "tags": [
       "NestJS"
@@ -722,9 +750,9 @@
   },
   {
     "id": "cb6f034c-0de4-4e50-ba9f-c30d37f7b9ec",
-    "title": "[NestJS] class-transformer @Exclude(), @Expose Decorators and NestJS Interceptor",
-    "short_description": "Response DTO에서 특정 필드만 제외시킬 수 있을까? (Class Transformer)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/1e17c7f3-549c-4523-be5a-c4375bf0144d/image.png",
+    "title": "[NestJS] class-transformer @Exclude(), @Expose() Decorators and NestJS Interceptor",
+    "short_description": "NestJS Response DTO에서 특정 필드만 제외시킬 수 있을까? (Class Transformer)",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/9610588e-6f3b-4874-9d1a-e77aa91be273/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -736,7 +764,7 @@
     },
     "url_slug": "nestjs-class-transformer-exclude-expose",
     "released_at": "2025-07-28T05:31:07.318Z",
-    "updated_at": "2025-12-02T14:36:45.057Z",
+    "updated_at": "2025-12-07T12:43:12.516Z",
     "comments_count": 0,
     "tags": [
       "NestJS"
@@ -748,7 +776,7 @@
     "id": "ce2ba55c-ad43-4961-abbb-c5176011a8e7",
     "title": "[AWS CI/CD] EC2 Deployment with CodeDeploy + Github Actions #2 (with Auto Scaling)",
     "short_description": "AWS CodeDeploy + Github Actions를 통한 EC2 배포 실습 (EC2 Auto Scaling)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/859c5beb-d789-428f-81fa-ede27d536129/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/0d3a0bcf-5e26-47ec-bebd-0e866acd0820/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -760,7 +788,7 @@
     },
     "url_slug": "aws-codedeploy-asg",
     "released_at": "2025-07-25T02:30:31.679Z",
-    "updated_at": "2025-11-24T20:54:03.326Z",
+    "updated_at": "2025-12-07T12:43:25.019Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -773,7 +801,7 @@
     "id": "f1c992c0-2b17-4947-8240-29e271bad99e",
     "title": "[AWS CI/CD] EC2 Deployment with CodeDeploy + Github Actions #1 (Single EC2 Instance)",
     "short_description": "AWS CodeDeploy + Github Actions를 통한 EC2 배포 실습 (Single EC2 Instance)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/e354291f-73d0-4690-8b5f-e030fb919a01/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/698e3885-33b7-4940-aebf-1798bb053f22/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -785,7 +813,7 @@
     },
     "url_slug": "aws-codedeploy-single-ec2",
     "released_at": "2025-07-23T05:21:34.383Z",
-    "updated_at": "2025-11-14T21:54:11.043Z",
+    "updated_at": "2025-12-07T12:43:34.407Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -798,7 +826,7 @@
     "id": "b5510abf-aa53-4631-98d2-2812c3999373",
     "title": "[Tools] AWS 다이어그램 만드는 방법 (draw.io)",
     "short_description": "다이어그램 도구, draw.io 사용법 (AWS 다이어그램 만드는 방법)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/fe88f69f-e8fe-4a82-ada8-8a64d5c90fe8/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/4a45708c-507e-4603-9519-3cb9ea57ab71/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -810,7 +838,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2025-12-05T07:23:13.260Z",
+    "updated_at": "2025-12-07T12:43:52.369Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -822,7 +850,7 @@
     "id": "54d6b9d1-973d-41d6-b679-598d29000c6d",
     "title": "[AWS Computing] Configure EC2 Bastion Host",
     "short_description": "AWS EC2 Bastion Host 구성 방법",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/e3eae608-1a65-487d-aedd-721601f92a42/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/7555d021-2e71-4136-84b5-7757b7a77c37/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -834,7 +862,7 @@
     },
     "url_slug": "ec2-bastion-host",
     "released_at": "2025-07-18T11:55:33.318Z",
-    "updated_at": "2025-11-30T14:09:45.738Z",
+    "updated_at": "2025-12-07T12:44:02.977Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -847,7 +875,7 @@
     "id": "8a88f1dc-2133-46ae-83a4-9a9c87fde94e",
     "title": "[AWS Misc] 요금 환불 요청기",
     "short_description": "Feat. 공중분해 될 뻔한 20달러 돌려받기",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/6f48bed4-ef76-4b56-a14d-b7b88d2707e5/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/136a3637-448b-4217-b92e-80ec1e28c2fa/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -859,7 +887,7 @@
     },
     "url_slug": "refund-aws",
     "released_at": "2025-07-16T01:06:24.694Z",
-    "updated_at": "2025-12-01T00:27:48.340Z",
+    "updated_at": "2025-12-07T12:44:11.458Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -872,7 +900,7 @@
     "id": "bc841562-9d4f-4fe7-ac22-47123b255bef",
     "title": "[AWS Misc] Backup Velog periodically (Lambda, EventBridge Scheduler, S3)",
     "short_description": "AWS Lambda + EventBridge Scheduler를 통한 주기적인 Velog 백업 자동화",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/6047af85-2334-4baa-84f2-cb97b813828a/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/3f8e7a39-40fc-4bc9-bc4f-7fcb1afffaf8/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -884,7 +912,7 @@
     },
     "url_slug": "velog-backup-with-eventbridge",
     "released_at": "2025-07-05T04:23:58.191Z",
-    "updated_at": "2025-11-15T10:48:49.392Z",
+    "updated_at": "2025-12-07T12:44:20.724Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -897,7 +925,7 @@
     "id": "247a2cac-b528-4cd4-ae68-2f1285e956e1",
     "title": "[AWS CI/CD] ECS, S3 Deployment with CodePipeline",
     "short_description": "AWS CodePipeline CI/CD를 통한 ECS, S3(정적 웹 호스팅) 배포 자동화 실습",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/f181b944-bc3d-427e-a165-193b8d49f98f/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/6d53e27d-f339-4387-8b68-08a14aadb200/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -909,7 +937,7 @@
     },
     "url_slug": "aws-codepipeline",
     "released_at": "2025-07-04T12:53:29.547Z",
-    "updated_at": "2025-11-27T19:37:34.432Z",
+    "updated_at": "2025-12-07T12:44:29.331Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -922,7 +950,7 @@
     "id": "64c1ba4f-e8af-44e5-ae1f-3ec31c0baa26",
     "title": "[AWS Computing] Deployment with EC2 + ECS Fargate + DocumentDB, ElastiCache Redis OSS",
     "short_description": "AWS EC2, ECS Fargate를 통한 MSA 애플리케이션 배포 및 DocumentDB 및 ElastiCache(Redis OSS) 구성 실습",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/a3bf11b8-cabf-40e9-a90b-24150705a29d/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/2ac98a32-42fa-493f-980d-0149e2299fd1/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -934,7 +962,7 @@
     },
     "url_slug": "aws-deployment-with-ec2-ecs-and-documentdb-elasticache",
     "released_at": "2025-07-04T12:53:19.543Z",
-    "updated_at": "2025-12-02T14:37:54.126Z",
+    "updated_at": "2025-12-07T12:44:39.664Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -947,7 +975,7 @@
     "id": "f8be74a7-f778-40bc-ae1e-b53cc8b71430",
     "title": "[AWS Computing] Deployment with ECR, ECS and Fargate",
     "short_description": "AWS ECS 및 Fargate를 통한 컨테이너 컴퓨팅",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/b3584cd4-1ae5-49d6-bbab-13a571aaffa4/image.png",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/7df4a0db-44f5-4cb3-9db2-7628cc6cbad6/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -959,7 +987,7 @@
     },
     "url_slug": "ecs-deploy",
     "released_at": "2025-07-04T12:51:41.224Z",
-    "updated_at": "2025-11-24T10:06:31.252Z",
+    "updated_at": "2025-12-07T12:44:55.402Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -984,7 +1012,7 @@
     },
     "url_slug": "aws-serverless",
     "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2025-12-02T14:32:17.015Z",
+    "updated_at": "2025-12-07T12:12:01.531Z",
     "comments_count": 0,
     "tags": [
       "aws",
