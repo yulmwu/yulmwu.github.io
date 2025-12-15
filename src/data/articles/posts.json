@@ -2,8 +2,8 @@
   {
     "id": "6733d119-4251-4c53-8a24-728f65415972",
     "title": "[Terraform CI/CD] Terraform CI/CD Pipeline with Github Actions",
-    "short_description": "Github Actions를 통한 테라폼 CI/CD 파이프라인 구축",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/8cdac8c3-e768-4903-a3d0-81c511e92d64/image.png",
+    "short_description": "Github Actions를 통한 Terraform CI/CD 파이프라인 구축",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/1133dae5-dd6d-41d1-9d56-eefd99b525a1/image.png",
     "user": {
       "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
       "username": "yulmwu",
@@ -15,7 +15,7 @@
     },
     "url_slug": "terraform-ci-cd-with-github-actions",
     "released_at": "2025-12-12T08:59:59.463Z",
-    "updated_at": "2025-12-14T15:10:42.984Z",
+    "updated_at": "2025-12-14T23:50:33.725Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -313,7 +313,7 @@
     },
     "url_slug": "kubernetes-eks-max-pods",
     "released_at": "2025-10-20T00:35:31.233Z",
-    "updated_at": "2025-12-06T09:57:23.244Z",
+    "updated_at": "2025-12-14T23:58:20.810Z",
     "comments_count": 0,
     "tags": [
       "TROUBLESHOOTING",
@@ -390,7 +390,7 @@
     },
     "url_slug": "kubernetes-sealed-secrets",
     "released_at": "2025-10-02T02:48:42.263Z",
-    "updated_at": "2025-12-11T07:14:04.763Z",
+    "updated_at": "2025-12-14T22:40:48.898Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"

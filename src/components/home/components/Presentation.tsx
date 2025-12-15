@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faFileLines, faVideo } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faFileLines, faLink, faVideo } from '@fortawesome/free-solid-svg-icons'
 import { PresentationData } from '../../../data/presentations'
 
 interface PresentationProps extends PresentationData {}
@@ -51,7 +51,7 @@ export const Presentation = (props: PresentationProps) => (
                             <span>영상 보기</span>
                         </a>
                     )}
-                    {props.blogLink && (
+                    {/* {props.blogLink && (
                         <a
                             href={props.blogLink}
                             target='_blank'
@@ -61,6 +61,21 @@ export const Presentation = (props: PresentationProps) => (
                             <FontAwesomeIcon icon={faBook} className='text-xs' />
                             <span>블로그 게시글</span>
                         </a>
+                    )} */}
+                    {props.blogLink && props.blogLink.length > 0 && (
+                        <div className='flex flex-row gap-2'>
+                            {props.blogLink.map((link, index) => (
+                                <a
+                                    key={index}
+                                    href={link}
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='inline-flex items-center gap-2 text-sm text-gray-600 hover:text-primary transition-colors duration-200 font-medium'
+                                >
+                                    <FontAwesomeIcon icon={faLink} className='text-xs' />
+                                </a>
+                            ))}
+                        </div>
                     )}
                 </div>
             )}
