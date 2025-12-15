@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faFileLines, faLink, faVideo } from '@fortawesome/free-solid-svg-icons'
+import { faFileLines, faLink, faVideo } from '@fortawesome/free-solid-svg-icons'
 import { PresentationData } from '../../../data/presentations'
 
 interface PresentationProps extends PresentationData {}
