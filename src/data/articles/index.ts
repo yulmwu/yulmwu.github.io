@@ -8,6 +8,10 @@ export interface Article {
     url: string
     tags?: string[]
     homePin?: boolean
+    series?: {
+        name: string
+        url_slug: string
+    }
 }
 
 export const articles: Article[] = posts.map((post) => ({
@@ -17,5 +21,6 @@ export const articles: Article[] = posts.map((post) => ({
     date: new Date(post.released_at).toISOString().split('T')[0],
     url: `https://velog.io/@${post.user.username}/${post.url_slug}`,
     tags: post.tags,
+    series: post.series
     // homePin: post.homePin,
 }))

@@ -22,6 +22,10 @@ axios
               display_name
             }
           }
+          series {
+            name
+            url_slug
+          }
           url_slug
           released_at
           updated_at
