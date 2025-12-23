@@ -106,6 +106,13 @@ export const awards: AwardContent[] = [
         important: true,
     },
     {
+	title: '(2025) 가톨릭대학교 HolyShield CTF 2025',
+	organization: '가톨릭대학교',
+	date: '2025. 12',
+	rank: '5위',
+	important: true,
+    },
+    {
         title: '(1학년 1학기) 세명컴퓨터고등학교 선행상',
         organization: '세명컴퓨터고등학교',
         date: '2024. 07',
