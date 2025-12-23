@@ -1,5 +1,35 @@
 [
   {
+    "id": "00e2b576-85d0-4c48-a7b0-b9952f238273",
+    "title": "[Cloudflare] DDoS protection with Cloudflare (Feat. AWS Shield)",
+    "short_description": "Cloudflare를 사용한 DDoS 방어 (Feat. AWS Shield)",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/aba8b120-d528-460c-a117-2998fc8a35c5/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "series": {
+      "name": "Cloudflare",
+      "url_slug": "cloudflare"
+    },
+    "url_slug": "cloudflare-ddos-protection",
+    "released_at": "2025-12-21T12:04:19.600Z",
+    "updated_at": "2025-12-23T08:09:43.593Z",
+    "comments_count": 0,
+    "tags": [
+      "Cloudflare",
+      "aws",
+      "security"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
     "id": "caa9c16a-5c5c-45b5-a4cd-2ca6b2299010",
     "title": "[AWS Networking] Connecting On-Premise to AWS VPC with Site-to-Site VPN",
     "short_description": "AWS Site to Site VPN을 통해 온프레미스 네트워크 및 클라우드 네트워크 연결하기 (with Transit Gateway)",
@@ -19,7 +49,7 @@
     },
     "url_slug": "aws-s2s-vpn",
     "released_at": "2025-12-16T03:00:32.921Z",
-    "updated_at": "2025-12-18T05:33:12.633Z",
+    "updated_at": "2025-12-22T12:31:00.289Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -48,7 +78,7 @@
     },
     "url_slug": "terraform-ci-cd-with-github-actions",
     "released_at": "2025-12-12T08:59:59.463Z",
-    "updated_at": "2025-12-17T01:26:04.833Z",
+    "updated_at": "2025-12-20T17:29:05.898Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -78,7 +108,7 @@
     },
     "url_slug": "kubernetes-gc-ownerreferences-finalizer",
     "released_at": "2025-12-09T03:03:45.564Z",
-    "updated_at": "2025-12-18T01:43:15.086Z",
+    "updated_at": "2025-12-22T12:31:44.266Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -106,7 +136,7 @@
     },
     "url_slug": "kubernetes-argocd-ci",
     "released_at": "2025-12-06T09:52:15.245Z",
-    "updated_at": "2025-12-15T04:56:41.632Z",
+    "updated_at": "2025-12-22T12:48:28.932Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -136,7 +166,7 @@
     },
     "url_slug": "kubernetes-csa-ssa",
     "released_at": "2025-12-04T07:28:55.187Z",
-    "updated_at": "2025-12-15T15:36:41.428Z",
+    "updated_at": "2025-12-20T17:36:18.331Z",
     "comments_count": 0,
     "tags": [
       "helm",
@@ -165,7 +195,7 @@
     },
     "url_slug": "kafka-producer-message-delivery-time",
     "released_at": "2025-12-01T01:34:12.283Z",
-    "updated_at": "2025-12-18T04:43:59.823Z",
+    "updated_at": "2025-12-23T01:18:46.583Z",
     "comments_count": 0,
     "tags": [
       "kafka"
@@ -193,7 +223,7 @@
     },
     "url_slug": "kubernetes-serviceaccount",
     "released_at": "2025-11-30T11:18:59.974Z",
-    "updated_at": "2025-12-18T01:45:34.754Z",
+    "updated_at": "2025-12-23T00:39:23.761Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -222,7 +252,7 @@
     },
     "url_slug": "cloudflare-tunnel",
     "released_at": "2025-11-25T12:54:10.291Z",
-    "updated_at": "2025-12-18T05:18:54.714Z",
+    "updated_at": "2025-12-21T12:03:09.268Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare"
@@ -250,7 +280,7 @@
     },
     "url_slug": "aws-deploying-ecs-fargate-dynamodb",
     "released_at": "2025-11-24T10:32:58.641Z",
-    "updated_at": "2025-12-12T00:54:51.145Z",
+    "updated_at": "2025-12-23T00:41:33.040Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -335,7 +365,7 @@
     },
     "url_slug": "db-recursive-cte-feat-breadcrumb",
     "released_at": "2025-11-15T11:08:28.310Z",
-    "updated_at": "2025-12-16T05:38:40.992Z",
+    "updated_at": "2025-12-23T00:34:50.860Z",
     "comments_count": 0,
     "tags": [
       "PostgreSQL",
@@ -394,7 +424,7 @@
     },
     "url_slug": "kubernetes-eks-max-pods",
     "released_at": "2025-10-20T00:35:31.233Z",
-    "updated_at": "2025-12-14T23:58:20.810Z",
+    "updated_at": "2025-12-20T17:44:44.890Z",
     "comments_count": 0,
     "tags": [
       "TROUBLESHOOTING",
@@ -424,7 +454,7 @@
     },
     "url_slug": "kubernetes-istio-envoy",
     "released_at": "2025-10-13T00:01:35.748Z",
-    "updated_at": "2025-12-11T09:38:21.003Z",
+    "updated_at": "2025-12-20T17:51:37.699Z",
     "comments_count": 0,
     "tags": [
       "kubernetes",
@@ -453,7 +483,7 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2025-12-09T23:30:48.057Z",
+    "updated_at": "2025-12-23T01:17:51.071Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -483,7 +513,7 @@
     },
     "url_slug": "kubernetes-sealed-secrets",
     "released_at": "2025-10-02T02:48:42.263Z",
-    "updated_at": "2025-12-14T22:40:48.898Z",
+    "updated_at": "2025-12-23T01:46:23.300Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -511,7 +541,7 @@
     },
     "url_slug": "kubernetes-operator-go",
     "released_at": "2025-10-01T08:16:26.908Z",
-    "updated_at": "2025-12-15T04:11:25.681Z",
+    "updated_at": "2025-12-22T23:04:16.190Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -567,7 +597,7 @@
     },
     "url_slug": "kubernetes-pod-probe",
     "released_at": "2025-09-26T08:51:23.736Z",
-    "updated_at": "2025-12-11T23:53:51.546Z",
+    "updated_at": "2025-12-20T17:50:51.752Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -595,7 +625,7 @@
     },
     "url_slug": "kubernetes-eks-fargate",
     "released_at": "2025-09-23T03:09:18.966Z",
-    "updated_at": "2025-12-12T21:21:29.728Z",
+    "updated_at": "2025-12-20T17:54:28.428Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -625,7 +655,7 @@
     },
     "url_slug": "aws-vpc-peering-transit-privatelink",
     "released_at": "2025-09-09T23:35:30.426Z",
-    "updated_at": "2025-12-18T01:56:03.509Z",
+    "updated_at": "2025-12-19T00:32:26.401Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -654,7 +684,7 @@
     },
     "url_slug": "kubernetes-gateway",
     "released_at": "2025-09-09T02:34:00.236Z",
-    "updated_at": "2025-12-11T23:34:18.949Z",
+    "updated_at": "2025-12-23T01:28:03.679Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -685,7 +715,7 @@
     },
     "url_slug": "kubernetes-hpa",
     "released_at": "2025-09-06T01:59:45.085Z",
-    "updated_at": "2025-12-11T03:04:53.976Z",
+    "updated_at": "2025-12-20T17:48:01.648Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -714,7 +744,7 @@
     },
     "url_slug": "kubernetes-service-ingress",
     "released_at": "2025-08-31T04:04:42.869Z",
-    "updated_at": "2025-12-11T23:55:57.116Z",
+    "updated_at": "2025-12-20T17:48:12.442Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -802,7 +832,7 @@
     },
     "url_slug": "aws-global-accelerator",
     "released_at": "2025-08-24T05:15:47.274Z",
-    "updated_at": "2025-12-14T13:39:42.486Z",
+    "updated_at": "2025-12-22T18:02:32.089Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -1061,7 +1091,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2025-12-15T10:06:54.189Z",
+    "updated_at": "2025-12-20T15:59:37.986Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -1118,7 +1148,7 @@
     },
     "url_slug": "refund-aws",
     "released_at": "2025-07-16T01:06:24.694Z",
-    "updated_at": "2025-12-12T09:02:44.276Z",
+    "updated_at": "2025-12-18T20:04:38.129Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -1205,7 +1235,7 @@
     },
     "url_slug": "aws-deployment-with-ec2-ecs-and-documentdb-elasticache",
     "released_at": "2025-07-04T12:53:19.543Z",
-    "updated_at": "2025-12-18T04:55:34.696Z",
+    "updated_at": "2025-12-20T06:34:47.465Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -1263,7 +1293,7 @@
     },
     "url_slug": "aws-serverless",
     "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2025-12-18T04:53:33.340Z",
+    "updated_at": "2025-12-23T07:18:59.781Z",
     "comments_count": 0,
     "tags": [
       "aws",
