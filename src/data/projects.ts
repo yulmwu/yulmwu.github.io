@@ -28,6 +28,20 @@ export const projectsRaw: Project[] = [
     },
     {
         // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        title: 'ALS3 Terraform IaC',
+        description: 'Infrastructure as Code for ALS3 using Terraform.',
+        period: '25.12.25 ~',
+        link: '/projects/als3-terraform',
+        github: 'https://github.com/yulmwu/als3-terraform',
+        homePin: true,
+        tags: ['Terraform', 'AWS'],
+        detailTags: ['IaC', 'Terraform', 'AWS'],
+        markdown: `
+# Test
+        `,
+    },
+    {
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
         title: 'Backend of 0725',
         description: 'Backend of 0725 Community(Forum) Project',
         period: '25.07.25 ~',
@@ -151,7 +165,7 @@ export const projectsRaw: Project[] = [
         link: '/projects/portfolio',
         github: 'https://github.com/yulmwu/yulmwu.github.io',
         tags: ['React', 'TypeScript'],
-        homePin: true,
+        // homePin: true,
         markdown: `# Portfolio Website
 테스트
 `,
