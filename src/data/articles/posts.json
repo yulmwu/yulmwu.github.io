@@ -1,5 +1,34 @@
 [
   {
+    "id": "be407bfa-796c-4268-ab66-287f33424064",
+    "title": "[회고록] 굿바이, 2025",
+    "short_description": "익숙했던 2025년을 떠나보내며, 세명컴퓨터고등학교에서의 이야기",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/5ba7f24b-8fe5-4a40-a99c-b3cc6880822d/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "series": {
+      "name": "Misc",
+      "url_slug": "misc"
+    },
+    "url_slug": "memoir-2025",
+    "released_at": "2025-12-31T10:58:25.434Z",
+    "updated_at": "2026-01-01T12:28:43.094Z",
+    "comments_count": 0,
+    "tags": [
+      "일상",
+      "회고록"
+    ],
+    "is_private": false,
+    "likes": 1
+  },
+  {
     "id": "00e2b576-85d0-4c48-a7b0-b9952f238273",
     "title": "[Cloudflare] DDoS protection with Cloudflare (Feat. AWS Shield)",
     "short_description": "Cloudflare를 사용한 DDoS 방어 (Feat. AWS Shield)",
@@ -19,7 +48,7 @@
     },
     "url_slug": "cloudflare-ddos-protection",
     "released_at": "2025-12-21T12:04:19.600Z",
-    "updated_at": "2025-12-23T08:09:43.593Z",
+    "updated_at": "2025-12-30T11:18:37.528Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare",
@@ -49,7 +78,7 @@
     },
     "url_slug": "aws-s2s-vpn",
     "released_at": "2025-12-16T03:00:32.921Z",
-    "updated_at": "2025-12-22T12:31:00.289Z",
+    "updated_at": "2025-12-29T06:19:07.589Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -78,7 +107,7 @@
     },
     "url_slug": "terraform-ci-cd-with-github-actions",
     "released_at": "2025-12-12T08:59:59.463Z",
-    "updated_at": "2025-12-20T17:29:05.898Z",
+    "updated_at": "2025-12-28T15:32:04.287Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -108,7 +137,7 @@
     },
     "url_slug": "kubernetes-gc-ownerreferences-finalizer",
     "released_at": "2025-12-09T03:03:45.564Z",
-    "updated_at": "2025-12-22T12:31:44.266Z",
+    "updated_at": "2025-12-28T05:50:05.187Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -136,7 +165,7 @@
     },
     "url_slug": "kubernetes-argocd-ci",
     "released_at": "2025-12-06T09:52:15.245Z",
-    "updated_at": "2025-12-22T12:48:28.932Z",
+    "updated_at": "2026-01-01T02:19:26.225Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -166,7 +195,7 @@
     },
     "url_slug": "kubernetes-csa-ssa",
     "released_at": "2025-12-04T07:28:55.187Z",
-    "updated_at": "2025-12-20T17:36:18.331Z",
+    "updated_at": "2025-12-24T06:35:27.504Z",
     "comments_count": 0,
     "tags": [
       "helm",
@@ -223,7 +252,7 @@
     },
     "url_slug": "kubernetes-serviceaccount",
     "released_at": "2025-11-30T11:18:59.974Z",
-    "updated_at": "2025-12-23T00:39:23.761Z",
+    "updated_at": "2025-12-24T14:54:34.641Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -252,7 +281,7 @@
     },
     "url_slug": "cloudflare-tunnel",
     "released_at": "2025-11-25T12:54:10.291Z",
-    "updated_at": "2025-12-21T12:03:09.268Z",
+    "updated_at": "2025-12-28T00:05:26.213Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare"
@@ -365,7 +394,7 @@
     },
     "url_slug": "db-recursive-cte-feat-breadcrumb",
     "released_at": "2025-11-15T11:08:28.310Z",
-    "updated_at": "2025-12-23T00:34:50.860Z",
+    "updated_at": "2025-12-29T11:41:48.405Z",
     "comments_count": 0,
     "tags": [
       "PostgreSQL",
@@ -454,7 +483,7 @@
     },
     "url_slug": "kubernetes-istio-envoy",
     "released_at": "2025-10-13T00:01:35.748Z",
-    "updated_at": "2025-12-20T17:51:37.699Z",
+    "updated_at": "2025-12-30T07:14:28.808Z",
     "comments_count": 0,
     "tags": [
       "kubernetes",
@@ -483,7 +512,7 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2025-12-23T01:17:51.071Z",
+    "updated_at": "2025-12-24T23:07:01.308Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -513,7 +542,7 @@
     },
     "url_slug": "kubernetes-sealed-secrets",
     "released_at": "2025-10-02T02:48:42.263Z",
-    "updated_at": "2025-12-23T01:46:23.300Z",
+    "updated_at": "2025-12-26T09:33:56.487Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -569,7 +598,7 @@
     },
     "url_slug": "kubernetes-operator",
     "released_at": "2025-09-29T23:24:51.261Z",
-    "updated_at": "2025-12-17T14:56:58.602Z",
+    "updated_at": "2025-12-31T09:31:14.583Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -684,7 +713,7 @@
     },
     "url_slug": "kubernetes-gateway",
     "released_at": "2025-09-09T02:34:00.236Z",
-    "updated_at": "2025-12-23T01:28:03.679Z",
+    "updated_at": "2025-12-30T00:31:30.509Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -890,7 +919,7 @@
     },
     "url_slug": "aws-secrets-manager-key-rotation-lambda",
     "released_at": "2025-08-12T13:35:35.857Z",
-    "updated_at": "2025-12-14T13:39:42.554Z",
+    "updated_at": "2025-12-31T09:41:52.943Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -1033,7 +1062,7 @@
     },
     "url_slug": "aws-codedeploy-asg",
     "released_at": "2025-07-25T02:30:31.679Z",
-    "updated_at": "2025-12-09T04:27:54.395Z",
+    "updated_at": "2025-12-25T12:06:43.607Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -1091,7 +1120,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2025-12-20T15:59:37.986Z",
+    "updated_at": "2025-12-27T23:31:52.774Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -1119,7 +1148,7 @@
     },
     "url_slug": "ec2-bastion-host",
     "released_at": "2025-07-18T11:55:33.318Z",
-    "updated_at": "2025-12-18T04:55:33.559Z",
+    "updated_at": "2025-12-31T07:34:33.804Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -1148,7 +1177,7 @@
     },
     "url_slug": "refund-aws",
     "released_at": "2025-07-16T01:06:24.694Z",
-    "updated_at": "2025-12-18T20:04:38.129Z",
+    "updated_at": "2025-12-27T12:50:01.219Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -1177,7 +1206,7 @@
     },
     "url_slug": "velog-backup-with-eventbridge",
     "released_at": "2025-07-05T04:23:58.191Z",
-    "updated_at": "2025-12-14T13:39:41.857Z",
+    "updated_at": "2025-12-24T20:28:32.489Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -1235,7 +1264,7 @@
     },
     "url_slug": "aws-deployment-with-ec2-ecs-and-documentdb-elasticache",
     "released_at": "2025-07-04T12:53:19.543Z",
-    "updated_at": "2025-12-20T06:34:47.465Z",
+    "updated_at": "2025-12-30T08:45:22.692Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -1264,7 +1293,7 @@
     },
     "url_slug": "ecs-deploy",
     "released_at": "2025-07-04T12:51:41.224Z",
-    "updated_at": "2025-12-18T04:55:36.626Z",
+    "updated_at": "2025-12-24T05:51:31.371Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -1293,7 +1322,7 @@
     },
     "url_slug": "aws-serverless",
     "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2025-12-23T07:18:59.781Z",
+    "updated_at": "2025-12-27T12:01:27.079Z",
     "comments_count": 0,
     "tags": [
       "aws",
