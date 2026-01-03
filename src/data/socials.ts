@@ -1,5 +1,5 @@
-import { faDiscord, faGithub, faYoutube, IconDefinition } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faHome, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faDiscord, faGithub, faLinkedin, IconDefinition } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons'
 
 export interface Social {
     type: 'social' | 'blog' | 'mail'
@@ -19,10 +19,10 @@ export const socials: Social[] = [
     },
     {
         type: 'social',
-        name: 'Homepage',
-        url: 'https://swua.kr',
-        display: 'swua.kr',
-        icon: faHome,
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/yulmwu',
+        display: 'yulmwu',
+        icon: faLinkedin,
     },
     {
         type: 'social',
