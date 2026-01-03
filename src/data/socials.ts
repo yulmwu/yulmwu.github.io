@@ -1,5 +1,5 @@
 import { faDiscord, faGithub, faYoutube, IconDefinition } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faLink } from '@fortawesome/free-solid-svg-icons'
 
 export interface Social {
     type: 'social' | 'blog' | 'mail'
@@ -19,10 +19,10 @@ export const socials: Social[] = [
     },
     {
         type: 'social',
-        name: 'Youtube',
-        url: 'https://www.youtube.com/@rlawnsdud',
-        display: '@rlawnsdud',
-        icon: faYoutube,
+        name: 'Homepage',
+        url: 'https://swua.kr',
+        display: 'swua.kr',
+        icon: faHome,
     },
     {
         type: 'social',
@@ -40,23 +40,16 @@ export const socials: Social[] = [
     },
     {
         type: 'blog',
-        name: 'Velog',
+        name: 'Blog',
         url: 'https://velog.io/@yulmwu',
-        display: '@yulmwu',
+        display: 'Velog — @yulmwu',
         icon: faLink,
     },
     {
         type: 'blog',
-        name: 'Original Kim (Outdated)',
+        name: 'Blog (Outdated)',
         url: 'https://originalkim.github.io/',
-        display: 'originalKim',
-        icon: faLink,
-    },
-    {
-        type: 'social',
-        name: 'Phone',
-        url: 'tel:+821029801336',
-        display: '+82 10-2980-1336',
+        display: 'Blog — originalKim',
         icon: faLink,
     }
 ]

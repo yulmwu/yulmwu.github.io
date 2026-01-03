@@ -177,8 +177,20 @@ export const projectsRaw: Project[] = [
         link: '/projects/blog-example-demo',
         github: 'https://github.com/yulmwu/blog-example-demo',
         tags: ['Blog'],
-        homePin: true,
+        // homePin: true,
         markdown: `# Blog Example Demos
+테스트
+`,
+    },
+    {
+        title: 'AWS Click Heatmap (PoC/MVP)',
+        description: 'UI/UX Click Heatmap with AWS KDS, MSF, Glue, and Athena Pipeline',
+        period: '26.12.30',
+        link: '/projects/aws-click-heatmap',
+        github: 'https://github.com/yulmwu/aws-click-heatmap-demo',
+        tags: ['AWS', 'Terraform', 'Serverless'],
+        homePin: true,
+        markdown: `# AWS Click Heatmap (PoC/MVP)
 테스트
 `,
     },
