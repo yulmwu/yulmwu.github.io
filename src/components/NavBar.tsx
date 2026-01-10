@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 interface NavBarProps {
-    active?: 'home' | 'projects' | 'articles' | 'presentations' | 'socials'
+    active?: 'home' | 'projects' | 'articles' | 'presentations' | 'socials' | 'pledge'
 }
 
 const navBarItems = [
@@ -10,7 +10,8 @@ const navBarItems = [
     { name: 'Projects', link: '/projects', active: 'projects' },
     { name: 'Articles', link: '/articles', active: 'articles' },
     { name: 'Presentations', link: '/presentations', active: 'presentations' },
-    { name: 'Socials', link: '/socials', active: 'socials' }
+    { name: 'Socials', link: '/socials', active: 'socials' },
+    { name: 'Pledge', link: '/pledge', active: 'pledge' }
 ]
 
 export const NavBar = ({ active }: NavBarProps) => {

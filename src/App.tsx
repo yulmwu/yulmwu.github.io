@@ -7,6 +7,7 @@ import { ProjectsPage as Projects } from './pages/Projects'
 import { ProjectDetail } from './pages/ProjectDetail'
 import { SocialsPage as Socials } from './pages/Socials'
 import { PresentationsPage as Presentations } from './pages/Presentations'
+import { PledgePage as Pledge } from './pages/Pledge'
 
 const App = () => (
     <div>
@@ -17,6 +18,7 @@ const App = () => (
             <Route path='/articles' element={<Articles />} />
             <Route path='/presentations' element={<Presentations />} />
             <Route path='/socials' element={<Socials />} />
+            <Route path='/pledge' element={<Pledge />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
     </div>
