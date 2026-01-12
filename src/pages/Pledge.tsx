@@ -16,11 +16,11 @@ export const PledgePage = () => {
 
             <div className='content-wrapper'>
                 <div className='pt-15'>
-                    <div className='mb-8'>
+                    {/* <div className='mb-8'>
                         <img src='/other/banner.png' alt='배너' className='w-full' />
-                    </div>
+                    </div> */}
 
-                    <div className='max-w-4xl mx-auto px-4'>
+                    <div className='max-w-4xl mx-auto'>
                         <div className='flex justify-center mb-12'>
                             <Link
                                 to='/'

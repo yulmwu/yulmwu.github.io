@@ -1,4 +1,55 @@
+import { useState, useRef, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
+
+const CollapsibleBlockquote = ({ children }: { children: React.ReactNode }) => {
+    const [isExpanded, setIsExpanded] = useState(false)
+    const [shouldCollapse, setShouldCollapse] = useState(false)
+    const [hiddenLines, setHiddenLines] = useState(0)
+    const contentRef = useRef<HTMLDivElement>(null)
+
+    useEffect(() => {
+        if (contentRef.current) {
+            const lineHeight = parseFloat(getComputedStyle(contentRef.current).lineHeight)
+            const height = contentRef.current.scrollHeight
+            const lines = Math.round(height / lineHeight)
+
+            if (lines > 10) {
+                setShouldCollapse(true)
+                setHiddenLines(lines - 10)
+            }
+        }
+    }, [children])
+
+    return (
+        <blockquote className='border-l-4 border-gray-300 pl-4 italic mb-4 relative'>
+            <div
+                ref={contentRef}
+                className={`overflow-hidden transition-all duration-300 ${
+                    shouldCollapse && !isExpanded ? 'max-h-[16em]' : 'max-h-none'
+                } ${shouldCollapse && !isExpanded ? 'blur-effect' : ''}`}
+            >
+                {children}
+            </div>
+            {shouldCollapse && !isExpanded && (
+                <div
+                    className='absolute bottom-0 left-0 right-0 h-24 pointer-events-none'
+                    style={{
+                        background:
+                            'linear-gradient(to bottom, rgba(247, 250, 252, 0) 0%, rgba(247, 250, 252, 0.8) 50%, rgba(247, 250, 252, 1) 100%)',
+                    }}
+                />
+            )}
+            {shouldCollapse && (
+                <button
+                    onClick={() => setIsExpanded(!isExpanded)}
+                    className='mt-2 text-sm text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-200 relative z-10 cursor-pointer'
+                >
+                    {isExpanded ? '접기' : `(${hiddenLines}줄 더 보기)`}
+                </button>
+            )}
+        </blockquote>
+    )
+}
 
 export default function Markdown({ content }: { content: string }) {
     return (
@@ -23,7 +74,7 @@ export default function Markdown({ content }: { content: string }) {
                         <img
                             src={src}
                             alt={alt}
-                            className='max-w-full h-auto mb-8 mt-8 transition-transform duration-300 hover:scale-101 rounded-lg'
+                            className='max-w-full h-auto mb-8 mt-8 transition-transform duration-300 rounded-lg'
                             loading='lazy'
                         />
                     </a>
@@ -33,9 +84,7 @@ export default function Markdown({ content }: { content: string }) {
                         {children}
                     </a>
                 ),
-                blockquote: ({ children }) => (
-                    <blockquote className='border-l-4 border-gray-300 pl-4 italic mb-4'>{children}</blockquote>
-                ),
+                blockquote: ({ children }) => <CollapsibleBlockquote>{children}</CollapsibleBlockquote>,
             }}
         >
             {content}

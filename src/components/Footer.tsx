@@ -29,6 +29,11 @@ export const Footer = () => (
                         Socials
                     </Link>
                 </li>
+                <li>
+                    <Link to='/pledge' className='hover:text-blue-500 font-semibold'>
+                        Pledge
+                    </Link>
+                </li>
             </ul>
         </div>
 
