@@ -30,7 +30,7 @@ export const PledgePage = () => {
                             </Link>
                         </div>
 
-                        <div className='prose prose-lg max-w-none'>
+                        <div className='prose prose-lg max-w-none pledge-content'>
                             <Markdown content={pledgeContent} />
                         </div>
 

@@ -18,6 +18,14 @@ export const Articles = (props: ArticlesProps) => {
 
     const containerClass = props.viewMode === 'many' ? '-mx-[calc((100vw-1000px)/2)] px-16 max-lg:mx-0 max-lg:px-0' : ''
 
+    const sortedArticles = props.maxArticles
+        ? [...articles].sort((a, b) => {
+            if (a.homePin && !b.homePin) return -1
+            if (!a.homePin && b.homePin) return 1
+            return 0
+        })
+        : articles
+
     return (
         <div className={containerClass}>
             <div className='flex items-center justify-between mb-6'>
@@ -36,7 +44,7 @@ export const Articles = (props: ArticlesProps) => {
                 )}
             </div>
             <div className={`${gridClass} max-lg:!grid-cols-1 md:max-lg:!grid-cols-2`} style={gridStyle}>
-                {articles.slice(0, props.maxArticles).map((article, index) => (
+                {sortedArticles.slice(0, props.maxArticles).map((article, index) => (
                     <Article
                         key={index}
                         thumbnail={article.thumbnail}
@@ -45,6 +53,7 @@ export const Articles = (props: ArticlesProps) => {
                         date={article.date}
                         url={article.url}
                         tags={article.tags}
+                        homePin={article.homePin}
                     />
                 ))}
             </div>

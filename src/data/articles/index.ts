@@ -1,4 +1,5 @@
 import posts from './posts.json'
+import homePins from './homePins.json'
 
 export interface Article {
     thumbnail?: string
@@ -21,6 +22,6 @@ export const articles: Article[] = posts.map((post) => ({
     date: new Date(post.released_at).toISOString().split('T')[0],
     url: `https://velog.io/@${post.user.username}/${post.url_slug}`,
     tags: post.tags,
-    series: post.series
-    // homePin: post.homePin,
+    series: post.series,
+    homePin: homePins.includes(post.id),
 }))
