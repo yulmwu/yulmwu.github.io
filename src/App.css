@@ -151,6 +151,13 @@ html {
     /* word-break: keep-all; */
     line-height: 1.8;
     text-align: left;
+    zoom: 1.1;
+}
+
+@media (max-width: 768px) {
+    .pledge-content {
+        zoom: 1;
+    }
 }
 
 .pledge-content h1 {
@@ -190,20 +197,31 @@ html {
 
 .pledge-content ul,
 .pledge-content ol {
+    padding-left: 1rem;
     margin-bottom: 1.5rem;
-    padding-left: 2rem;
+    list-style-position: outside;
+}
+
+.pledge-content ul {
+    list-style-type: disc;
+}
+
+.pledge-content ol {
+    list-style-type: decimal;
 }
 
 .pledge-content li {
     color: #374151;
     font-size: 1.0625rem;
-    line-height: 1.8;
-    margin-bottom: 0.75rem;
+    line-height: 1.7;
+    margin-bottom: 0.3rem;
+    padding-left: 0.25rem;
+    display: list-item;
 }
 
 .pledge-content blockquote {
     background-color: #f7fafc;
-    border-left: 4px solid #60a5fa;
+    border-left: 4px solid #899096;
     padding: 1.25rem 1.5rem;
     margin: 1.75rem 0;
     border-radius: 0.375rem;
