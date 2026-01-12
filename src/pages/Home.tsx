@@ -4,6 +4,7 @@ import { faDriversLicense, faSchoolFlag } from '@fortawesome/free-solid-svg-icon
 
 import { Footer } from '../components/Footer'
 import { NavBar } from '../components/NavBar'
+import { PledgeBanner } from '../components/PledgeBanner'
 
 import { Stacks } from '../components/home/Stacks'
 import { CardContainer } from '../components/home/CardContainer'
@@ -24,6 +25,7 @@ export const Home = () => (
 
             <div className='content-wrapper'>
                 <div className='pt-30'>
+                    <PledgeBanner />
                     <div className='flex flex-col lg:flex-row justify-between items-center'>
                         <div className='flex flex-col items-start pl-3 sm:pl-10 lg:pl-0 mr-0 lg:mr-6 w-full mb-10 lg:mb-0'>
                             <h1 className='text-4xl font-bold max-w-[85%] mt-4'>Kim Jun Young</h1>
