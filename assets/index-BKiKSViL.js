@@ -778,7 +778,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
 이러한 부분을 개선하기 위해선 일부 전공 실력을 요구하는데, 학과 대표로 나선 만큼 제가 그 역할을 충분히 해낼 수 있을 것이라고 생각합니다.
 
-# 4. 전공 교육 강화 및 커뮤티니티 활성화
+# 4. 전공 교육 강화 및 커뮤니티 활성화
 
 ## 4-1. 배경 및 필요성
 
