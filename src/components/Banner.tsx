@@ -3,36 +3,42 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useNavigate } from 'react-router-dom'
 
-export const PledgeBanner = () => {
+interface BannerProps {
+    children: React.ReactNode
+    key: string
+    color?: string
+    link?: string
+}
+
+export const Banner = ({ children, key, color = 'bg-blue-400', link }: BannerProps) => {
     const [isVisible, setIsVisible] = useState(false)
     const navigate = useNavigate()
 
     useEffect(() => {
-        // const dismissed = localStorage.getItem('pledgeBannerDismissed')
-        // if (!dismissed) {
+        if (!localStorage.getItem(`bannerDismissed_${key}`)) {
             setIsVisible(true)
-        // }
+        }
     }, [])
 
     const handleDismiss = () => {
         setIsVisible(false)
-        // localStorage.setItem('pledgeBannerDismissed', 'true')
+        localStorage.setItem(`bannerDismissed_${key}`, 'true')
     }
 
     const handleClick = () => {
-        navigate('/pledge')
+        if (link) {
+            if (link.startsWith('http://') || link.startsWith('https://')) window.open(link, '_blank')
+            else navigate(link)
+        }
     }
 
     if (!isVisible) return null
 
     return (
-        <div className='w-full bg-primary text-white shadow-md rounded-lg mb-12 bg-blue-400'>
+        <div className={`w-full bg-primary text-white shadow-md rounded-lg mb-4 ${color}`}>
             <div className='px-4 py-3 flex items-center justify-between'>
                 <div className='flex flex-col gap-1 flex-1 cursor-pointer' onClick={handleClick}>
-                    <span className='text-sm sm:text-base font-medium'>
-                        2026 세명컴퓨터고등학교 스마트보안솔루션과 과대표
-                    </span>
-                    <span className='text-sm sm:text-base underline font-semibold'>후보자 공약 보기</span>
+                    {children}
                 </div>
                 <button
                     onClick={handleDismiss}

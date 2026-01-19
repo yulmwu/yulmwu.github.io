@@ -4,7 +4,7 @@ import { faDriversLicense, faSchoolFlag } from '@fortawesome/free-solid-svg-icon
 
 import { Footer } from '../components/Footer'
 import { NavBar } from '../components/NavBar'
-import { PledgeBanner } from '../components/PledgeBanner'
+import { Banner } from '../components/Banner'
 
 import { Stacks } from '../components/home/Stacks'
 import { CardContainer } from '../components/home/CardContainer'
@@ -25,8 +25,18 @@ export const Home = () => (
 
             <div className='content-wrapper'>
                 <div className='pt-30'>
-                    <PledgeBanner />
-                    <div className='flex flex-col lg:flex-row justify-between items-center'>
+                    <Banner key='smch' color='bg-blue-400' link='/pledge'>
+                        <span className='text-sm sm:text-base font-medium'>
+                            2026 세명컴퓨터고등학교 스마트보안솔루션과 과대표
+                        </span>
+                        <span className='text-sm sm:text-base underline font-semibold'>후보자 공약 보기</span>
+                    </Banner>
+                    <Banner key='blog' color='bg-teal-600' link='https://articles.swua.kr'>
+                        <span className='text-sm sm:text-base font-medium'>
+                            광고 없는 블로그 미러링/아카이브 사이트를 새롭게 오픈하였습니다.
+                        </span>
+                    </Banner>
+                    <div className='flex flex-col lg:flex-row justify-between items-center mt-6'>
                         <div className='flex flex-col items-start pl-3 sm:pl-10 lg:pl-0 mr-0 lg:mr-6 w-full mb-10 lg:mb-0'>
                             <h1 className='text-4xl font-bold max-w-[85%] mt-4'>Kim Jun Young</h1>
                             <h2 className='text-2xl font-semibold mt-4 text-gray-600'>안녕하세요, 저는</h2>
