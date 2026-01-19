@@ -1,5 +1,89 @@
 [
   {
+    "id": "31c155d9-4c37-45e1-acf6-42e0d7aad634",
+    "title": "[일상] 라디오는 사드세요..... 제발",
+    "short_description": "다만 낭만은 있음.",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/51e96ca9-86f1-497f-8d9b-389abba1b8a4/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "series": {
+      "name": "Misc",
+      "url_slug": "misc"
+    },
+    "url_slug": "misc-diy-radio-kit",
+    "released_at": "2026-01-18T13:51:16.486Z",
+    "updated_at": "2026-01-19T11:02:28.368Z",
+    "comments_count": 0,
+    "tags": [
+      "일상"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
+    "id": "6bf28cb7-821b-495a-81ca-779e4a991537",
+    "title": "[AWS Challenge] 2025 지방기능경기대회 제 2과제 풀이",
+    "short_description": "2025년도 지방기능경기대회 클라우드 컴퓨팅 직종, 제 2과제 풀이 및 풀이 설명",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/f915915b-754d-438e-b970-51215ad48f67/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "series": {
+      "name": "AWS",
+      "url_slug": "AWS"
+    },
+    "url_slug": "aws-challenge-2025-2",
+    "released_at": "2026-01-18T01:16:32.279Z",
+    "updated_at": "2026-01-19T13:17:17.215Z",
+    "comments_count": 0,
+    "tags": [
+      "aws"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
+    "id": "dc232f42-34c4-4048-bb9d-c2f586cd6a8f",
+    "title": "[Kubernetes] PaC(Policy as Code) with OPA Gatekeeper and Kyverno",
+    "short_description": "OPA Gatekeeper와 Kyverno를 통한 Kubernetes PaC(Policy as Code) 구축하기",
+    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/df0ca1ee-17be-4fce-8ac4-c8a71b1e91c8/image.png",
+    "user": {
+      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
+      "username": "yulmwu",
+      "profile": {
+        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
+        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
+        "display_name": "Kim Jun Young"
+      }
+    },
+    "series": {
+      "name": "Kubernetes",
+      "url_slug": "kubernetes"
+    },
+    "url_slug": "kubernetes-pac-with-gatekeeper-and-kyverno",
+    "released_at": "2026-01-13T12:30:29.037Z",
+    "updated_at": "2026-01-19T07:00:52.176Z",
+    "comments_count": 0,
+    "tags": [
+      "kubernetes"
+    ],
+    "is_private": false,
+    "likes": 0
+  },
+  {
     "id": "c66c4b97-6bc0-48c9-bb3e-766abf9e84a1",
     "title": "[Kubernetes w/ EKS] Pod AutoScaling with KEDA (Event Driven), with AWS SQS",
     "short_description": "KEDA를 통한 쿠버네티스 Event Driven 파드 오토스케일링 (with Kafka, SQS)",
@@ -19,7 +103,7 @@
     },
     "url_slug": "kubernetes-keda",
     "released_at": "2026-01-10T02:35:23.258Z",
-    "updated_at": "2026-01-12T09:49:47.355Z",
+    "updated_at": "2026-01-19T13:23:15.875Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -47,7 +131,7 @@
     },
     "url_slug": "kubernetes-cert-manager",
     "released_at": "2026-01-09T06:37:47.568Z",
-    "updated_at": "2026-01-11T11:39:57.806Z",
+    "updated_at": "2026-01-18T14:10:56.458Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -75,7 +159,7 @@
     },
     "url_slug": "aws-source-destination-check",
     "released_at": "2026-01-04T00:52:31.030Z",
-    "updated_at": "2026-01-11T11:45:36.358Z",
+    "updated_at": "2026-01-18T07:59:40.317Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -103,7 +187,7 @@
     },
     "url_slug": "memoir-2025",
     "released_at": "2025-12-31T10:58:25.434Z",
-    "updated_at": "2026-01-12T06:27:52.800Z",
+    "updated_at": "2026-01-19T07:55:47.290Z",
     "comments_count": 0,
     "tags": [
       "일상",
@@ -132,7 +216,7 @@
     },
     "url_slug": "aws-click-heatmap-with-kds-msf-glue-athena",
     "released_at": "2025-12-28T10:51:06.968Z",
-    "updated_at": "2026-01-11T07:31:31.636Z",
+    "updated_at": "2026-01-18T10:14:51.555Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -160,7 +244,7 @@
     },
     "url_slug": "cloudflare-ddos-protection",
     "released_at": "2025-12-21T12:04:19.600Z",
-    "updated_at": "2026-01-09T06:41:25.994Z",
+    "updated_at": "2026-01-19T07:12:32.508Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare",
@@ -190,7 +274,7 @@
     },
     "url_slug": "aws-s2s-vpn",
     "released_at": "2025-12-16T03:00:32.921Z",
-    "updated_at": "2026-01-09T05:47:42.829Z",
+    "updated_at": "2026-01-18T16:23:33.979Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -219,7 +303,7 @@
     },
     "url_slug": "terraform-ci-cd-with-github-actions",
     "released_at": "2025-12-12T08:59:59.463Z",
-    "updated_at": "2026-01-10T06:13:12.377Z",
+    "updated_at": "2026-01-15T19:55:36.465Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -249,7 +333,7 @@
     },
     "url_slug": "kubernetes-gc-ownerreferences-finalizer",
     "released_at": "2025-12-09T03:03:45.564Z",
-    "updated_at": "2026-01-06T20:29:12.728Z",
+    "updated_at": "2026-01-14T13:18:24.518Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -277,7 +361,7 @@
     },
     "url_slug": "kubernetes-argocd-ci",
     "released_at": "2025-12-06T09:52:15.245Z",
-    "updated_at": "2026-01-01T02:19:26.225Z",
+    "updated_at": "2026-01-15T00:55:27.229Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -307,7 +391,7 @@
     },
     "url_slug": "kubernetes-csa-ssa",
     "released_at": "2025-12-04T07:28:55.187Z",
-    "updated_at": "2026-01-09T19:03:19.252Z",
+    "updated_at": "2026-01-13T04:51:29.573Z",
     "comments_count": 0,
     "tags": [
       "helm",
@@ -336,7 +420,7 @@
     },
     "url_slug": "kafka-producer-message-delivery-time",
     "released_at": "2025-12-01T01:34:12.283Z",
-    "updated_at": "2026-01-10T06:13:07.076Z",
+    "updated_at": "2026-01-19T11:02:53.571Z",
     "comments_count": 0,
     "tags": [
       "kafka"
@@ -364,7 +448,7 @@
     },
     "url_slug": "kubernetes-serviceaccount",
     "released_at": "2025-11-30T11:18:59.974Z",
-    "updated_at": "2026-01-10T14:09:47.825Z",
+    "updated_at": "2026-01-18T01:32:44.192Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -393,7 +477,7 @@
     },
     "url_slug": "cloudflare-tunnel",
     "released_at": "2025-11-25T12:54:10.291Z",
-    "updated_at": "2026-01-12T09:50:02.106Z",
+    "updated_at": "2026-01-18T17:34:53.992Z",
     "comments_count": 0,
     "tags": [
       "Cloudflare"
@@ -421,7 +505,7 @@
     },
     "url_slug": "aws-deploying-ecs-fargate-dynamodb",
     "released_at": "2025-11-24T10:32:58.641Z",
-    "updated_at": "2026-01-11T13:23:46.378Z",
+    "updated_at": "2026-01-13T04:04:47.016Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -447,9 +531,9 @@
       "name": "Kubernetes",
       "url_slug": "kubernetes"
     },
-    "url_slug": "k8s-ca",
+    "url_slug": "kubernetes-ca",
     "released_at": "2025-11-23T23:30:46.163Z",
-    "updated_at": "2026-01-10T14:09:41.726Z",
+    "updated_at": "2026-01-17T18:28:41.005Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -478,7 +562,7 @@
     },
     "url_slug": "aws-deploying-3-tier-architecture",
     "released_at": "2025-11-21T12:27:07.839Z",
-    "updated_at": "2025-12-18T04:55:36.762Z",
+    "updated_at": "2026-01-16T08:35:39.094Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -506,7 +590,7 @@
     },
     "url_slug": "db-recursive-cte-feat-breadcrumb",
     "released_at": "2025-11-15T11:08:28.310Z",
-    "updated_at": "2026-01-10T06:15:12.990Z",
+    "updated_at": "2026-01-18T16:23:44.354Z",
     "comments_count": 0,
     "tags": [
       "PostgreSQL",
@@ -565,7 +649,7 @@
     },
     "url_slug": "kubernetes-eks-max-pods",
     "released_at": "2025-10-20T00:35:31.233Z",
-    "updated_at": "2026-01-06T09:38:20.965Z",
+    "updated_at": "2026-01-15T10:42:45.310Z",
     "comments_count": 0,
     "tags": [
       "TROUBLESHOOTING",
@@ -595,7 +679,7 @@
     },
     "url_slug": "kubernetes-istio-envoy",
     "released_at": "2025-10-13T00:01:35.748Z",
-    "updated_at": "2026-01-10T06:15:39.443Z",
+    "updated_at": "2026-01-12T17:23:26.387Z",
     "comments_count": 0,
     "tags": [
       "kubernetes",
@@ -624,7 +708,7 @@
     },
     "url_slug": "kubernetes-gitops-argocd",
     "released_at": "2025-10-03T12:07:32.658Z",
-    "updated_at": "2026-01-09T00:54:52.141Z",
+    "updated_at": "2026-01-14T19:37:48.649Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -654,7 +738,7 @@
     },
     "url_slug": "kubernetes-sealed-secrets",
     "released_at": "2025-10-02T02:48:42.263Z",
-    "updated_at": "2026-01-10T05:48:01.468Z",
+    "updated_at": "2026-01-19T05:52:43.682Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -710,7 +794,7 @@
     },
     "url_slug": "kubernetes-operator",
     "released_at": "2025-09-29T23:24:51.261Z",
-    "updated_at": "2026-01-11T02:12:47.605Z",
+    "updated_at": "2026-01-13T04:04:54.115Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -738,7 +822,7 @@
     },
     "url_slug": "kubernetes-pod-probe",
     "released_at": "2025-09-26T08:51:23.736Z",
-    "updated_at": "2025-12-20T17:50:51.752Z",
+    "updated_at": "2026-01-17T12:44:18.294Z",
     "comments_count": 0,
     "tags": [
       "kubernetes"
@@ -796,7 +880,7 @@
     },
     "url_slug": "aws-vpc-peering-transit-privatelink",
     "released_at": "2025-09-09T23:35:30.426Z",
-    "updated_at": "2025-12-19T00:32:26.401Z",
+    "updated_at": "2026-01-14T09:53:44.953Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -825,7 +909,7 @@
     },
     "url_slug": "kubernetes-gateway",
     "released_at": "2025-09-09T02:34:00.236Z",
-    "updated_at": "2026-01-12T09:20:27.581Z",
+    "updated_at": "2026-01-18T04:27:42.363Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -885,7 +969,7 @@
     },
     "url_slug": "kubernetes-service-ingress",
     "released_at": "2025-08-31T04:04:42.869Z",
-    "updated_at": "2026-01-10T01:37:15.264Z",
+    "updated_at": "2026-01-14T03:17:10.537Z",
     "comments_count": 0,
     "tags": [
       "eks",
@@ -914,7 +998,7 @@
     },
     "url_slug": "aws-appsync-graphql-serverless",
     "released_at": "2025-08-28T23:57:35.785Z",
-    "updated_at": "2025-12-07T19:18:22.946Z",
+    "updated_at": "2026-01-17T11:03:54.112Z",
     "comments_count": 0,
     "tags": [
       "Integration",
@@ -973,7 +1057,7 @@
     },
     "url_slug": "aws-global-accelerator",
     "released_at": "2025-08-24T05:15:47.274Z",
-    "updated_at": "2026-01-09T17:36:18.736Z",
+    "updated_at": "2026-01-17T10:29:05.973Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -1031,7 +1115,7 @@
     },
     "url_slug": "aws-secrets-manager-key-rotation-lambda",
     "released_at": "2025-08-12T13:35:35.857Z",
-    "updated_at": "2026-01-12T09:22:03.508Z",
+    "updated_at": "2026-01-19T08:38:56.856Z",
     "comments_count": 0,
     "tags": [
       "Misc",
@@ -1060,7 +1144,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url-post",
     "released_at": "2025-08-08T11:43:35.057Z",
-    "updated_at": "2025-12-07T12:42:19.253Z",
+    "updated_at": "2026-01-18T18:33:03.769Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -1089,7 +1173,7 @@
     },
     "url_slug": "nestjs-s3-presigned-url",
     "released_at": "2025-08-03T05:36:07.088Z",
-    "updated_at": "2026-01-04T00:28:54.930Z",
+    "updated_at": "2026-01-13T04:05:06.996Z",
     "comments_count": 0,
     "tags": [
       "NestJS",
@@ -1118,7 +1202,7 @@
     },
     "url_slug": "nestjs-intersectiontype",
     "released_at": "2025-07-29T04:31:52.248Z",
-    "updated_at": "2025-12-07T12:42:48.680Z",
+    "updated_at": "2026-01-14T19:27:10.148Z",
     "comments_count": 0,
     "tags": [
       "NestJS"
@@ -1146,7 +1230,7 @@
     },
     "url_slug": "nestjs-class-transformer-exclude-expose",
     "released_at": "2025-07-28T05:31:07.318Z",
-    "updated_at": "2026-01-09T02:41:54.621Z",
+    "updated_at": "2026-01-13T04:05:06.876Z",
     "comments_count": 0,
     "tags": [
       "NestJS"
@@ -1174,7 +1258,7 @@
     },
     "url_slug": "aws-codedeploy-asg",
     "released_at": "2025-07-25T02:30:31.679Z",
-    "updated_at": "2026-01-02T02:36:31.454Z",
+    "updated_at": "2026-01-18T01:20:41.498Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -1203,7 +1287,7 @@
     },
     "url_slug": "aws-codedeploy-single-ec2",
     "released_at": "2025-07-23T05:21:34.383Z",
-    "updated_at": "2026-01-10T03:03:54.023Z",
+    "updated_at": "2026-01-18T01:20:41.029Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
@@ -1232,7 +1316,7 @@
     },
     "url_slug": "how-to-use-draw-io",
     "released_at": "2025-07-19T06:05:51.558Z",
-    "updated_at": "2026-01-10T14:50:44.749Z",
+    "updated_at": "2026-01-19T07:56:18.577Z",
     "comments_count": 0,
     "tags": [
       "aws"
@@ -1260,7 +1344,7 @@
     },
     "url_slug": "ec2-bastion-host",
     "released_at": "2025-07-18T11:55:33.318Z",
-    "updated_at": "2026-01-05T23:38:18.195Z",
+    "updated_at": "2026-01-14T08:59:36.167Z",
     "comments_count": 0,
     "tags": [
       "Computing",
@@ -1271,7 +1355,7 @@
   },
   {
     "id": "8a88f1dc-2133-46ae-83a4-9a9c87fde94e",
-    "title": "[AWS Misc] 요금 환불 요청기",
+    "title": "[일상] 요금 환불 요청기",
     "short_description": "Feat. 공중분해 될 뻔한 20달러 돌려받기",
     "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/136a3637-448b-4217-b92e-80ec1e28c2fa/image.png",
     "user": {
@@ -1289,7 +1373,7 @@
     },
     "url_slug": "refund-aws",
     "released_at": "2025-07-16T01:06:24.694Z",
-    "updated_at": "2026-01-11T17:10:57.172Z",
+    "updated_at": "2026-01-19T08:04:24.310Z",
     "comments_count": 0,
     "tags": [
       "aws",
@@ -1347,98 +1431,11 @@
     },
     "url_slug": "aws-codepipeline",
     "released_at": "2025-07-04T12:53:29.547Z",
-    "updated_at": "2025-12-08T10:44:08.594Z",
+    "updated_at": "2026-01-18T01:20:25.813Z",
     "comments_count": 0,
     "tags": [
       "CI/CD",
       "aws"
-    ],
-    "is_private": false,
-    "likes": 0
-  },
-  {
-    "id": "64c1ba4f-e8af-44e5-ae1f-3ec31c0baa26",
-    "title": "[AWS Computing] Deployment with EC2 + ECS Fargate + DocumentDB, ElastiCache Redis OSS",
-    "short_description": "AWS EC2, ECS Fargate를 통한 MSA 애플리케이션 배포 및 DocumentDB 및 ElastiCache(Redis OSS) 구성 실습",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/2ac98a32-42fa-493f-980d-0149e2299fd1/image.png",
-    "user": {
-      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
-      "username": "yulmwu",
-      "profile": {
-        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
-        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
-        "display_name": "Kim Jun Young"
-      }
-    },
-    "series": {
-      "name": "AWS",
-      "url_slug": "AWS"
-    },
-    "url_slug": "aws-deployment-with-ec2-ecs-and-documentdb-elasticache",
-    "released_at": "2025-07-04T12:53:19.543Z",
-    "updated_at": "2025-12-30T08:45:22.692Z",
-    "comments_count": 0,
-    "tags": [
-      "Computing",
-      "aws"
-    ],
-    "is_private": false,
-    "likes": 0
-  },
-  {
-    "id": "f8be74a7-f778-40bc-ae1e-b53cc8b71430",
-    "title": "[AWS Computing] Deployment with ECR, ECS and Fargate",
-    "short_description": "AWS ECS 및 Fargate를 통한 컨테이너 컴퓨팅",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/7df4a0db-44f5-4cb3-9db2-7628cc6cbad6/image.png",
-    "user": {
-      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
-      "username": "yulmwu",
-      "profile": {
-        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
-        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
-        "display_name": "Kim Jun Young"
-      }
-    },
-    "series": {
-      "name": "AWS",
-      "url_slug": "AWS"
-    },
-    "url_slug": "ecs-deploy",
-    "released_at": "2025-07-04T12:51:41.224Z",
-    "updated_at": "2025-12-24T05:51:31.371Z",
-    "comments_count": 0,
-    "tags": [
-      "Computing",
-      "aws"
-    ],
-    "is_private": false,
-    "likes": 0
-  },
-  {
-    "id": "d024767c-19a4-4d1f-89ff-13cd9542a3fb",
-    "title": "[AWS Serverless] Lambda Serverless API With Cognito Authentication",
-    "short_description": "AWS Lambda를 통한 서버리스 아키텍처 배포 (with API Gateway, Cognito, etc)",
-    "thumbnail": "https://velog.velcdn.com/images/yulmwu/post/c5cc7a50-ab4c-4676-ba91-2fd01d3b2ba5/image.png",
-    "user": {
-      "id": "043a0620-778e-43f4-94cd-c7d894cd0736",
-      "username": "yulmwu",
-      "profile": {
-        "id": "19d152cc-d01d-4823-b7a7-ed2072c5ca0a",
-        "thumbnail": "https://velog.velcdn.com/images/yulmwu/profile/b07f79a0-c4e0-4cf7-bf1f-ab1d5778444f/image.png",
-        "display_name": "Kim Jun Young"
-      }
-    },
-    "series": {
-      "name": "AWS",
-      "url_slug": "AWS"
-    },
-    "url_slug": "aws-serverless",
-    "released_at": "2025-06-22T13:29:13.135Z",
-    "updated_at": "2026-01-06T09:47:15.158Z",
-    "comments_count": 0,
-    "tags": [
-      "aws",
-      "serverless"
     ],
     "is_private": false,
     "likes": 0
