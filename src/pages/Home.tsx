@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDriversLicense, faSchoolFlag } from '@fortawesome/free-solid-svg-icons'
 
 import { Footer } from '../components/Footer'
@@ -57,9 +57,12 @@ export const Home = () => (
                     </div>
 
                     <div className='flex flex-col lg:flex-row justify-between items-center'>
-                        <div className='flex items-center gap-6 pt-5 text-3xl text-gray-500'>
+                        <div className='flex items-center gap-5 pt-5 text-3xl text-gray-500'>
                             <a href='https://github.com/yulmwu' target='_blank' rel='noreferrer'>
                                 <FontAwesomeIcon icon={faGithub} className='hover:text-primary transition-colors' />
+                            </a>
+                            <a href='https://linkedin.com/in/yulmwu' target='_blank' rel='noreferrer'>
+                                <FontAwesomeIcon icon={faLinkedin} className='hover:text-primary transition-colors' />
                             </a>
                         </div>
                     </div>
