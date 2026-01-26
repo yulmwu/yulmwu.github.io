@@ -12,6 +12,20 @@ export interface Project {
 }
 
 export const projectsRaw: Project[] = [
+        {
+        // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
+        title: 'SMCTF',
+        description: 'A CTF(Capture The Flag) platform optimized for easy initial configuration.',
+        period: '26.01.20 ~',
+        link: '/projects/smctf',
+        github: 'https://github.com/nullforu/smctf',
+        homePin: true,
+        tags: ['Go', 'Svelte', 'PostgreSQL', 'Redis'],
+        detailTags: ['Backend', 'Frontend', 'Go', 'Svelte', 'PostgreSQL', 'Redis', 'Gin', 'Bun', 'TailwindCSS'],
+        markdown: `
+# Test
+        `,
+    },
     {
         // logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg',
         title: 'ALS3',
@@ -189,7 +203,7 @@ export const projectsRaw: Project[] = [
         link: '/projects/aws-click-heatmap',
         github: 'https://github.com/yulmwu/aws-click-heatmap-demo',
         tags: ['AWS', 'Terraform', 'Serverless'],
-        homePin: true,
+        // homePin: true,
         markdown: `# AWS Click Heatmap (PoC/MVP)
 테스트
 `,
