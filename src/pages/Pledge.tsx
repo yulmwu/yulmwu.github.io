@@ -15,18 +15,14 @@ export const PledgePage = () => {
             <NavBar active='pledge' />
 
             <div className='content-wrapper'>
-                <div className='pt-15'>
-                    <div className='mb-8'>
-                        <img src='/other/banner.png' alt='배너' className='w-full' />
-                    </div>
-
+                <div className='pt-30'>
                     <div className='max-w-4xl mx-auto'>
-                        <div className='flex justify-center mb-12'>
+                        <div className='flex justify-start mb-8'>
                             <Link
                                 to='/'
-                                className='px-8 py-2 text-sm border-2 border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-colors duration-300'
+                                className='text-blue-500 font-semibold rounded-lg hover:underline'
                             >
-                                후보자 약력 확인하기
+                                &larr; 후보자 약력 확인하기
                             </Link>
                         </div>
 
@@ -36,7 +32,7 @@ export const PledgePage = () => {
 
                         <div className='mt-20 mb-8'>
                             <img
-                                src='/other/poster.png'
+                                src='/other/poster_v2.png'
                                 alt='포스터'
                                 className='w-full max-w-2xl mx-auto rounded-lg shadow-md'
                             />

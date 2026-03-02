@@ -59,10 +59,13 @@ export const Home = () => (
                     <div className='flex flex-col lg:flex-row justify-between items-center'>
                         <div className='flex items-center gap-5 pt-5 text-3xl text-gray-500'>
                             <a href='https://github.com/yulmwu' target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon icon={faGithub} className='hover:text-primary transition-colors' />
+                                <FontAwesomeIcon icon={faGithub} className='hover:text-gray-700 transition-colors duration-300' />
                             </a>
                             <a href='https://linkedin.com/in/yulmwu' target='_blank' rel='noreferrer'>
-                                <FontAwesomeIcon icon={faLinkedin} className='hover:text-primary transition-colors' />
+                                <FontAwesomeIcon icon={faLinkedin} className='hover:text-gray-700 transition-colors duration-300' />
+                            </a>
+                            <a href='https://null4u.cloud' target='_blank' rel='noreferrer'>
+                                <img src='/other/null4u.svg' alt='Null4U' className='w-16 opacity-70 hover:opacity-90 transition-opacity duration-300' />
                             </a>
                         </div>
                     </div>
