@@ -3,6 +3,12 @@ import { CardContainerContent } from '../components/home/CardContainer'
 export const histories: CardContainerContent[] = [
     {
         // logoColor: '#9CDCFF',
+        title: '스마트보안솔루션과 학과 대표',
+        description: '세명컴퓨터고등학교 스마트보안솔루션과 11기 학과 대표',
+        period: '2026.03 ~ 2026.08',
+    },
+    {
+        // logoColor: '#9CDCFF',
         title: '전공 동아리 Null4U',
         description: '세명컴퓨터고등학교 보안과 클라우드 전공동아리',
         period: '2025.03 ~',
@@ -38,6 +44,13 @@ export interface WorkExperienceContent {
 }
 
 export const workExperience: WorkExperienceContent[] = [
+    {
+        // logoColor: '#4285F4',
+        organization: '세명컴퓨터고등학교 학생회',
+        position: '학과 대표',
+        description: '학과 대표로서 학생회 활동 및 학과 행사 등 기획/운영',
+        period: '2026.03 ~ 2026.08'
+    },
     {
         // logoColor: '#4285F4',
         organization: '보안과 전공 동아리 Null4U',
@@ -106,11 +119,11 @@ export const awards: AwardContent[] = [
         important: true,
     },
     {
-	title: '(2025) 가톨릭대학교 HolyShield CTF 2025',
-	organization: '가톨릭대학교',
-	date: '2025. 12',
-	rank: '5위',
-	important: true,
+        title: '(2025) 가톨릭대학교 HolyShield CTF 2025',
+        organization: '가톨릭대학교',
+        date: '2025. 12',
+        rank: '5위',
+        important: true,
     },
     {
         title: '(1학년 1학기) 세명컴퓨터고등학교 선행상',

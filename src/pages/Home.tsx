@@ -25,12 +25,12 @@ export const Home = () => (
 
             <div className='content-wrapper'>
                 <div className='pt-30'>
-                    <Banner key='smch' color='bg-blue-400' link='/pledge'>
+                    {/* <Banner key='smch' color='bg-blue-400' link='/pledge'>
                         <span className='text-sm sm:text-base font-medium'>
                             2026 세명컴퓨터고등학교 스마트보안솔루션과 과대표
                         </span>
                         <span className='text-sm sm:text-base underline font-semibold'>후보자 공약 보기</span>
-                    </Banner>
+                    </Banner> */}
                     <Banner key='blog' color='bg-teal-600' link='https://articles.swua.kr'>
                         <span className='text-sm sm:text-base font-medium'>
                             광고 없는 블로그 미러링/아카이브 사이트를 새롭게 오픈하였습니다.
