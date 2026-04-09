@@ -91,6 +91,13 @@ export interface AwardContent {
 
 export const awards: AwardContent[] = [
     {
+        title: '서울시 지방기능경기대회 클라우드 직종',
+        organization: '한국산업인력공단',
+        date: '2026. 04',
+        rank: '2위 (은메달)',
+        important: true,
+    },
+    {
         title: '(2025) 사이버공격방어대회(CCE) 2025',
         organization: '국가정보원 · 국가보안기술연구소',
         date: '2025. 09',
