@@ -65,7 +65,7 @@ export default function App() {
                     type='text'
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
-                    placeholder='문자열 입력'
+                    placeholder='주소 입력(예: 경남_진주시_동진로_33-1)'
                     className='w-full border px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-blue-500'
                 />
 
