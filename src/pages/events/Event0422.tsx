@@ -1,4 +1,5 @@
 import { FormEvent, useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 
 type LogType = 'system' | 'input' | 'ok' | 'error' | 'info' | 'sep'
 
@@ -419,7 +420,7 @@ const buildSubnetInfo = (networkInt: number, prefix: number): SubnetInfo => {
 }
 
 export default function Event0422() {
-    const [activeTab, setActiveTab] = useState<MainTab>('memory')
+    const [searchParams, setSearchParams] = useSearchParams()
     const [terminalFullscreen, setTerminalFullscreen] = useState(false)
     const [currentStep, setCurrentStep] = useState(0)
     const [commandInput, setCommandInput] = useState('')
@@ -449,6 +450,17 @@ export default function Event0422() {
     const activeStep = steps[currentStep]
     const completed = currentStep >= steps.length
     const progress = Math.round((currentStep / steps.length) * 100)
+    const tabParam = searchParams.get('tab')
+    const activeTab: MainTab =
+        tabParam === 'memory' || tabParam === 'terminal' || tabParam === 'cidr'
+            ? tabParam
+            : 'memory'
+
+    const setActiveTab = (tab: MainTab) => {
+        const next = new URLSearchParams(searchParams)
+        next.set('tab', tab)
+        setSearchParams(next)
+    }
 
     useEffect(() => {
         if (logContainerRef.current) {
