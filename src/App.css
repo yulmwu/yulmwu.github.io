@@ -333,3 +333,7 @@ html {
         margin: 0.75rem auto;
     }
 }
+
+button {
+    cursor: pointer;
+}
