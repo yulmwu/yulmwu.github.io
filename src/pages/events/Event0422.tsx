@@ -173,7 +173,7 @@ const steps: TrainingStep[] = [
         prompt: 'Switch(config-vlan)#',
         canonical: 'name teacher',
         explanation: 'VLAN 10의 식별 이름을 teacher로 지정합니다.',
-        matcher: (input) => matchesAny(input, [/^name teacher$/]),
+        matcher: (input) => matchesAny(input, [/^name teacher$/, /^na teacher$/]),
     },
     {
         phase: 'Switch',
@@ -187,7 +187,7 @@ const steps: TrainingStep[] = [
         prompt: 'Switch(config-vlan)#',
         canonical: 'name student',
         explanation: 'VLAN 20의 식별 이름을 student로 지정합니다.',
-        matcher: (input) => matchesAny(input, [/^name student$/]),
+        matcher: (input) => matchesAny(input, [/^name student$/, /^na student$/]),
     },
     {
         phase: 'Switch',
@@ -208,6 +208,8 @@ const steps: TrainingStep[] = [
                 /^sw mode access$/,
                 /^switchport mode acc$/,
                 /^switchport mode access$/,
+                /^switchport mo acc$/,
+                /^switchport mo access$/,
             ]),
     },
     {
@@ -221,6 +223,7 @@ const steps: TrainingStep[] = [
                 /^sw access vlan 10$/,
                 /^switchport acc vlan 10$/,
                 /^switchport access vlan 10$/,
+                /^switchport ac vlan 10$/,
             ]),
     },
     {
@@ -242,6 +245,8 @@ const steps: TrainingStep[] = [
                 /^sw mode access$/,
                 /^switchport mode acc$/,
                 /^switchport mode access$/,
+                /^switchport mo acc$/,
+                /^switchport mo access$/,
             ]),
     },
     {
@@ -255,6 +260,7 @@ const steps: TrainingStep[] = [
                 /^sw access vlan 20$/,
                 /^switchport acc vlan 20$/,
                 /^switchport access vlan 20$/,
+                /^switchport ac vlan 20$/,
             ]),
     },
     {
@@ -277,7 +283,11 @@ const steps: TrainingStep[] = [
         canonical: 'sw trunk allowed vlan 10,20',
         explanation: '이 Trunk 링크에서 VLAN 10, 20만 통과하도록 제한합니다.',
         matcher: (input) =>
-            matchesAny(input, [/^sw trunk allowed vlan 10,20$/, /^switchport trunk allowed vlan 10,20$/]),
+            matchesAny(input, [
+                /^sw trunk allowed vlan 10,20$/,
+                /^switchport trunk allowed vlan 10,20$/,
+                /^switchport trunk all vlan 10,20$/,
+            ]),
     },
     {
         phase: 'Router',
@@ -327,7 +337,11 @@ const steps: TrainingStep[] = [
         prompt: 'Router(config-subif)#',
         canonical: 'ip address 192.168.10.126 255.255.255.128',
         explanation: 'VLAN 10의 게이트웨이(192.168.10.126/25)를 설정합니다.',
-        matcher: (input) => matchesAny(input, [/^ip address 192\.168\.10\.126 255\.255\.255\.128$/]),
+        matcher: (input) =>
+            matchesAny(input, [
+                /^ip address 192\.168\.10\.126 255\.255\.255\.128$/,
+                /^ip add 192\.168\.10\.126 255\.255\.255\.128$/,
+            ]),
     },
     {
         phase: 'Router',
@@ -349,7 +363,11 @@ const steps: TrainingStep[] = [
         prompt: 'Router(config-subif)#',
         canonical: 'ip address 192.168.10.254 255.255.255.128',
         explanation: 'VLAN 20의 게이트웨이(192.168.10.254/25)를 설정합니다.',
-        matcher: (input) => matchesAny(input, [/^ip address 192\.168\.10\.254 255\.255\.255\.128$/]),
+        matcher: (input) =>
+            matchesAny(input, [
+                /^ip address 192\.168\.10\.254 255\.255\.255\.128$/,
+                /^ip add 192\.168\.10\.254 255\.255\.255\.128$/,
+            ]),
     },
     {
         phase: 'ACL',
@@ -359,6 +377,8 @@ const steps: TrainingStep[] = [
         matcher: (input) =>
             matchesAny(input, [
                 /^access-list 100 deny ip 192\.168\.10\.128 0\.0\.0\.127 192\.168\.10\.0 0\.0\.0\.127$/,
+                /^access-l 100 deny ip 192\.168\.10\.128 0\.0\.0\.127 192\.168\.10\.0 0\.0\.0\.127$/,
+                /^acc-list 100 deny ip 192\.168\.10\.128 0\.0\.0\.127 192\.168\.10\.0 0\.0\.0\.127$/,
             ]),
     },
     {
@@ -366,7 +386,8 @@ const steps: TrainingStep[] = [
         prompt: 'Router(config)#',
         canonical: 'access-list 100 permit ip any any',
         explanation: '앞선 deny 조건 외의 나머지 트래픽은 모두 허용합니다.',
-        matcher: (input) => matchesAny(input, [/^access-list 100 permit ip any any$/]),
+        matcher: (input) =>
+            matchesAny(input, [/^access-list 100 permit ip any any$/, /^access-l 100 permit ip any any$/, /^acc-list 100 permit ip any any$/]),
     },
     {
         phase: 'ACL',
@@ -381,7 +402,7 @@ const steps: TrainingStep[] = [
         prompt: 'Router(config-subif)#',
         canonical: 'ip access-group 100 in',
         explanation: 'ACL 100을 ingress 방향(in)으로 적용해 유입 트래픽을 필터링합니다.',
-        matcher: (input) => matchesAny(input, [/^ip access-group 100 in$/]),
+        matcher: (input) => matchesAny(input, [/^ip access-group 100 in$/, /^ip access-g 100 in$/, /^ip acc-g 100 in$/]),
     },
 ]
 
