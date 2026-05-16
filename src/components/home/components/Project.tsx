@@ -7,8 +7,8 @@ interface ProjectProps {
     logo?: string
     title: string
     description: string
-    period: string
-    link: string
+    period?: string
+    link?: string
     github: string
     tags?: string[]
     detailTags?: string[]
@@ -26,7 +26,9 @@ export const Project = (props: ProjectProps) => (
                         </div>
                     )}
                     <div className='text-lg font-bold text-gray-800 mb-2'>{props.title}</div>
-                    <div className='text-xs text-gray-500 mb-3 font-medium'>{props.period}</div>
+                    {props.period && (
+                        <div className='text-xs text-gray-500 mb-3 font-medium'>{props.period}</div>
+                    )}
                     <p className='text-sm text-gray-600 leading-relaxed break-keep mb-4 flex-1'>{props.description}</p>
                     {props.tags && (
                         <div className='flex flex-wrap gap-2 mb-4'>
